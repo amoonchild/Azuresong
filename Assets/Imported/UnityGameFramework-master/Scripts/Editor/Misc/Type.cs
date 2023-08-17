@@ -20,7 +20,7 @@ namespace UnityGameFramework.Editor
         {
 #if UNITY_2017_3_OR_NEWER
             "UnityGameFramework.Runtime",
-            "SarsFramework.Runtime",
+            "Azuresong.Runtime",
 #endif
             "Assembly-CSharp",
         };
@@ -29,7 +29,7 @@ namespace UnityGameFramework.Editor
         {
 #if UNITY_2017_3_OR_NEWER
             "UnityGameFramework.Runtime",
-            "SarsFramework.Runtime",
+            "Azuresong.Runtime",
 #endif
             "Assembly-CSharp",
 

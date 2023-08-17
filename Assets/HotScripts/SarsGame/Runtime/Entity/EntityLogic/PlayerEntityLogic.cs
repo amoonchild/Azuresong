@@ -5,12 +5,12 @@
 //------------------------------------------------------------
 using UnityEngine;
 using UnityGameFramework.Runtime;
-using SarsFramework.Runtime;
+using Azuresong.Runtime;
 
 
 namespace SarsGame.Runtime
 {
-    public class PlayerEntityLogic : SarsEntityLogic
+    public class PlayerEntityLogic : AzuresongEntityLogic
     {
         [SerializeField]
         private PlayerEntityData _entityData = null;

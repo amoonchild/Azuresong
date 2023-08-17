@@ -11,7 +11,7 @@ using GameFramework.ObjectPool;
 using System.Collections.Generic;
 using System;
 using LitJson;
-using SarsFramework.Runtime;
+using Azuresong.Runtime;
 
 
 namespace SarsGame.Runtime
@@ -35,25 +35,25 @@ namespace SarsGame.Runtime
         {
             base.OnEnter(procedureOwner);
 
-            SarsEntry.Event.Subscribe(OpenUIFormSuccessEventArgs.EventId, OnOpenUIFormSuccess);
-            SarsEntry.Event.Subscribe(UnloadSceneSuccessEventArgs.EventId, OnUnloadSceneSuccess);
-            SarsEntry.Event.Subscribe(UnloadSceneFailureEventArgs.EventId, OnUnloadSceneFailure);
-            SarsEntry.Event.Subscribe(LoadSceneSuccessEventArgs.EventId, OnLoadSceneSuccess);
-            SarsEntry.Event.Subscribe(LoadSceneFailureEventArgs.EventId, OnLoadSceneFailure);
-            SarsEntry.Event.Subscribe(LoadSceneUpdateEventArgs.EventId, OnLoadSceneUpdate);
-            SarsEntry.Event.Subscribe(LoadSceneDependencyAssetEventArgs.EventId, OnLoadSceneDependencyAsset);
-            SarsEntry.Event.Subscribe(ShowEntitySuccessEventArgs.EventId, OnShowEntitySuccess);
-            SarsEntry.Event.Subscribe(ShowEntityFailureEventArgs.EventId, OnShowEntityFailure);
-            SarsEntry.Event.Subscribe(ShowEntityUpdateEventArgs.EventId, OnShowEntityUpdate);
-            SarsEntry.Event.Subscribe(ShowEntityDependencyAssetEventArgs.EventId, OnShowEntityDependencyAsset);
+            AzuresongEntry.Event.Subscribe(OpenUIFormSuccessEventArgs.EventId, OnOpenUIFormSuccess);
+            AzuresongEntry.Event.Subscribe(UnloadSceneSuccessEventArgs.EventId, OnUnloadSceneSuccess);
+            AzuresongEntry.Event.Subscribe(UnloadSceneFailureEventArgs.EventId, OnUnloadSceneFailure);
+            AzuresongEntry.Event.Subscribe(LoadSceneSuccessEventArgs.EventId, OnLoadSceneSuccess);
+            AzuresongEntry.Event.Subscribe(LoadSceneFailureEventArgs.EventId, OnLoadSceneFailure);
+            AzuresongEntry.Event.Subscribe(LoadSceneUpdateEventArgs.EventId, OnLoadSceneUpdate);
+            AzuresongEntry.Event.Subscribe(LoadSceneDependencyAssetEventArgs.EventId, OnLoadSceneDependencyAsset);
+            AzuresongEntry.Event.Subscribe(ShowEntitySuccessEventArgs.EventId, OnShowEntitySuccess);
+            AzuresongEntry.Event.Subscribe(ShowEntityFailureEventArgs.EventId, OnShowEntityFailure);
+            AzuresongEntry.Event.Subscribe(ShowEntityUpdateEventArgs.EventId, OnShowEntityUpdate);
+            AzuresongEntry.Event.Subscribe(ShowEntityDependencyAssetEventArgs.EventId, OnShowEntityDependencyAsset);
 
             // 隐藏所有实体
-            SarsEntry.Entity.HideAllLoadingEntities();
-            SarsEntry.Entity.HideAllLoadedEntities();
+            AzuresongEntry.Entity.HideAllLoadingEntities();
+            AzuresongEntry.Entity.HideAllLoadedEntities();
 
             // 关闭所有界面
-            SarsEntry.UI.CloseAllLoadingUIForms();
-            SarsEntry.UI.CloseAllLoadedUIForms();
+            AzuresongEntry.UI.CloseAllLoadingUIForms();
+            AzuresongEntry.UI.CloseAllLoadedUIForms();
 
             _targetProcedure = procedureOwner.GetData<VarObject>("NextProcedure").GetValue() as ProcedureBase;
             _targetSceneAssetName = AssetUtility.GetScenePath(_targetProcedure.SceneName);
@@ -68,7 +68,7 @@ namespace SarsGame.Runtime
             _isLoadPlayerCompleted = false;
 
             // 界面逻辑已移动到unity,所以需要等待Loading界面打开
-            SarsEntry.UI.OpenUIForm(UIFormType.Loading, _targetProcedure);
+            AzuresongEntry.UI.OpenUIForm(UIFormType.Loading, _targetProcedure);
         }
 
         protected override void OnUpdateSelf(ProcedureOwner procedureOwner, float elapseSeconds, float realElapseSeconds)
@@ -90,17 +90,17 @@ namespace SarsGame.Runtime
                 _playerAssetName = string.Empty;
                 procedureOwner.RemoveData("NextProcedure");
 
-                SarsEntry.Event.Unsubscribe(OpenUIFormSuccessEventArgs.EventId, OnOpenUIFormSuccess);
-                SarsEntry.Event.Unsubscribe(UnloadSceneSuccessEventArgs.EventId, OnUnloadSceneSuccess);
-                SarsEntry.Event.Unsubscribe(UnloadSceneFailureEventArgs.EventId, OnUnloadSceneFailure);
-                SarsEntry.Event.Unsubscribe(LoadSceneUpdateEventArgs.EventId, OnLoadSceneUpdate);
-                SarsEntry.Event.Unsubscribe(LoadSceneDependencyAssetEventArgs.EventId, OnLoadSceneDependencyAsset);
-                SarsEntry.Event.Unsubscribe(LoadSceneSuccessEventArgs.EventId, OnLoadSceneSuccess);
-                SarsEntry.Event.Unsubscribe(LoadSceneFailureEventArgs.EventId, OnLoadSceneFailure);
-                SarsEntry.Event.Unsubscribe(ShowEntitySuccessEventArgs.EventId, OnShowEntitySuccess);
-                SarsEntry.Event.Unsubscribe(ShowEntityFailureEventArgs.EventId, OnShowEntityFailure);
-                SarsEntry.Event.Unsubscribe(ShowEntityUpdateEventArgs.EventId, OnShowEntityUpdate);
-                SarsEntry.Event.Unsubscribe(ShowEntityDependencyAssetEventArgs.EventId, OnShowEntityDependencyAsset);
+                AzuresongEntry.Event.Unsubscribe(OpenUIFormSuccessEventArgs.EventId, OnOpenUIFormSuccess);
+                AzuresongEntry.Event.Unsubscribe(UnloadSceneSuccessEventArgs.EventId, OnUnloadSceneSuccess);
+                AzuresongEntry.Event.Unsubscribe(UnloadSceneFailureEventArgs.EventId, OnUnloadSceneFailure);
+                AzuresongEntry.Event.Unsubscribe(LoadSceneUpdateEventArgs.EventId, OnLoadSceneUpdate);
+                AzuresongEntry.Event.Unsubscribe(LoadSceneDependencyAssetEventArgs.EventId, OnLoadSceneDependencyAsset);
+                AzuresongEntry.Event.Unsubscribe(LoadSceneSuccessEventArgs.EventId, OnLoadSceneSuccess);
+                AzuresongEntry.Event.Unsubscribe(LoadSceneFailureEventArgs.EventId, OnLoadSceneFailure);
+                AzuresongEntry.Event.Unsubscribe(ShowEntitySuccessEventArgs.EventId, OnShowEntitySuccess);
+                AzuresongEntry.Event.Unsubscribe(ShowEntityFailureEventArgs.EventId, OnShowEntityFailure);
+                AzuresongEntry.Event.Unsubscribe(ShowEntityUpdateEventArgs.EventId, OnShowEntityUpdate);
+                AzuresongEntry.Event.Unsubscribe(ShowEntityDependencyAssetEventArgs.EventId, OnShowEntityDependencyAsset);
             }
 
             base.OnLeave(procedureOwner, isShutdown);
@@ -109,7 +109,7 @@ namespace SarsGame.Runtime
         private void ReleasePools(bool performGCCollect)
         {
             List<ObjectPoolBase> pools = new List<ObjectPoolBase>();
-            SarsEntry.ObjectPool.GetAllObjectPools(true, pools);
+            AzuresongEntry.ObjectPool.GetAllObjectPools(true, pools);
 
             bool canRelease = true;
             while (canRelease)
@@ -136,8 +136,8 @@ namespace SarsGame.Runtime
         {
             if (!string.IsNullOrEmpty(_preSceneName))
             {
-                SarsLog.Info("卸载场景 '{0}'.", _preSceneName);
-                SarsEntry.Scene.UnloadScene(_preSceneName, this);
+                ASLog.Info("卸载场景 '{0}'.", _preSceneName);
+                AzuresongEntry.Scene.UnloadScene(_preSceneName, this);
             }
             else
             {
@@ -150,8 +150,8 @@ namespace SarsGame.Runtime
         {
             if (!string.IsNullOrEmpty(_targetProcedure.SceneName))
             {
-                SarsLog.Info("加载场景 '{0}'.", _targetProcedure.SceneName);
-                SarsEntry.Scene.LoadScene(AssetUtility.GetScenePath(_targetProcedure.SceneName), this);
+                ASLog.Info("加载场景 '{0}'.", _targetProcedure.SceneName);
+                AzuresongEntry.Scene.LoadScene(AssetUtility.GetScenePath(_targetProcedure.SceneName), this);
             }
             else
             {
@@ -163,12 +163,12 @@ namespace SarsGame.Runtime
         {
             if (!string.IsNullOrEmpty(_playerAssetName))
             {
-                UserData.playerEntityId = SarsEntry.Entity.GenerateSerialId();
+                UserData.playerEntityId = AzuresongEntry.Entity.GenerateSerialId();
 
                 PlayerEntityData playerEntityData = new PlayerEntityData(_targetProcedure.PlayerInitPosition,
                     Quaternion.Euler(_targetProcedure.PlayerInitRotation), Vector3.one);
 
-                SarsEntry.Entity.ShowEntity<PlayerEntityLogic>(UserData.playerEntityId, AssetUtility.GetPlayerPath(_playerAssetName),
+                AzuresongEntry.Entity.ShowEntity<PlayerEntityLogic>(UserData.playerEntityId, AssetUtility.GetPlayerPath(_playerAssetName),
                     Constant.EntityGroup.Player, playerEntityData);
             }
             else
@@ -189,7 +189,7 @@ namespace SarsGame.Runtime
                 e = UpdateLoadingProgressEventArgs.Create(_loadSceneProgress);
             }
 
-            SarsEntry.Event.Fire(this, e);
+            AzuresongEntry.Event.Fire(this, e);
         }
 
         private void OnOpenUIFormSuccess(object sender, GameEventArgs e)
@@ -197,7 +197,7 @@ namespace SarsGame.Runtime
             OpenUIFormSuccessEventArgs ne = (OpenUIFormSuccessEventArgs)e;
 
             OpenUIFormInfo openUIFormInfo = (OpenUIFormInfo)ne.UserData;
-            if (openUIFormInfo.UIFormId == (int)UIFormType.Loading)
+            if (openUIFormInfo.UIFormType == (int)UIFormType.Loading)
             {
                 UnloadPreScene();
             }
@@ -228,7 +228,7 @@ namespace SarsGame.Runtime
                 return;
             }
 
-            SarsLog.Error("卸载场景 '{0}' 失败.", _preSceneName);
+            ASLog.Error("卸载场景 '{0}' 失败.", _preSceneName);
         }
 
         private void OnLoadSceneSuccess(object sender, GameEventArgs e)
@@ -259,7 +259,7 @@ namespace SarsGame.Runtime
                 return;
             }
 
-            SarsLog.Error("加载场景 '{0}' 失败.", _targetSceneAssetName);
+            ASLog.Error("加载场景 '{0}' 失败.", _targetSceneAssetName);
         }
 
         private void OnLoadSceneUpdate(object sender, GameEventArgs e)
@@ -319,7 +319,7 @@ namespace SarsGame.Runtime
                 return;
             }
 
-            SarsLog.Error("加载玩家实体 '{0}' 失败.", ne.EntityAssetName);
+            ASLog.Error("加载玩家实体 '{0}' 失败.", ne.EntityAssetName);
         }
 
         private void OnShowEntityUpdate(object sender, GameEventArgs e)

@@ -5,13 +5,13 @@
 //------------------------------------------------------------
 using System;
 using UnityEngine;
-using SarsFramework.Runtime;
+using Azuresong.Runtime;
 
 
 namespace SarsGame.Runtime
 {
     [Serializable]
-    public class PlayerEntityData : SarsEntityData
+    public class PlayerEntityData : AzuresongEntityData
     {
         public Vector3 Position
         {

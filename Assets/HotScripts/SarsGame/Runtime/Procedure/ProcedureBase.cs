@@ -3,7 +3,7 @@
 //  CreationTime：2023/06/29 15:55:34
 //  Description：JinanProcedure
 //------------------------------------------------------------
-using SarsFramework.Runtime;
+using Azuresong.Runtime;
 using System;
 using UnityEngine.SceneManagement;
 using UnityEngine;
@@ -13,7 +13,7 @@ using ProcedureOwner = GameFramework.Fsm.IFsm<GameFramework.Procedure.IProcedure
 
 namespace SarsGame.Runtime
 {
-    public abstract class ProcedureBase : SarsProcedure
+    public abstract class ProcedureBase : Azuresong.Runtime.ProcedureBase
     {
         protected Type _nextProcedureType = null;
 
@@ -85,14 +85,14 @@ namespace SarsGame.Runtime
         {
             if (procedureType == null)
             {
-                SarsLog.Error("Unknow procedure type.");
+                ASLog.Error("Unknow procedure type.");
                 return;
             }
 
-            ProcedureBase procedure = SarsEntry.Procedure.GetProcedure(procedureType) as ProcedureBase;
+            ProcedureBase procedure = AzuresongEntry.Procedure.GetProcedure(procedureType) as ProcedureBase;
             if (procedure == null)
             {
-                SarsLog.Error("Unknow procedure type '{0}'.", procedureType.Name);
+                ASLog.Error("Unknow procedure type '{0}'.", procedureType.Name);
                 return;
             }
 

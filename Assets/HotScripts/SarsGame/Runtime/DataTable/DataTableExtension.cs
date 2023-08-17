@@ -5,7 +5,7 @@
 //------------------------------------------------------------
 using System;
 using UnityGameFramework.Runtime;
-using SarsFramework.Runtime;
+using Azuresong.Runtime;
 
 
 namespace SarsGame.Runtime
@@ -15,7 +15,7 @@ namespace SarsGame.Runtime
         public static void LoadDataTable(this DataTableComponent dataTableComponent, string dataTableName,
                bool useBytes, object userData = null)
         {
-            dataTableComponent.LoadDataTable(Type.GetType(SarsFramework.Runtime.DataTableExtension.DataRowClassPrefixName + dataTableName),
+            dataTableComponent.LoadDataTable(Type.GetType(Azuresong.Runtime.DataTableExtension.DataRowClassPrefixName + dataTableName),
                 AssetUtility.GetDataTablePath(dataTableName, useBytes), userData);
         }
     }

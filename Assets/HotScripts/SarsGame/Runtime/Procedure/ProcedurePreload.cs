@@ -3,7 +3,7 @@
 //  CreationTime：2023/06/29 14:10:07
 //  Description：ProcedurePreload
 //------------------------------------------------------------
-using SarsFramework.Runtime;
+using Azuresong.Runtime;
 using System.Collections.Generic;
 using GameFramework.Event;
 using UnityGameFramework.Runtime;
@@ -22,8 +22,8 @@ namespace SarsGame.Runtime
         {
             base.OnEnter(procedureOwner);
 
-            SarsEntry.Event.Subscribe(LoadDataTableSuccessEventArgs.EventId, OnLoadDataTableSuccess);
-            SarsEntry.Event.Subscribe(LoadDataTableFailureEventArgs.EventId, OnLoadDataTableFailure);
+            AzuresongEntry.Event.Subscribe(LoadDataTableSuccessEventArgs.EventId, OnLoadDataTableSuccess);
+            AzuresongEntry.Event.Subscribe(LoadDataTableFailureEventArgs.EventId, OnLoadDataTableFailure);
 
             PreLoadDataTables();
         }
@@ -49,8 +49,8 @@ namespace SarsGame.Runtime
         {
             if (!isShutdown)
             {
-                SarsEntry.Event.Unsubscribe(LoadDataTableSuccessEventArgs.EventId, OnLoadDataTableSuccess);
-                SarsEntry.Event.Unsubscribe(LoadDataTableFailureEventArgs.EventId, OnLoadDataTableFailure);
+                AzuresongEntry.Event.Unsubscribe(LoadDataTableSuccessEventArgs.EventId, OnLoadDataTableSuccess);
+                AzuresongEntry.Event.Unsubscribe(LoadDataTableFailureEventArgs.EventId, OnLoadDataTableFailure);
 
                 _dataTableNames = null;
                 _dataTableLoadStates = null;
@@ -73,7 +73,7 @@ namespace SarsGame.Runtime
             for (int i = 0; i < _dataTableNames.Length; i++)
             {
                 _dataTableLoadStates.Add(_dataTableNames[i], false);
-                SarsEntry.DataTable.LoadDataTable(_dataTableNames[i], true, this);
+                AzuresongEntry.DataTable.LoadDataTable(_dataTableNames[i], true, this);
             }
         }
 
@@ -88,7 +88,7 @@ namespace SarsGame.Runtime
 
             _dataTableLoadStates[ne.DataTableAssetName] = true;
 
-            SarsLog.Info("Load data table '{0}' OK.", ne.DataTableAssetName);
+            ASLog.Info("Load data table '{0}' OK.", ne.DataTableAssetName);
         }
 
         private void OnLoadDataTableFailure(object sender, GameEventArgs e)
@@ -100,7 +100,7 @@ namespace SarsGame.Runtime
                 return;
             }
 
-            SarsLog.Error("Can not load data table '{0}' from '{1}' with error message '{2}'.",
+            ASLog.Error("Can not load data table '{0}' from '{1}' with error message '{2}'.",
                 ne.DataTableAssetName, ne.DataTableAssetName, ne.ErrorMessage);
         }
     }

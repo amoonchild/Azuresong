@@ -4,12 +4,12 @@
 //  Description：UpdateLoadingProgressEventArgs
 //------------------------------------------------------------
 using GameFramework;
-using SarsFramework.Runtime;
+using Azuresong.Runtime;
 
 
 namespace SarsGame.Runtime
 {
-    public class UpdateLoadingProgressEventArgs : SarsEventArgs
+    public class UpdateLoadingProgressEventArgs : AzuresongEventArgs
     {
         public static readonly int EventId = typeof(UpdateLoadingProgressEventArgs).GetHashCode();
 

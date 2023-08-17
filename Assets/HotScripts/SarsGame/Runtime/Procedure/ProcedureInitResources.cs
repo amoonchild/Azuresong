@@ -3,7 +3,7 @@
 //  CreationTime：2023/06/29 14:12:57
 //  Description：ProcedureInitResources
 //------------------------------------------------------------
-using SarsFramework.Runtime;
+using Azuresong.Runtime;
 using ProcedureOwner = GameFramework.Fsm.IFsm<GameFramework.Procedure.IProcedureManager>;
 
 
@@ -20,7 +20,7 @@ namespace SarsGame.Runtime
 
             _initResourcesComplete = false;
 
-            SarsEntry.Resource.InitResources(OnInitResourcesComplete);
+            AzuresongEntry.Resource.InitResources(OnInitResourcesComplete);
         }
 
         protected override void OnUpdateSelf(ProcedureOwner procedureOwner, float elapseSeconds, float realElapseSeconds)
@@ -36,7 +36,7 @@ namespace SarsGame.Runtime
         private void OnInitResourcesComplete()
         {
             _initResourcesComplete = true;
-            SarsLog.Info("Init resources complete. version:{0}", SarsEntry.Resource.InternalResourceVersion.ToString());
+            ASLog.Info("Init resources complete. version:{0}", AzuresongEntry.Resource.InternalResourceVersion.ToString());
         }
     }
 }

@@ -3,7 +3,7 @@
 //  CreationTime：2023/08/01 10:05:16
 //  Description：UIExtension
 //------------------------------------------------------------
-using SarsFramework.Runtime;
+using Azuresong.Runtime;
 using UnityGameFramework.Runtime;
 
 

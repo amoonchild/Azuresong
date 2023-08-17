@@ -38,7 +38,6 @@ namespace SarsGame.Runtime
             };
 
             _procedureManager.Initialize(GameFrameworkEntry.GetModule<IFsmManager>(), procedures);
-
             yield return new WaitForEndOfFrame();
 
             _procedureManager.StartProcedure(procedures[0].GetType());

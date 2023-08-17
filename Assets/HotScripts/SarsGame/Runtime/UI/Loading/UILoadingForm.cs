@@ -3,7 +3,7 @@
 //  CreationTime：2023/08/14 10:40:57
 //  Description：UILoadingForm
 //------------------------------------------------------------
-using SarsFramework.Runtime;
+using Azuresong.Runtime;
 using GameFramework;
 using GameFramework.Event;
 using TMPro;
@@ -29,7 +29,7 @@ namespace SarsGame.Runtime
         {
             base.OnOpen(userData);
 
-            SarsEntry.Event.Subscribe(UpdateLoadingProgressEventArgs.EventId, OnUpdateLoadingProgress);
+            AzuresongEntry.Event.Subscribe(UpdateLoadingProgressEventArgs.EventId, OnUpdateLoadingProgress);
 
             _progress = _targetProgress = 0f;
             _txtProgress.text = string.Empty;
@@ -50,7 +50,7 @@ namespace SarsGame.Runtime
             {
                 _txtProgress.text = string.Empty;
 
-                SarsEntry.Event.Unsubscribe(UpdateLoadingProgressEventArgs.EventId, OnUpdateLoadingProgress);
+                AzuresongEntry.Event.Unsubscribe(UpdateLoadingProgressEventArgs.EventId, OnUpdateLoadingProgress);
             }
 
             base.OnClose(isShutdown, userData);
