@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<UnityGameFramework>
+  <ResourceBuilder>
+    <Settings>
+      <InternalResourceVersion>3</InternalResourceVersion>
+      <Platforms>128</Platforms>
+      <AssetBundleCompression>1</AssetBundleCompression>
+      <CompressionHelperTypeName>UnityGameFramework.Runtime.DefaultCompressionHelper</CompressionHelperTypeName>
+      <AdditionalCompressionSelected>False</AdditionalCompressionSelected>
+      <ForceRebuildAssetBundleSelected>False</ForceRebuildAssetBundleSelected>
+      <BuildEventHandlerTypeName>Sars.Editor.BuildPackageEventHandler</BuildEventHandlerTypeName>
+      <OutputDirectory>D:/Projects Output/JiNanScene/AssetBundles</OutputDirectory>
+      <OutputPackageSelected>True</OutputPackageSelected>
+      <OutputFullSelected>False</OutputFullSelected>
+      <OutputPackedSelected>False</OutputPackedSelected>
+    </Settings>
+  </ResourceBuilder>
+</UnityGameFramework>

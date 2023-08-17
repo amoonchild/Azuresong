@@ -1,0 +1,2141 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<UnityGameFramework>
+  <ResourceCollection>
+    <Resources>
+      <Resource Name="Art/1F/Fbx/dianti" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Fbx/guanggaopai03" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Fbx/men1" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Fbx/ShanDong_F1" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Fbx/wenmingchengshi" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Fbx/yizi" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Fbx/yizi_2" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Fbx/YiZi_A" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Fbx_youhua/daofutai" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Fbx_youhua/dianti" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Fbx_youhua/lipai" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Fbx_youhua/men1" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Fbx_youhua/yizi" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Fbx_youhua/zongsuoyin" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/11_Default" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/11Default" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/AlbedoTransparency" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/biaoshi-muyin" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/biaoshi-wc" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/biaoshi_muyin" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/biaoshi_wc" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/cemen" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/chuang-A" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/chuang_A" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/chuanghu01" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/dapingqianse" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/deng" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/DFT" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/DFT_T" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/dianti_AlbedoTransparency" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/dianti_AlbedoTransparency1" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/diaoding" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/dimian01" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/ding" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/exterior1" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/exterior2" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/gonghang" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/gongzhengchu" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/gongzhengchu02" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/guodao01" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/guodao02" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/guodao03" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/guodao04" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/guodao05" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/haibao" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/haibao1" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/haibao2" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/honghua" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/jiangpai" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/jianhang" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/jinshu" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/kuaidiqu" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/lambert1" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/lingshigui-6" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/lingshigui_6" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/loucengbenbu1" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/loucengfenbu" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/men01" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/men02" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/men03" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/men04" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/men05" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/nonghang" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/qiangti_" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/rongyu" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/rongyu1" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/shugui8" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/toushixiang" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/tousuxiang" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/waijing01" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/waijing02" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/WC" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/wechat_20230527101802" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/wuzhangaibiaoshi4F" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/yinshuiji6" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/yizi" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/ZC01_AlbedoTransparency" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/ZhaJi_LaJiTong_SP_lambert1_AlbedoTransparency" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/zhanshiping_chaxun01" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/zizhufuwuqu" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/zizhufuwuqu2" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Materials/zongsuoyin" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Textures/biaoshi-muyin" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Textures/biaoshi-wc" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Textures/cemen" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Textures/chuang-A" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Textures/chuanghu01" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Textures/dapingqianse" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Textures/dianti_AlbedoTransparency" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Textures/dianti_AlbedoTransparency1" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Textures/dianti_Normal" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Textures/dianti_Normal2" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Textures/dimian01" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Textures/ding" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Textures/door1" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Textures/door2" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Textures/door3" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Textures/door4" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Textures/exterior1" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Textures/exteror2" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Textures/gonghang" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Textures/gongzhengchu" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Textures/gongzhengchu02" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Textures/guodao01" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Textures/guodao02" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Textures/guodao03" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Textures/guodao04" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Textures/guodao05" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Textures/haibao" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Textures/jiangpai" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Textures/jianhang" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Textures/kuaidiqu" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Textures/lingshigui-6" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Textures/loucengfenbu" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Textures/nonghang" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Textures/qiangti" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Textures/rongyu" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Textures/shugui8" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Textures/toushuxiang" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Textures/WC" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Textures/weixin" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Textures/wenmingchengshi" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Textures/wuzhangaibiaoshi4F" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Textures/yinshuiji6" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Textures/yizipi" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Textures/ZC01_AlbedoTransparency" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Textures/ZC01_Normal" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Textures/ZhaJi_LaJiTong_SP_lambert1_AlbedoTransparency" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Textures/zhanshiping_chaxun01" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Textures/zizhufuwuqu" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Textures/zizhufuwuqu2" LoadType="0" Packed="False" />
+      <Resource Name="Art/1F/Textures/zongsuoyin" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/3F" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/3F-1" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/dianshiji" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/A09-666" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/A09-A028" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/b01-b04" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/b08-b05" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/b10-b09" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/bangyang" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/beijing3" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/beiqiang1" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/bjbjbjbj" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/c01-c10" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/caizhi_2" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/chuangkoutai" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/chuankongban" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/cw" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/cxj4" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/D01-D04" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/dangzuzhi" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/danrenshafa-ju2" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/danrenshafa-lan3" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/danyi-uv2" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/daping1" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/daping2" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/datingwenzi" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/deng" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/denghoudibiao" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/dengxiang" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/diantianniu2" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/diantimen" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/diaoding" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/diaopaiA03" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/diaopaiA05" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/dimian" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/dkm1" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/dtm" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/guanggao01" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/guanggao02" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/guanli" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/hei" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/heidalishi" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/heijinhua" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/heise" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/heng1" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/hua11" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/hua22" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/hua33" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/jiaoyanjidi" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/jin" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/juanlian2" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/lajitong" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/lajitong1" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/lajitong2" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/lanse" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/lanyun3333" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/lingdaoguanhuai" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/loucengbiaoshi" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/manyijiti" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/muwen" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/pai4" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/pai5" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/q1" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/q2" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/qiangti" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/qianmuwen" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/qiyefuwu" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/qiyeping" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/quhaoji-uv" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/QX-uv" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/shafa-uv2" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/shandongdaxue" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/shigao" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/skm" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/sp-01" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/sp-02" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/sp-03" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/sp-04" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/sp-05" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/TD" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/tie1" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/tiyanqu-uv" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/weidang" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/xi" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/xm-01" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/xm-02" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/yuan" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/zhanshigui" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/zhibanshi" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/zhishipai" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/zhuanquding" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/Materials/zi" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/QX1" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Fbx/wenzi628" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/1" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/2" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/333" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/3F_AlbedoTransparency" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/A09_666" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/A09_A028" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/b01_b04" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/b08_b05" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/b10_b09" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/bai" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/baidalishi" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/baijinshu" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/bangyang" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/bei2" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/beiqiang1" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/beiqiang3" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/bj2" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/bj3" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/c01_c10" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/chuangdong3" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/chuankongban" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/cxj3" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/cxj4" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/D01_D04" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/dangzuzhi" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/danyi_uv2" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/daping1" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/datingwenzi" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/dddd" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/deng" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/denghoudibiao" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/denghouyi3" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/dengxiang" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/dengzi" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/dftbeijing2" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/dianshi3" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/dianti111" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/diantianniu2" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/diantiping2" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/diaopai001" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/diaopaiA04" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/diaopaiA06" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/diaopaiA07" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/diaopaiA08" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/diaopaiaA01" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/diaopaiaA02" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/dkm1" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/dn2" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/dong" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/gh" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/guanggao01" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/guanggao02" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/guanggao05" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/guanggaopai2" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/guanli" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/hei" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/hei2" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/heidalishi" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/heijinhua" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/heng1" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/hp" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/hui" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/jiaoyanjidi" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/jin" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/jinshu" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/juanlian2" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/lajitong" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/lajitong1" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/lajitong2" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/lanse" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/lanyun3333" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/lingdaoguanhuai" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/loucengbiaoshi" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/ltby5" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/ltby6" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/lvse" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/M_pizhi" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/manyijiti" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/Mat3d66_11057624_80_77166" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/Mat3d66_11057624_81_57542" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/Mat3d66_11057624_82_74371" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/Material_2147445736" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/nanweibiaozhi" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/nvweibiaozhi" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/pai4" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/pai5" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/q1" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/q2" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/qiangyun" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/qianmuwen" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/qiyefuwu" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/qiyeping" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/quhaodiaopin" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/quhaopai_1" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/quhaopai_2" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/quhaopai_3" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/quhaopai_4" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/QX_uv" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/shafa_uv2" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/shandongdaxue" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/shebei2" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/skm" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/skm3" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/skm4" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/tex" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/tie1" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/tijiaoxian" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/tiyanqu_uv" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/wanwan555" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/weidang" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/xf" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/xi" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/xiaofang" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/xibian2" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/xibian3" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/xibian4" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/yuan" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/zhanshigui" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/zhibanshi" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/zhishipai" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/zhishipai1" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/zhuanquding" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Materials/zhuomianpin3" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/1" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/2" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/333" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/3F_AlbedoTransparency" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/3F_Normal" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/4" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/A09_666" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/baidalishi" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/bangyang" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/bei2" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/beiqiang1" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/beiqiang3" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/bj2" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/bj3" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/bjbjbjbj" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/chuangdong3" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/chuankongban" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/cxj3" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/cxj4" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/dangzuzhi" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/danrenshafa_ju2" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/danrenshafa_lan3" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/danyi_uv2" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/daping1" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/dddd" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/denghoudibiao" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/denghouyi3" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/dengxiang" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/dftbeijing2" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/dianshi3" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/dianshijitupian" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/dianti111" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/diantianniu2" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/diantiping2" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/diaopai001" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/diaopaiA04" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/diaopaiA06" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/diaopaiA07" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/diaopaiA08" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/diaopaiaA01" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/diaopaiaA02" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/diaopaiaA03_1" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/diaopaiaA05_1" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/dkm1" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/dn2" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/dndn3" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/dong" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/gh" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/guanggao" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/guanggao01" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/guanggao02" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/guanggao05" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/guanggao_1" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/guanggao_2" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/guanggao_3" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/guanggao_4" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/guanli" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/heidalishi" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/heijinhua" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/hp" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/hua11" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/hua22" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/hua33" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/jiaoyanjidi" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/jin" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/juanlian2" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/lajitong" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/lajitong1" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/lanyun3333" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/lingdaoguanhuai" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/loucengbiaoshi" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/ltby5" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/ltby6" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/lvzhi/huapeng02" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/M_pizhi" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/manyijiti" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/nanweibiaozhi" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/nvweibiaozhi" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/pai4" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/pai5" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/q1" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/q2" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/qiangyun" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/qianmuwen" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/qiyefuwu" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/qiyeping" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/quhaodiaopin" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/QX" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/shafa_uv2" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/shandongdaxue" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/shebei2" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/skm" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/skm3" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/skm4" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/sp_01" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/sp_02" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/sp_03" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/sp_04" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/sp_05" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/TD" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/tex" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/tie1" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/tiyanqu_uv" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/wanwan555" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/weidang" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/xf" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/xi" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/xiaofang" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/xibian2" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/xibian3" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/xibian4" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/xm_01" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/xm_02" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/yuan" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/zhanshigui" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/zhibanshi" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/zhishipai" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/zhishipai1" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/zhuanquding" LoadType="0" Packed="False" />
+      <Resource Name="Art/3F/Textures/zhuomianpin3" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Fbx/4Fcesuo" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Fbx/4Fmen1" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Fbx/4Fzhuzi" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Fbx/biaoti1" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Fbx/biaoti2" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Fbx/daofutai" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Fbx/ding_4f" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Fbx/guanggaopai" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Fbx/guanggaopai06" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Fbx/lanmen" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Fbx/Light" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Fbx/paizi" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Fbx/Qiang3" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Fbx/quhaoji" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Fbx/shandong_4Variant" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Materials/AlbedoTransparency" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Materials/bangongshinei4F002" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Materials/bangongshinei4F003" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Materials/bangongshinei4F004" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Materials/bangongshinei4F005" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Materials/bangongshinei4F1" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Materials/batai" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Materials/beijingban" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Materials/billboard1" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Materials/billboard2" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Materials/billboard3" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Materials/cabinet" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Materials/chuanghjing2" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Materials/chuangjing" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Materials/chuangkoutai" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Materials/dianshi" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Materials/diantimen" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Materials/diaoding" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Materials/dimian" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Materials/dizhen" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Materials/door1" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Materials/door2" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Materials/door3" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Materials/door4" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Materials/equipment" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Materials/geduan" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Materials/heise" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Materials/heise2" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Materials/huapeng" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Materials/huapeng02" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Materials/huapeng03" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Materials/hui1" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Materials/lambert1" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Materials/muwen" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Materials/muyingshi" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Materials/pingmu" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Materials/pm1" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Materials/qiangti" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Materials/quhaoji-uv" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Materials/quhaoji_uv" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Materials/Red" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Materials/sign1" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Materials/sign2" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Materials/wenmingchengshi" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Materials/xiuqiu_Red1" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Materials/yinhang1" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Materials/yinhang2" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Materials/yinhang3" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Materials/yizi_AlbedoTransparency" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Materials/yizi_AlbedoTransparency2" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Materials/ZhaJi_LaJiTong_SP_lambert1_AlbedoTransparency" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Textures/yizi_lambert1_AlbedoTransparency" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Textures/yizi_lambert2_AlbedoTransparency" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Textures/yizi_MetallicSmoothness" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Textures/yizi_Normal" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Textures/ZhaJi_LaJiTong_SP_lambert1_AlbedoTransparency" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Textures/ZhaJi_LaJiTong_SP_lambert1_Ao" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Textures/ZhaJi_LaJiTong_SP_lambert1_MetallicSmoothness" LoadType="0" Packed="False" />
+      <Resource Name="Art/4F/Textures/ZhaJi_LaJiTong_SP_lambert1_Normal" LoadType="0" Packed="False" />
+      <Resource Name="Art/Common/csm/csm" LoadType="0" Packed="False" />
+      <Resource Name="Art/Common/csm/Materials/csm01" LoadType="0" Packed="False" />
+      <Resource Name="Art/Common/csm/Materials/csm02" LoadType="0" Packed="False" />
+      <Resource Name="Art/Common/csm/Materials/csm03" LoadType="0" Packed="False" />
+      <Resource Name="Art/Common/csm/Materials/csm04" LoadType="0" Packed="False" />
+      <Resource Name="Art/Common/csm/Textures/fx_c_line_004_ycl" LoadType="0" Packed="False" />
+      <Resource Name="Art/Common/csm/Textures/fx_d_atypical_032" LoadType="0" Packed="False" />
+      <Resource Name="Art/Common/csm/Textures/fx_d_noise_033" LoadType="0" Packed="False" />
+      <Resource Name="Art/Common/csm/Textures/fx_j_mirnoise_02" LoadType="0" Packed="False" />
+      <Resource Name="Art/Common/Fbx/Indicate/24xiaoshizizhufuwuqu" LoadType="0" Packed="False" />
+      <Resource Name="Art/Common/Fbx/Indicate/budongchandengjiqu" LoadType="0" Packed="False" />
+      <Resource Name="Art/Common/Fbx/Indicate/dianti" LoadType="0" Packed="False" />
+      <Resource Name="Art/Common/Fbx/Indicate/jiantou" LoadType="0" Packed="False" />
+      <Resource Name="Art/Common/Fbx/Indicate/minshengshiwuqu" LoadType="0" Packed="False" />
+      <Resource Name="Art/Common/Fbx/Indicate/qiyefuwuzhuanqu" LoadType="0" Packed="False" />
+      <Resource Name="Art/Common/Fbx/Indicate/shangshidengjiqu" LoadType="0" Packed="False" />
+      <Resource Name="Art/Common/Fbx/Indicate/shengshizonghequ" LoadType="0" Packed="False" />
+      <Resource Name="Art/Common/Fbx/Indicate/shengshizongheyewuqu" LoadType="0" Packed="False" />
+      <Resource Name="Art/Common/Fbx/Indicate/shizhenggongyongqu" LoadType="0" Packed="False" />
+      <Resource Name="Art/Common/Fbx/Indicate/shuzizhengwuzhuanqu" LoadType="0" Packed="False" />
+      <Resource Name="Art/Common/Fbx/Indicate/tongyichujianqu" LoadType="0" Packed="False" />
+      <Resource Name="Art/Common/Fbx/Indicate/xiangmufuwuzhuanqu" LoadType="0" Packed="False" />
+      <Resource Name="Art/Common/Fbx/Indicate/yijianshiyicibanzhuanqu" LoadType="0" Packed="False" />
+      <Resource Name="Art/Common/Fbx/shugui" LoadType="0" Packed="False" />
+      <Resource Name="Art/Common/Fbx/siloushujia" LoadType="0" Packed="False" />
+      <Resource Name="Art/Common/Materials/01_Default" LoadType="0" Packed="False" />
+      <Resource Name="Art/Common/Materials/hideMat" LoadType="0" Packed="False" />
+      <Resource Name="Art/Common/Materials/mucai" LoadType="0" Packed="False" />
+      <Resource Name="Art/Common/Materials/shu" LoadType="0" Packed="False" />
+      <Resource Name="Art/Common/Materials/zhixian" LoadType="0" Packed="False" />
+      <Resource Name="Art/Common/Textures/mask" LoadType="0" Packed="False" />
+      <Resource Name="Art/Common/Textures/mumen" LoadType="0" Packed="False" />
+      <Resource Name="Art/Common/Textures/shu" LoadType="0" Packed="False" />
+      <Resource Name="Art/Common/yizi/Materials/YZ" LoadType="0" Packed="False" />
+      <Resource Name="Art/Common/yizi/Materials/YZ-b" LoadType="0" Packed="False" />
+      <Resource Name="Art/Common/yizi/Textures/yizi-2-b" LoadType="0" Packed="False" />
+      <Resource Name="Art/Common/yizi/Textures/yizi-b" LoadType="0" Packed="False" />
+      <Resource Name="Art/Common/yizi/Textures/yizi-m" LoadType="0" Packed="False" />
+      <Resource Name="Art/Common/yizi/Textures/yizi-n" LoadType="0" Packed="False" />
+      <Resource Name="Art/Common/yizi/yizi" LoadType="0" Packed="False" />
+      <Resource Name="Art/huiketing/Fbx/HuiYiTing" LoadType="0" Packed="False" />
+      <Resource Name="Art/huiketing/Materials/DiMian1_AlbedoTransparency" LoadType="0" Packed="False" />
+      <Resource Name="Art/huiketing/Materials/HuiYiShi_AlbedoTransparency" LoadType="0" Packed="False" />
+      <Resource Name="Art/huiketing/Materials/Light_B" LoadType="0" Packed="False" />
+      <Resource Name="Art/huiketing/Materials/Light_W" LoadType="0" Packed="False" />
+      <Resource Name="Art/huiketing/Materials/PingMu1_AlbedoTransparency" LoadType="0" Packed="False" />
+      <Resource Name="Art/huiketing/Materials/Qiang1_AlbedoTransparency" LoadType="0" Packed="False" />
+      <Resource Name="Art/huiketing/Materials/Qiang_H" LoadType="0" Packed="False" />
+      <Resource Name="Art/huiketing/Textures/DiMian1_AlbedoTransparency" LoadType="0" Packed="False" />
+      <Resource Name="Art/huiketing/Textures/HuiYiShi_AlbedoTransparency" LoadType="0" Packed="False" />
+      <Resource Name="Art/huiketing/Textures/HuiYiShi_Normal" LoadType="0" Packed="False" />
+      <Resource Name="Art/huiketing/Textures/PingMu1_AlbedoTransparency" LoadType="0" Packed="False" />
+      <Resource Name="Art/huiketing/Textures/PingMu1_Emission" LoadType="0" Packed="False" />
+      <Resource Name="Art/huiketing/Textures/Qiang1_AlbedoTransparency" LoadType="0" Packed="False" />
+      <Resource Name="Art/huiketing/Textures/Qiang1_Normal" LoadType="0" Packed="False" />
+      <Resource Name="Art/Other/Fbx/arrow" LoadType="0" Packed="False" />
+      <Resource Name="Art/Other/Fbx/diannao" LoadType="0" Packed="False" />
+      <Resource Name="Art/Other/Fbx/huapen3F" LoadType="0" Packed="False" />
+      <Resource Name="Art/Other/Fbx/line" LoadType="0" Packed="False" />
+      <Resource Name="Art/Other/Fbx/lingxing" LoadType="0" Packed="False" />
+      <Resource Name="Art/Other/Fbx/lvzhi" LoadType="0" Packed="False" />
+      <Resource Name="Art/Other/Fbx/Materials/huapeng02" LoadType="0" Packed="False" />
+      <Resource Name="Art/Other/Fbx/Materials/pm1" LoadType="0" Packed="False" />
+      <Resource Name="Art/Other/Fbx/muwen" LoadType="0" Packed="False" />
+      <Resource Name="Art/Other/Fbx/Pad" LoadType="0" Packed="False" />
+      <Resource Name="Art/Other/Fbx/quhaoji" LoadType="0" Packed="False" />
+      <Resource Name="Art/Other/Fbx/yizi" LoadType="0" Packed="False" />
+      <Resource Name="Art/Other/Fbx/youzhuan" LoadType="0" Packed="False" />
+      <Resource Name="Art/Other/Fbx/zuozhuan" LoadType="0" Packed="False" />
+      <Resource Name="Art/Other/Materials/jiantou" LoadType="0" Packed="False" />
+      <Resource Name="Art/Other/Materials/Light" LoadType="0" Packed="False" />
+      <Resource Name="Art/Other/Materials/lingxing" LoadType="0" Packed="False" />
+      <Resource Name="Art/Other/Materials/NewMaterial" LoadType="0" Packed="False" />
+      <Resource Name="Art/Other/Textures/lingxingEM" LoadType="0" Packed="False" />
+      <Resource Name="Art/Other/Textures/pm1" LoadType="0" Packed="False" />
+      <Resource Name="Art/Other/Textures/zuanshifaguang" LoadType="0" Packed="False" />
+      <Resource Name="Art/Qiang3/bangongshinei4F002" LoadType="0" Packed="False" />
+      <Resource Name="Art/Qiang3/bangongshinei4F003" LoadType="0" Packed="False" />
+      <Resource Name="Art/Qiang3/bangongshinei4F1" LoadType="0" Packed="False" />
+      <Resource Name="Art/Qiang3/geduan" LoadType="0" Packed="False" />
+      <Resource Name="Art/Qiang3/muyingshi" LoadType="0" Packed="False" />
+      <Resource Name="Art/shandong_4/1/qiangti" LoadType="0" Packed="False" />
+      <Resource Name="Art/shandong_4/backBar" LoadType="0" Packed="False" />
+      <Resource Name="Art/shandong_4/bangongshinei4F002" LoadType="0" Packed="False" />
+      <Resource Name="Art/shandong_4/bangongshinei4F003" LoadType="0" Packed="False" />
+      <Resource Name="Art/shandong_4/bangongshinei4F004" LoadType="0" Packed="False" />
+      <Resource Name="Art/shandong_4/bangongshinei4F005" LoadType="0" Packed="False" />
+      <Resource Name="Art/shandong_4/bangongshinei4F1" LoadType="0" Packed="False" />
+      <Resource Name="Art/shandong_4/Billboard1" LoadType="0" Packed="False" />
+      <Resource Name="Art/shandong_4/Billboard2" LoadType="0" Packed="False" />
+      <Resource Name="Art/shandong_4/Billboard3" LoadType="0" Packed="False" />
+      <Resource Name="Art/shandong_4/cabinet" LoadType="0" Packed="False" />
+      <Resource Name="Art/shandong_4/chuanghjing2" LoadType="0" Packed="False" />
+      <Resource Name="Art/shandong_4/chuangjing" LoadType="0" Packed="False" />
+      <Resource Name="Art/shandong_4/chuangkoutai" LoadType="0" Packed="False" />
+      <Resource Name="Art/shandong_4/dianshi" LoadType="0" Packed="False" />
+      <Resource Name="Art/shandong_4/dimian" LoadType="0" Packed="False" />
+      <Resource Name="Art/shandong_4/dizhen" LoadType="0" Packed="False" />
+      <Resource Name="Art/shandong_4/door1" LoadType="0" Packed="False" />
+      <Resource Name="Art/shandong_4/door2" LoadType="0" Packed="False" />
+      <Resource Name="Art/shandong_4/door3" LoadType="0" Packed="False" />
+      <Resource Name="Art/shandong_4/door4" LoadType="0" Packed="False" />
+      <Resource Name="Art/shandong_4/equipment" LoadType="0" Packed="False" />
+      <Resource Name="Art/shandong_4/geduan" LoadType="0" Packed="False" />
+      <Resource Name="Art/shandong_4/guanggao6" LoadType="0" Packed="False" />
+      <Resource Name="Art/shandong_4/guanggaopai01" LoadType="0" Packed="False" />
+      <Resource Name="Art/shandong_4/guanggaopai02" LoadType="0" Packed="False" />
+      <Resource Name="Art/shandong_4/haibao02" LoadType="0" Packed="False" />
+      <Resource Name="Art/shandong_4/haibao05" LoadType="0" Packed="False" />
+      <Resource Name="Art/shandong_4/kongqiqiang" LoadType="0" Packed="False" />
+      <Resource Name="Art/shandong_4/Materials/poster" LoadType="0" Packed="False" />
+      <Resource Name="Art/shandong_4/Materials/poster2" LoadType="0" Packed="False" />
+      <Resource Name="Art/shandong_4/Materials/poster3" LoadType="0" Packed="False" />
+      <Resource Name="Art/shandong_4/Materials/poster4" LoadType="0" Packed="False" />
+      <Resource Name="Art/shandong_4/Materials/poster5" LoadType="0" Packed="False" />
+      <Resource Name="Art/shandong_4/muwen" LoadType="0" Packed="False" />
+      <Resource Name="Art/shandong_4/muyingshi" LoadType="0" Packed="False" />
+      <Resource Name="Art/shandong_4/notice1" LoadType="0" Packed="False" />
+      <Resource Name="Art/shandong_4/pai" LoadType="0" Packed="False" />
+      <Resource Name="Art/shandong_4/pingmu" LoadType="0" Packed="False" />
+      <Resource Name="Art/shandong_4/qiangti" LoadType="0" Packed="False" />
+      <Resource Name="Art/shandong_4/quhaoji-uv" LoadType="0" Packed="False" />
+      <Resource Name="Art/shandong_4/sign1" LoadType="0" Packed="False" />
+      <Resource Name="Art/shandong_4/sign2" LoadType="0" Packed="False" />
+      <Resource Name="Art/shandong_4/yinhang1" LoadType="0" Packed="False" />
+      <Resource Name="Art/shandong_4/yinhang2" LoadType="0" Packed="False" />
+      <Resource Name="Art/shandong_4/yinhang3" LoadType="0" Packed="False" />
+      <Resource Name="Character/20Girl/fbx/20girl_hejiAvatar" LoadType="0" Packed="False" />
+      <Resource Name="Character/20Girl/fbx/Girl_20" LoadType="0" Packed="False" />
+      <Resource Name="Character/20Girl/fbx/guzhang" LoadType="0" Packed="False" />
+      <Resource Name="Character/20Girl/fbx/huishou" LoadType="0" Packed="False" />
+      <Resource Name="Character/20Girl/fbx/idle1" LoadType="0" Packed="False" />
+      <Resource Name="Character/20Girl/fbx/run1" LoadType="0" Packed="False" />
+      <Resource Name="Character/20Girl/fbx/sitdown" LoadType="0" Packed="False" />
+      <Resource Name="Character/20Girl/fbx/walk" LoadType="0" Packed="False" />
+      <Resource Name="Character/20Girl/Materials/20girl_body" LoadType="0" Packed="False" />
+      <Resource Name="Character/20Girl/Materials/20girl_cloth" LoadType="0" Packed="False" />
+      <Resource Name="Character/20Girl/Materials/20girl_eye" LoadType="0" Packed="False" />
+      <Resource Name="Character/20Girl/Materials/20girl_hair" LoadType="0" Packed="False" />
+      <Resource Name="Character/20Girl/Materials/20girl_jiemao" LoadType="0" Packed="False" />
+      <Resource Name="Character/20Girl/Textures/body/body_DA_1" LoadType="0" Packed="False" />
+      <Resource Name="Character/20Girl/Textures/cloth/cloth_DA_1" LoadType="0" Packed="False" />
+      <Resource Name="Character/20Girl/Textures/cloth/cloth_N_1" LoadType="0" Packed="False" />
+      <Resource Name="Character/20Girl/Textures/eye/eye_DA_1" LoadType="0" Packed="False" />
+      <Resource Name="Character/20Girl/Textures/hair/hair_DA_1" LoadType="0" Packed="False" />
+      <Resource Name="Character/20Girl/Textures/jiemao/jiemao_DA_1" LoadType="0" Packed="False" />
+      <Resource Name="Character/20Girl/Textures/kouqiang/kouqiang_DA" LoadType="0" Packed="False" />
+      <Resource Name="Character/20Man/fbx/guzhang" LoadType="0" Packed="False" />
+      <Resource Name="Character/20Man/fbx/huishou" LoadType="0" Packed="False" />
+      <Resource Name="Character/20Man/fbx/idle" LoadType="0" Packed="False" />
+      <Resource Name="Character/20Man/fbx/Man_20_1" LoadType="0" Packed="False" />
+      <Resource Name="Character/20Man/fbx/Man_20Avatar" LoadType="0" Packed="False" />
+      <Resource Name="Character/20Man/fbx/run" LoadType="0" Packed="False" />
+      <Resource Name="Character/20Man/fbx/run1" LoadType="0" Packed="False" />
+      <Resource Name="Character/20Man/fbx/sitdown" LoadType="0" Packed="False" />
+      <Resource Name="Character/20Man/fbx/walk" LoadType="0" Packed="False" />
+      <Resource Name="Character/20Man/Materials/body" LoadType="0" Packed="False" />
+      <Resource Name="Character/20Man/Materials/cloth" LoadType="0" Packed="False" />
+      <Resource Name="Character/20Man/Materials/eye" LoadType="0" Packed="False" />
+      <Resource Name="Character/20Man/Materials/hair" LoadType="0" Packed="False" />
+      <Resource Name="Character/20Man/Materials/jiemao" LoadType="0" Packed="False" />
+      <Resource Name="Character/20Man/Materials/kouqiang" LoadType="0" Packed="False" />
+      <Resource Name="Character/20Man/Textures/body/body_DA" LoadType="0" Packed="False" />
+      <Resource Name="Character/20Man/Textures/cloth/cloth_DA" LoadType="0" Packed="False" />
+      <Resource Name="Character/20Man/Textures/cloth/cloth_N" LoadType="0" Packed="False" />
+      <Resource Name="Character/20Man/Textures/eye/eye_DA" LoadType="0" Packed="False" />
+      <Resource Name="Character/20Man/Textures/hair/hair_DA" LoadType="0" Packed="False" />
+      <Resource Name="Character/20Man/Textures/jiemao/jiemao_DA" LoadType="0" Packed="False" />
+      <Resource Name="Character/35boy/fbx/guzhang" LoadType="0" Packed="False" />
+      <Resource Name="Character/35boy/fbx/huishou" LoadType="0" Packed="False" />
+      <Resource Name="Character/35boy/fbx/idle" LoadType="0" Packed="False" />
+      <Resource Name="Character/35boy/fbx/Man_35" LoadType="0" Packed="False" />
+      <Resource Name="Character/35boy/fbx/run1" LoadType="0" Packed="False" />
+      <Resource Name="Character/35boy/fbx/sitdown" LoadType="0" Packed="False" />
+      <Resource Name="Character/35boy/fbx/walk" LoadType="0" Packed="False" />
+      <Resource Name="Character/35boy/Materials/35boy_body" LoadType="0" Packed="False" />
+      <Resource Name="Character/35boy/Materials/35boy_cloth" LoadType="0" Packed="False" />
+      <Resource Name="Character/35boy/Materials/35boy_cloth2" LoadType="0" Packed="False" />
+      <Resource Name="Character/35boy/Materials/35boy_eye" LoadType="0" Packed="False" />
+      <Resource Name="Character/35boy/Materials/35boy_hair" LoadType="0" Packed="False" />
+      <Resource Name="Character/35boy/Materials/35boy_jiemao" LoadType="0" Packed="False" />
+      <Resource Name="Character/35boy/Materials/35boy_kouqiang" LoadType="0" Packed="False" />
+      <Resource Name="Character/35boy/Materials/35boy_yanjing" LoadType="0" Packed="False" />
+      <Resource Name="Character/35boy/Textures/body/body_DA" LoadType="0" Packed="False" />
+      <Resource Name="Character/35boy/Textures/cloth/cloth_DA" LoadType="0" Packed="False" />
+      <Resource Name="Character/35boy/Textures/cloth/cloth_N" LoadType="0" Packed="False" />
+      <Resource Name="Character/35boy/Textures/cloth2/cloth2_DA" LoadType="0" Packed="False" />
+      <Resource Name="Character/35boy/Textures/cloth2/cloth2_N" LoadType="0" Packed="False" />
+      <Resource Name="Character/35boy/Textures/eye/eye_DA" LoadType="0" Packed="False" />
+      <Resource Name="Character/35boy/Textures/hair/hair_DA" LoadType="0" Packed="False" />
+      <Resource Name="Character/35boy/Textures/hair/hair_N" LoadType="0" Packed="False" />
+      <Resource Name="Character/35boy/Textures/jiemao/jiemao_DA" LoadType="0" Packed="False" />
+      <Resource Name="Character/35boy/Textures/jiemao/jiemao_N" LoadType="0" Packed="False" />
+      <Resource Name="Character/35boy/Textures/kouqiang/kouqiang_DA" LoadType="0" Packed="False" />
+      <Resource Name="Character/35boy/Textures/yanjing/yanjing_D" LoadType="0" Packed="False" />
+      <Resource Name="Character/35boy/Textures/yanjing/yanjing_M" LoadType="0" Packed="False" />
+      <Resource Name="Character/35girl/fbx/Girl_35" LoadType="0" Packed="False" />
+      <Resource Name="Character/35girl/fbx/guzhang" LoadType="0" Packed="False" />
+      <Resource Name="Character/35girl/fbx/huishou" LoadType="0" Packed="False" />
+      <Resource Name="Character/35girl/fbx/idle" LoadType="0" Packed="False" />
+      <Resource Name="Character/35girl/fbx/run1" LoadType="0" Packed="False" />
+      <Resource Name="Character/35girl/fbx/sitdown" LoadType="0" Packed="False" />
+      <Resource Name="Character/35girl/fbx/walk" LoadType="0" Packed="False" />
+      <Resource Name="Character/35girl/Materials/35girl_body" LoadType="0" Packed="False" />
+      <Resource Name="Character/35girl/Materials/35girl_cloth" LoadType="0" Packed="False" />
+      <Resource Name="Character/35girl/Materials/35girl_eye" LoadType="0" Packed="False" />
+      <Resource Name="Character/35girl/Materials/35girl_hair" LoadType="0" Packed="False" />
+      <Resource Name="Character/35girl/Materials/35girl_jiemao" LoadType="0" Packed="False" />
+      <Resource Name="Character/35girl/Materials/35girl_kouqiang" LoadType="0" Packed="False" />
+      <Resource Name="Character/35girl/Textures/body/body_DA" LoadType="0" Packed="False" />
+      <Resource Name="Character/35girl/Textures/cloth/cloth_DA" LoadType="0" Packed="False" />
+      <Resource Name="Character/35girl/Textures/cloth/cloth_N" LoadType="0" Packed="False" />
+      <Resource Name="Character/35girl/Textures/eye/eye_DA" LoadType="0" Packed="False" />
+      <Resource Name="Character/35girl/Textures/hair/hair_DA" LoadType="0" Packed="False" />
+      <Resource Name="Character/35girl/Textures/jiemao/jiemao_DA" LoadType="0" Packed="False" />
+      <Resource Name="Character/35girl/Textures/kouqiang/kouqiang_DA" LoadType="0" Packed="False" />
+      <Resource Name="Character/50man/fbx/guzhang" LoadType="0" Packed="False" />
+      <Resource Name="Character/50man/fbx/huishou" LoadType="0" Packed="False" />
+      <Resource Name="Character/50man/fbx/idle" LoadType="0" Packed="False" />
+      <Resource Name="Character/50man/fbx/Man_50" LoadType="0" Packed="False" />
+      <Resource Name="Character/50man/fbx/run1" LoadType="0" Packed="False" />
+      <Resource Name="Character/50man/fbx/sitdown" LoadType="0" Packed="False" />
+      <Resource Name="Character/50man/fbx/walk" LoadType="0" Packed="False" />
+      <Resource Name="Character/50man/Materials/50man_body" LoadType="0" Packed="False" />
+      <Resource Name="Character/50man/Materials/50man_cloth" LoadType="0" Packed="False" />
+      <Resource Name="Character/50man/Materials/50man_eye" LoadType="0" Packed="False" />
+      <Resource Name="Character/50man/Materials/50man_hair" LoadType="0" Packed="False" />
+      <Resource Name="Character/50man/Materials/50man_jiemao" LoadType="0" Packed="False" />
+      <Resource Name="Character/50man/Materials/50man_kouqiang" LoadType="0" Packed="False" />
+      <Resource Name="Character/50man/Materials/50man_yanjing" LoadType="0" Packed="False" />
+      <Resource Name="Character/50man/Textures/body/body_DA" LoadType="0" Packed="False" />
+      <Resource Name="Character/50man/Textures/cloth/cloth_DA" LoadType="0" Packed="False" />
+      <Resource Name="Character/50man/Textures/cloth/cloth_N" LoadType="0" Packed="False" />
+      <Resource Name="Character/50man/Textures/eye/eye_DA" LoadType="0" Packed="False" />
+      <Resource Name="Character/50man/Textures/hair/hair_DA" LoadType="0" Packed="False" />
+      <Resource Name="Character/50man/Textures/hair/hair_N" LoadType="0" Packed="False" />
+      <Resource Name="Character/50man/Textures/jiemao/jiemao_DA" LoadType="0" Packed="False" />
+      <Resource Name="Character/50man/Textures/jiemao/jiemao_N" LoadType="0" Packed="False" />
+      <Resource Name="Character/50man/Textures/kouqiang/kouqiang_DA" LoadType="0" Packed="False" />
+      <Resource Name="Character/50man/Textures/yanjing/yanjing_DA" LoadType="0" Packed="False" />
+      <Resource Name="Character/50man/Textures/yanjing/yanjing_M" LoadType="0" Packed="False" />
+      <Resource Name="Character/50woman/fbx/guzhang" LoadType="0" Packed="False" />
+      <Resource Name="Character/50woman/fbx/huishou" LoadType="0" Packed="False" />
+      <Resource Name="Character/50woman/fbx/idle" LoadType="0" Packed="False" />
+      <Resource Name="Character/50woman/fbx/run" LoadType="0" Packed="False" />
+      <Resource Name="Character/50woman/fbx/run1" LoadType="0" Packed="False" />
+      <Resource Name="Character/50woman/fbx/sitdown" LoadType="0" Packed="False" />
+      <Resource Name="Character/50woman/fbx/walk" LoadType="0" Packed="False" />
+      <Resource Name="Character/50woman/fbx/Woman_50" LoadType="0" Packed="False" />
+      <Resource Name="Character/50woman/Materials/50woman_body" LoadType="0" Packed="False" />
+      <Resource Name="Character/50woman/Materials/50woman_cloth" LoadType="0" Packed="False" />
+      <Resource Name="Character/50woman/Materials/50woman_eye" LoadType="0" Packed="False" />
+      <Resource Name="Character/50woman/Materials/50woman_hair" LoadType="0" Packed="False" />
+      <Resource Name="Character/50woman/Materials/50woman_jiemao" LoadType="0" Packed="False" />
+      <Resource Name="Character/50woman/Materials/50woman_kouqiang" LoadType="0" Packed="False" />
+      <Resource Name="Character/50woman/Textures/body/body_DA" LoadType="0" Packed="False" />
+      <Resource Name="Character/50woman/Textures/cloth/cloth_DA" LoadType="0" Packed="False" />
+      <Resource Name="Character/50woman/Textures/cloth/cloth_N" LoadType="0" Packed="False" />
+      <Resource Name="Character/50woman/Textures/eye/eye_DA" LoadType="0" Packed="False" />
+      <Resource Name="Character/50woman/Textures/hair/hair_DA" LoadType="0" Packed="False" />
+      <Resource Name="Character/50woman/Textures/hair/hair_N" LoadType="0" Packed="False" />
+      <Resource Name="Character/50woman/Textures/jiemao/jiemao_DA" LoadType="0" Packed="False" />
+      <Resource Name="Character/50woman/Textures/kouqiang/kouqiang_DA" LoadType="0" Packed="False" />
+      <Resource Name="Character/Waitress/Animations/idle" LoadType="0" Packed="False" />
+      <Resource Name="Character/Waitress/Animations/sitdown" LoadType="0" Packed="False" />
+      <Resource Name="Character/Waitress/Animations/sitdown1" LoadType="0" Packed="False" />
+      <Resource Name="Character/Waitress/Materials/M_Body" LoadType="0" Packed="False" />
+      <Resource Name="Character/Waitress/Materials/M_Cloth" LoadType="0" Packed="False" />
+      <Resource Name="Character/Waitress/Materials/M_Eyelash" LoadType="0" Packed="False" />
+      <Resource Name="Character/Waitress/Materials/M_Eyes" LoadType="0" Packed="False" />
+      <Resource Name="Character/Waitress/Materials/M_Hair" LoadType="0" Packed="False" />
+      <Resource Name="Character/Waitress/Materials/M_Mouth" LoadType="0" Packed="False" />
+      <Resource Name="Character/Waitress/Materials/new_BC" LoadType="0" Packed="False" />
+      <Resource Name="Character/Waitress/Materials/new_TT" LoadType="0" Packed="False" />
+      <Resource Name="Character/Waitress/ren" LoadType="0" Packed="False" />
+      <Resource Name="Character/Waitress/Textures/body/body_DA" LoadType="0" Packed="False" />
+      <Resource Name="Character/Waitress/Textures/cloth/cloth_DA" LoadType="0" Packed="False" />
+      <Resource Name="Character/Waitress/Textures/cloth/cloth_N" LoadType="0" Packed="False" />
+      <Resource Name="Character/Waitress/Textures/eye/eye_DA" LoadType="0" Packed="False" />
+      <Resource Name="Character/Waitress/Textures/hair/hair_DA" LoadType="0" Packed="False" />
+      <Resource Name="Character/Waitress/Textures/jiemao/jiemao_DA" LoadType="0" Packed="False" />
+      <Resource Name="Character/Waitress/Textures/kouqiang/kouqiang_DA" LoadType="0" Packed="False" />
+      <Resource Name="Character/Waitress/Textures/new_body/bc" LoadType="0" Packed="False" />
+      <Resource Name="Character/Waitress/Textures/new_body/bc_tt" LoadType="0" Packed="False" />
+      <Resource Name="Character/Waitress/Textures/new_body/norml" LoadType="0" Packed="False" />
+      <Resource Name="Character/Waitress/Waitress_06" LoadType="0" Packed="False" />
+      <Resource Name="Entity/Area_3F" LoadType="0" Packed="False" />
+      <Resource Name="Entity/Environments/yi_4F" LoadType="0" Packed="False" />
+      <Resource Name="Entity/Environments/yizi" LoadType="0" Packed="False" />
+      <Resource Name="Entity/Environments/yizi_3F" LoadType="0" Packed="False" />
+      <Resource Name="Entity/MiniMap" LoadType="0" Packed="False" />
+      <Resource Name="Entity/NPC/GZRY_3F" LoadType="0" Packed="False" />
+      <Resource Name="Entity/NPC/Waitress_05" LoadType="0" Packed="False" />
+      <Resource Name="Entity/Prefab/chuansongmen" LoadType="0" Packed="False" />
+      <Resource Name="Entity/Prefab/efx_Role_tips" LoadType="0" Packed="False" />
+      <Resource Name="Entity/Prefab/LingXing" LoadType="0" Packed="False" />
+      <Resource Name="Entity/Prefab/SoundSign" LoadType="0" Packed="False" />
+      <Resource Name="Entity/Prefab/transfer" LoadType="0" Packed="False" />
+      <Resource Name="Entity/Prefab/youzhuan" LoadType="0" Packed="False" />
+      <Resource Name="Entity/Prefab/zhixian" LoadType="0" Packed="False" />
+      <Resource Name="Entity/Prefab/zuozhuan" LoadType="0" Packed="False" />
+      <Resource Name="Entity/Role/1001" LoadType="0" Packed="False" />
+      <Resource Name="Entity/Role/1002" LoadType="0" Packed="False" />
+      <Resource Name="Entity/Role/1003" LoadType="0" Packed="False" />
+      <Resource Name="Entity/Role/2001" LoadType="0" Packed="False" />
+      <Resource Name="Entity/Role/2002" LoadType="0" Packed="False" />
+      <Resource Name="Entity/Role/2003" LoadType="0" Packed="False" />
+      <Resource Name="Entity/Role/3001" LoadType="0" Packed="False" />
+      <Resource Name="Entity/Role/3002" LoadType="0" Packed="False" />
+      <Resource Name="Entity/Role/3003" LoadType="0" Packed="False" />
+      <Resource Name="Entity/Role/4001" LoadType="0" Packed="False" />
+      <Resource Name="Entity/Role/4002" LoadType="0" Packed="False" />
+      <Resource Name="Entity/Role/4003" LoadType="0" Packed="False" />
+      <Resource Name="Entity/Role/5001" LoadType="0" Packed="False" />
+      <Resource Name="Entity/Role/5002" LoadType="0" Packed="False" />
+      <Resource Name="Entity/Role/5003" LoadType="0" Packed="False" />
+      <Resource Name="Entity/Role/6001" LoadType="0" Packed="False" />
+      <Resource Name="Entity/Role/6002" LoadType="0" Packed="False" />
+      <Resource Name="Entity/Role/6003" LoadType="0" Packed="False" />
+      <Resource Name="Entity/ShowRole/1001" LoadType="0" Packed="False" />
+      <Resource Name="Entity/ShowRole/1002" LoadType="0" Packed="False" />
+      <Resource Name="Entity/ShowRole/1003" LoadType="0" Packed="False" />
+      <Resource Name="Entity/ShowRole/2001" LoadType="0" Packed="False" />
+      <Resource Name="Entity/ShowRole/2002" LoadType="0" Packed="False" />
+      <Resource Name="Entity/ShowRole/2003" LoadType="0" Packed="False" />
+      <Resource Name="Entity/ShowRole/3001" LoadType="0" Packed="False" />
+      <Resource Name="Entity/ShowRole/3002" LoadType="0" Packed="False" />
+      <Resource Name="Entity/ShowRole/3003" LoadType="0" Packed="False" />
+      <Resource Name="Entity/ShowRole/4001" LoadType="0" Packed="False" />
+      <Resource Name="Entity/ShowRole/4002" LoadType="0" Packed="False" />
+      <Resource Name="Entity/ShowRole/4003" LoadType="0" Packed="False" />
+      <Resource Name="Entity/ShowRole/5001" LoadType="0" Packed="False" />
+      <Resource Name="Entity/ShowRole/5002" LoadType="0" Packed="False" />
+      <Resource Name="Entity/ShowRole/5003" LoadType="0" Packed="False" />
+      <Resource Name="Entity/ShowRole/6001" LoadType="0" Packed="False" />
+      <Resource Name="Entity/ShowRole/6002" LoadType="0" Packed="False" />
+      <Resource Name="Entity/ShowRole/6003" LoadType="0" Packed="False" />
+      <Resource Name="Entity/Window/Window_3F" LoadType="0" Packed="False" />
+      <Resource Name="Entity/Window/Window_4F" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/DataTables/BinaryFiles/InteractiveNpc" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/DataTables/InteractiveNpc" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Fonts/simhei" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Images/0" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Images/0_selected" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Images/1f" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Images/1f_selected" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Images/3f" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Images/3f_selected" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Images/4f" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Images/4f_selected" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Images/BackMap" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Images/BackRenDi" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Images/btnRenLeft" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Images/btnRenRight" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Images/chuan_0" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Images/chuan_1" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Images/chuan_3" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Images/chuan_4" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Images/close2" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Images/dashuju" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Images/dianti_tips" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Images/goto" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Images/IcoMind" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Images/juxing" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Images/mask" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Images/minimap_1f" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Images/minimap_3f" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Images/minimap_4f" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Images/minimapbg" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Images/MobileUI/close" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Images/MobileUI/og" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Images/MobileUI/yjoystick_circle" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Images/MobileUI/yjoystick_dir" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Images/MobileUI/yjoystick_pointer" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Images/PageBack" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Images/role_tips" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Images/temp" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Images/userNameBack" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Images/windowNo" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Materials/Role_tips" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Prefabs/Moblie" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Sounds/click" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Textures/20Girl/Materials/20girl_cloth2" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Textures/20Girl/Materials/20girl_cloth3" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Textures/20Girl/Textures/cloth_DA2" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Textures/20Girl/Textures/cloth_DA3" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Textures/20Man/Materials/20cloth_1" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Textures/20Man/Materials/20cloth_2" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Textures/20Man/Textures/cloth_DA" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Textures/20Man/Textures/cloth_DA_2" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Textures/35Girl/Materials/35girl_cloth_1" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Textures/35Girl/Materials/35girl_cloth_2" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Textures/35Girl/Textures/cloth_DA" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Textures/35Girl/Textures/cloth_DA_2" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Textures/35Man/Materials/35boy_cloth2_1" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Textures/35Man/Materials/35boy_cloth2_2" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Textures/35Man/Materials/35boy_cloth_1" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Textures/35Man/Materials/35boy_cloth_1_2" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Textures/35Man/Textures/cloth2_1_D" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Textures/35Man/Textures/cloth2_2_D" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Textures/35Man/Textures/cloth2_D" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Textures/35Man/Textures/cloth_D" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Textures/50Girl/Materials/50woman_cloth_1" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Textures/50Girl/Materials/50woman_cloth_2" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Textures/50Girl/Textures/cloth_DA" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Textures/50Girl/Textures/cloth_DA_2" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Textures/50Man/Materials/50man_cloth_1" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Textures/50Man/Materials/50man_cloth_2" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Textures/50Man/Textures/cloth_DA" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/Textures/50Man/Textures/cloth_DA_2" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/UIForms/MainForm" LoadType="0" Packed="False" />
+      <Resource Name="SarsAssets/UIForms/MinimapForm" LoadType="0" Packed="False" />
+      <Resource Name="Scenes/3F" LoadType="0" Packed="False" />
+      <Resource Name="Scenes/ChooseRole" LoadType="0" Packed="False" />
+      <Resource Name="Scenes/FirstFloor" LoadType="0" Packed="False" />
+      <Resource Name="Scenes/FourFloor" LoadType="0" Packed="False" />
+      <Resource Name="Scenes/huiketing" LoadType="0" Packed="False" />
+      <Resource Name="Shaders" LoadType="0" Packed="False" />
+      <Resource Name="StarterAssets/ThirdPersonController/Character/Sfx/Player_Footstep_01" LoadType="0" Packed="False" />
+      <Resource Name="StarterAssets/ThirdPersonController/Character/Sfx/Player_Footstep_02" LoadType="0" Packed="False" />
+      <Resource Name="StarterAssets/ThirdPersonController/Character/Sfx/Player_Footstep_03" LoadType="0" Packed="False" />
+      <Resource Name="StarterAssets/ThirdPersonController/Character/Sfx/Player_Footstep_04" LoadType="0" Packed="False" />
+      <Resource Name="StarterAssets/ThirdPersonController/Character/Sfx/Player_Footstep_05" LoadType="0" Packed="False" />
+      <Resource Name="StarterAssets/ThirdPersonController/Character/Sfx/Player_Footstep_06" LoadType="0" Packed="False" />
+      <Resource Name="StarterAssets/ThirdPersonController/Character/Sfx/Player_Footstep_07" LoadType="0" Packed="False" />
+      <Resource Name="StarterAssets/ThirdPersonController/Character/Sfx/Player_Footstep_08" LoadType="0" Packed="False" />
+      <Resource Name="StarterAssets/ThirdPersonController/Character/Sfx/Player_Footstep_09" LoadType="0" Packed="False" />
+      <Resource Name="StarterAssets/ThirdPersonController/Character/Sfx/Player_Footstep_10" LoadType="0" Packed="False" />
+      <Resource Name="StarterAssets/ThirdPersonController/Character/Sfx/Player_Land" LoadType="0" Packed="False" />
+      <Resource Name="StarterAssets/ThirdPersonController/Character/Sfx/PlayerFollowCamera" LoadType="0" Packed="False" />
+      <Resource Name="StarterAssets/ThirdPersonController/Character/Sfx/Prefabs/CanvasInputs/UI_Canvas_Custom_Joysticks" LoadType="0" Packed="False" />
+      <Resource Name="StarterAssets/ThirdPersonController/Character/Sfx/Prefabs/CanvasInputs/UI_Canvas_StarterAssetsInputs_Joysticks" LoadType="0" Packed="False" />
+      <Resource Name="StarterAssets/ThirdPersonController/Character/Sfx/Prefabs/CanvasInputs/UI_Canvas_StarterAssetsInputs_TouchZones" LoadType="0" Packed="False" />
+      <Resource Name="StarterAssets/ThirdPersonController/Character/Sfx/Prefabs/EventSystem/UI_EventSystem" LoadType="0" Packed="False" />
+      <Resource Name="StarterAssets/ThirdPersonController/Character/Sfx/Prefabs/VirtualInputs/UI_Virtual_Button" LoadType="0" Packed="False" />
+      <Resource Name="StarterAssets/ThirdPersonController/Character/Sfx/Prefabs/VirtualInputs/UI_Virtual_Joystick" LoadType="0" Packed="False" />
+      <Resource Name="StarterAssets/ThirdPersonController/Character/Sfx/Prefabs/VirtualInputs/UI_Virtual_TouchZone" LoadType="0" Packed="False" />
+      <Resource Name="StarterAssets/ThirdPersonController/Character/Sfx/StarterAssets" LoadType="0" Packed="False" />
+      <Resource Name="StarterAssets/ThirdPersonController/Character/Sfx/UI/UI_Circle_Bevel_Base" LoadType="0" Packed="False" />
+      <Resource Name="StarterAssets/ThirdPersonController/Character/Sfx/UI/UI_Circle_Faded" LoadType="0" Packed="False" />
+      <Resource Name="StarterAssets/ThirdPersonController/Character/Sfx/UI/UI_Icon_Jump" LoadType="0" Packed="False" />
+      <Resource Name="StarterAssets/ThirdPersonController/Character/Sfx/UI/UI_Icon_Look" LoadType="0" Packed="False" />
+      <Resource Name="StarterAssets/ThirdPersonController/Character/Sfx/UI/UI_Icon_Move" LoadType="0" Packed="False" />
+      <Resource Name="StarterAssets/ThirdPersonController/Character/Sfx/UI/UI_Icon_Sprint" LoadType="0" Packed="False" />
+      <Resource Name="URPRTShader" LoadType="0" Packed="False" />
+      <Resource Name="URPShader" LoadType="0" Packed="False" />
+    </Resources>
+    <Assets>
+      <Asset Guid="001eb6eac2f88aa40b674084d9e0aadf" ResourceName="SarsAssets/Images/PageBack" />
+      <Asset Guid="0046fbbd1959eeb4183666902c98e40b" ResourceName="Character/20Man/fbx/guzhang" />
+      <Asset Guid="00494a8b952260a4787bd3582f16fea4" ResourceName="Art/3F/Textures/xibian4" />
+      <Asset Guid="00eae1eb8afc5954d94205b63ffb965c" ResourceName="Character/35boy/Textures/cloth2/cloth2_DA" />
+      <Asset Guid="012d6770f3e645b4c823768d18f74ebd" ResourceName="SarsAssets/DataTables/InteractiveNpc" />
+      <Asset Guid="01adf64ad1954594b83d7de561090b99" ResourceName="Art/3F/Fbx/3F" />
+      <Asset Guid="01bbd990a8dd2ec4b8863e95553b1eef" ResourceName="Art/1F/Materials/guodao05" />
+      <Asset Guid="01ecb1ebe8b8e7e458721d31c19216f5" ResourceName="Art/3F/Fbx/Materials/c01-c10" />
+      <Asset Guid="01fa3f8c89aa44160b9a735fc22362d0" ResourceName="URPShader" />
+      <Asset Guid="020082992db8a1a4c99bf7bfb1e37b39" ResourceName="Character/Waitress/Materials/M_Eyelash" />
+      <Asset Guid="0306e148868d115489c3a688ac622a66" ResourceName="Character/35boy/Materials/35boy_hair" />
+      <Asset Guid="0344071f5513a8f4483ce194beee630d" ResourceName="Character/20Man/fbx/run1" />
+      <Asset Guid="03463d17b5e810d4bbfa74d20912084c" ResourceName="Art/3F/Textures/zhishipai1" />
+      <Asset Guid="036fcedabdf81e444b08853c484324f2" ResourceName="Art/3F/Materials/nanweibiaozhi" />
+      <Asset Guid="03707368cd1f386449c2adb9a7bea779" ResourceName="Art/3F/Textures/diaopaiaA01" />
+      <Asset Guid="0395f47fe2df300429b934295f5632e3" ResourceName="Art/shandong_4/kongqiqiang" />
+      <Asset Guid="03c64778e515a7f44bba648bbe0738ba" ResourceName="Art/3F/Materials/nvweibiaozhi" />
+      <Asset Guid="03d8c3feba398e24484d35368c48872c" ResourceName="SarsAssets/Images/temp" />
+      <Asset Guid="0406db5a14f94604a8c57ccfbc9f3b46" ResourceName="URPShader" />
+      <Asset Guid="042c67b9d271d8f47b603f229ae71297" ResourceName="Art/3F/Textures/dianti111" />
+      <Asset Guid="04c410c9937594faa893a11dceb85f7e" ResourceName="URPShader" />
+      <Asset Guid="059e5fdb46a32e74bbf98f9587e6b41a" ResourceName="Art/1F/Textures/zhanshiping_chaxun01" />
+      <Asset Guid="05d95d2e13472a64c83700f5d1160b73" ResourceName="Art/3F/Materials/shebei2" />
+      <Asset Guid="0613a5abac2db2247bdcd7380e98bba1" ResourceName="URPShader" />
+      <Asset Guid="0632bec0b07edd34199ab2322f2771bd" ResourceName="Art/3F/Textures/diaopaiA06" />
+      <Asset Guid="0668ced57fe375d4fbf74c2fe09990ff" ResourceName="Art/3F/Textures/diantiping2" />
+      <Asset Guid="0671a769696dea34891a49bd3cf727d9" ResourceName="Art/4F/Fbx/biaoti2" />
+      <Asset Guid="06d6c8fe7728dd44f814a412c4bf88ff" ResourceName="Character/20Man/fbx/Man_20Avatar" />
+      <Asset Guid="0708bd4b49522854db6cdc99cf618827" ResourceName="Art/3F/Textures/xf" />
+      <Asset Guid="078e9bfee56689640adde0fe973ac1ed" ResourceName="SarsAssets/Images/MobileUI/close" />
+      <Asset Guid="0805192c1a3f8f048b3e4ce2005a7fd1" ResourceName="SarsAssets/Images/3f_selected" />
+      <Asset Guid="082bce8fcd6729c4aadcc737d409d20d" ResourceName="Art/3F/Materials/q1" />
+      <Asset Guid="0849e84e3d62649e8882e9d6f056a017" ResourceName="URPShader" />
+      <Asset Guid="085b5b05d9960a04b96b0cf316196bb5" ResourceName="Art/1F/Textures/guodao03" />
+      <Asset Guid="08af96d648309be45b6f5ed17b7c030e" ResourceName="Art/4F/Materials/dizhen" />
+      <Asset Guid="08b6857b8155f554ea62347428f07a6c" ResourceName="Character/35girl/Textures/jiemao/jiemao_DA" />
+      <Asset Guid="0909cdc51ba087e418ebdf6d425063b4" ResourceName="Art/3F/Materials/hei" />
+      <Asset Guid="0916d206b8c044f46a8a9070874ce9f7" ResourceName="Art/Common/Fbx/Indicate/shangshidengjiqu" />
+      <Asset Guid="091eb3aa321b83e468f8735831de6306" ResourceName="Art/1F/Textures/wuzhangaibiaoshi4F" />
+      <Asset Guid="09acd0647bbaf5d4e9fe46c6a389ed9a" ResourceName="Art/1F/Textures/dapingqianse" />
+      <Asset Guid="09b371ee55a3c7f4c8f24186be744eee" ResourceName="Art/3F/Textures/ltby5" />
+      <Asset Guid="0a14d28476f76e44b99c59c3d02d32a1" ResourceName="Art/3F/Textures/lingdaoguanhuai" />
+      <Asset Guid="0a7e590f3cf1d4ee8a8fab5b6eff09ef" ResourceName="URPShader" />
+      <Asset Guid="0ac02f9307563434eb752ea53ef83757" ResourceName="Art/4F/Fbx/daofutai" />
+      <Asset Guid="0acd4fdbcf0cf654a9cdf3e9ccc2edce" ResourceName="URPShader" />
+      <Asset Guid="0b0b29f2f9683764bb520763a6083166" ResourceName="Art/3F/Fbx/Materials/jiaoyanjidi" />
+      <Asset Guid="0b9c3e62c174f15408efee5d5783d1ab" ResourceName="Character/35boy/Textures/jiemao/jiemao_N" />
+      <Asset Guid="0c05dcbb610bf8e469fb957bb267360c" ResourceName="Art/3F/Fbx/Materials/diaopaiA03" />
+      <Asset Guid="0c2764b971e59d94aa6bfabe4d18ec63" ResourceName="Entity/NPC/Waitress_05" />
+      <Asset Guid="0c52f6d735ca2c24788704ced303685e" ResourceName="Art/1F/Materials/haibao" />
+      <Asset Guid="0c53b7ec8554cc2419e85d073f0e0955" ResourceName="Art/4F/Materials/beijingban" />
+      <Asset Guid="0c5832a72145a5b49a1b64a21a609bb4" ResourceName="URPShader" />
+      <Asset Guid="0ca6dca7396eb48e5849247ffd444914" ResourceName="URPShader" />
+      <Asset Guid="0cca908a1bb452846a4de3631cbd579d" ResourceName="Art/4F/Materials/huapeng02" />
+      <Asset Guid="0ddf9719bc9ff43e1a017712e21bb5e6" ResourceName="URPShader" />
+      <Asset Guid="0df3175fd7a519c4ba5c28f374db94a1" ResourceName="Art/4F/Materials/yinhang2" />
+      <Asset Guid="0e675807616192b4395f01b05524ecd6" ResourceName="Art/3F/Fbx/Materials/heidalishi" />
+      <Asset Guid="0e7e51cd9d70b7f49bd8bf5218adab9d" ResourceName="Character/50man/Textures/body/body_DA" />
+      <Asset Guid="0e9d5a909a1f7e84882a534d0d11e49f" ResourceName="URPShader" />
+      <Asset Guid="0eac51a8dfc8fa341a5f8c6450bc0f84" ResourceName="URPShader" />
+      <Asset Guid="0ee2362c2bb7eb749b3f1ec639c8fac2" ResourceName="Art/3F/Fbx/Materials/chuangkoutai" />
+      <Asset Guid="0f4122b9a743b744abe2fb6a0a88868b" ResourceName="URPShader" />
+      <Asset Guid="0f678b08df2133047b3bd2616d7509dd" ResourceName="Character/20Girl/fbx/Girl_20" />
+      <Asset Guid="0f854b35a0cf61a429bd5dcfea30eddd" ResourceName="URPShader" />
+      <Asset Guid="105094f7d0f2277469fdc374dc89f676" ResourceName="Art/3F/Textures/beiqiang3" />
+      <Asset Guid="106a4e7436af8bd41b4aa4d257941116" ResourceName="Art/shandong_4/bangongshinei4F003" />
+      <Asset Guid="1077e4e571bf3fd4ea01d50824a991f7" ResourceName="SarsAssets/UIForms/MinimapForm" />
+      <Asset Guid="1121bb4e615ca3c48b214e79e841e823" ResourceName="URPShader" />
+      <Asset Guid="116bd973269b9f741b7177c8523b9e50" ResourceName="URPShader" />
+      <Asset Guid="11a14dfb3567ef04db71ea741ef35b86" ResourceName="Art/Common/Fbx/Indicate/shengshizongheyewuqu" />
+      <Asset Guid="11b996bab57560142af2334136998480" ResourceName="Art/shandong_4/quhaoji-uv" />
+      <Asset Guid="12c30f01e33b5b247b74de1835b7bafe" ResourceName="Entity/Prefab/LingXing" />
+      <Asset Guid="131f1b93a4ebd459ba87b6bad055fb33" ResourceName="URPShader" />
+      <Asset Guid="134f560196b8a874ab6ef73a8637e64d" ResourceName="SarsAssets/Textures/50Man/Materials/50man_cloth_1" />
+      <Asset Guid="138efaf7fb432134da44d5a4981a62ad" ResourceName="URPShader" />
+      <Asset Guid="139b144203d9f934ca472eaeb37f0dc6" ResourceName="Art/huiketing/Materials/Light_W" />
+      <Asset Guid="13a55bfe9f7c81140bdbd6e838531c0a" ResourceName="Art/huiketing/Materials/Light_B" />
+      <Asset Guid="13b948aad6d53ac41be815e2f279f145" ResourceName="Art/1F/Fbx_youhua/dianti" />
+      <Asset Guid="13bdb57f73daf474193a92e74483b4d7" ResourceName="Art/3F/Materials/daping1" />
+      <Asset Guid="13c02b14c4d048fa9653293d54f6e0e1" ResourceName="URPShader" />
+      <Asset Guid="141c5a8e04e58b64eb3d28924b924111" ResourceName="Character/35girl/Textures/eye/eye_DA" />
+      <Asset Guid="143fca7bcb230cc459816baa8b209315" ResourceName="Art/3F/Textures/shebei2" />
+      <Asset Guid="14a81644d0b368d4eabb1ba13bf02fb7" ResourceName="Art/1F/Materials/biaoshi-muyin" />
+      <Asset Guid="14e01afe60417064498bce1ba5fefc53" ResourceName="SarsAssets/Textures/35Man/Textures/cloth2_2_D" />
+      <Asset Guid="14e8a8d2158bec840b56c54f5266e692" ResourceName="StarterAssets/ThirdPersonController/Character/Sfx/Player_Footstep_05" />
+      <Asset Guid="15c09e9f82634f5881e6676d62f25bcb" ResourceName="URPShader" />
+      <Asset Guid="15c1eec8fe4010c4086655ef5e43d803" ResourceName="Art/3F/Materials/chuankongban" />
+      <Asset Guid="15c9b36d0becb34448466f09544702b9" ResourceName="Art/1F/Textures/guodao02" />
+      <Asset Guid="15cfe2c596f76d048838b8c333a75b6e" ResourceName="Character/Waitress/Materials/new_TT" />
+      <Asset Guid="15d0c3709176029428a0da2f8cecf0b5" ResourceName="URPRTShader" />
+      <Asset Guid="15d226cfbec85844bacfc710afb9df65" ResourceName="Entity/Role/5001" />
+      <Asset Guid="16283f2218e6c1e49b492cf64f8a09a7" ResourceName="Art/3F/Materials/diaopaiA07" />
+      <Asset Guid="16396a0657c42e84a98be050b1810e31" ResourceName="Art/4F/Materials/billboard3" />
+      <Asset Guid="1695cd4ba16713f47b6e1f8d37ad2c64" ResourceName="Art/3F/Fbx/Materials/beiqiang1" />
+      <Asset Guid="16ff3e3f7bdd5df499d24d2901bdb23e" ResourceName="Art/4F/Fbx/4Fcesuo" />
+      <Asset Guid="1713229248e2f8a4c94e2b05f250ca3c" ResourceName="Art/4F/Materials/batai" />
+      <Asset Guid="1743981c65c973a4890b50ddbbe7d254" ResourceName="Art/Other/Fbx/arrow" />
+      <Asset Guid="174e207122dc2a84c827684b6474c0f4" ResourceName="Art/Common/csm/Textures/fx_j_mirnoise_02" />
+      <Asset Guid="183f08b2d6c2a214d914c21fa9dd6410" ResourceName="Art/3F/Textures/tie1" />
+      <Asset Guid="186de84b3207156479abe98f4958fed0" ResourceName="StarterAssets/ThirdPersonController/Character/Sfx/Player_Footstep_03" />
+      <Asset Guid="18d394ad4a31121468c9e5eac2258761" ResourceName="Art/huiketing/Textures/PingMu1_Emission" />
+      <Asset Guid="18eff92376cb22749a73ea3c0422cc57" ResourceName="Art/3F/Materials/dkm1" />
+      <Asset Guid="19b18e93d3feacc4db4677289a578d1c" ResourceName="Character/50man/Textures/hair/hair_DA" />
+      <Asset Guid="19defe6063b759046920940c5242eb7b" ResourceName="SarsAssets/Images/minimap_4f" />
+      <Asset Guid="1a10ecad64e6a0f4aba126b50b921189" ResourceName="Art/1F/Materials/ZhaJi_LaJiTong_SP_lambert1_AlbedoTransparency" />
+      <Asset Guid="1a207e3bee00db44b940e6f362a8e148" ResourceName="URPRTShader" />
+      <Asset Guid="1a39437568cd5a6438d22984cbfbc83b" ResourceName="Art/3F/Fbx/Materials/zhibanshi" />
+      <Asset Guid="1a6733871dfda7842869c1011dfc283d" ResourceName="Art/3F/Materials/ltby6" />
+      <Asset Guid="1a91fcd19acf1e54bba0945d9f390849" ResourceName="StarterAssets/ThirdPersonController/Character/Sfx/Player_Footstep_04" />
+      <Asset Guid="1a952709290c0644b94d5cf403078036" ResourceName="Art/4F/Textures/ZhaJi_LaJiTong_SP_lambert1_AlbedoTransparency" />
+      <Asset Guid="1acd75ff24dbc43cca235408192130b7" ResourceName="URPShader" />
+      <Asset Guid="1adf74939b6476d4f8329c42fa2ca33f" ResourceName="Art/3F/Materials/A09_666" />
+      <Asset Guid="1ae3badb35ddeb14ebca62f13a958b8f" ResourceName="Character/20Girl/Textures/body/body_DA_1" />
+      <Asset Guid="1b3504c9201c98442b1050f6fcc16d4e" ResourceName="Art/3F/Fbx/Materials/shafa-uv2" />
+      <Asset Guid="1b42c902ac614384ca13c5bfde022274" ResourceName="Art/Common/Materials/mucai" />
+      <Asset Guid="1d2dd13cdd2f0db4b9dc989a9ea06649" ResourceName="Art/Common/Fbx/Indicate/jiantou" />
+      <Asset Guid="1d5fddf2936e07b4184de3c76915db62" ResourceName="Character/20Girl/Materials/20girl_body" />
+      <Asset Guid="1d7696e90b5d04e49b5e39a1c4725290" ResourceName="SarsAssets/Images/1f_selected" />
+      <Asset Guid="1dd5130efbafb6f4fbf50d535ce0e99e" ResourceName="Art/1F/Materials/guodao02" />
+      <Asset Guid="1e9afef9a6e8a6d40994dc1b5e5fd885" ResourceName="Art/4F/Materials/dimian" />
+      <Asset Guid="1eceb24ccfc7a334f87b07de42e8e083" ResourceName="Art/3F/Textures/lanyun3333" />
+      <Asset Guid="1edcd131364091c46a17cbff0b1de97a" ResourceName="URPShader" />
+      <Asset Guid="1f4791e55b6d00d40bd45d8711a781ec" ResourceName="Art/Common/yizi/Textures/yizi-n" />
+      <Asset Guid="1f8e0e7d0983a8742997fe52a592c53c" ResourceName="Art/huiketing/Materials/PingMu1_AlbedoTransparency" />
+      <Asset Guid="1fae6b05ad951e34f993dc93089c651a" ResourceName="Art/1F/Textures/biaoshi-muyin" />
+      <Asset Guid="205e6e24f1307ee40bd3ba28af4d378f" ResourceName="Art/1F/Materials/biaoshi-wc" />
+      <Asset Guid="20a73d59fe1fe6243b28253938605360" ResourceName="Art/4F/Materials/xiuqiu_Red1" />
+      <Asset Guid="20a81cdfeaeaf834c9ea39cc1134751f" ResourceName="Art/Common/Fbx/Indicate/tongyichujianqu" />
+      <Asset Guid="20ca900e9499e7e489efffdb9cfbc935" ResourceName="Character/35boy/Materials/35boy_cloth" />
+      <Asset Guid="20da6bcf18140314c98c9b36f34c4c9e" ResourceName="Art/1F/Textures/door4" />
+      <Asset Guid="20dd309ee3a0b8f4ca93f73b247eda79" ResourceName="SarsAssets/Textures/50Girl/Textures/cloth_DA_2" />
+      <Asset Guid="2117a7d61f6c0e440b05c6548c6b5d1a" ResourceName="Art/3F/Textures/wanwan555" />
+      <Asset Guid="21322c8b137c66e49b86085d3c8161f6" ResourceName="URPShader" />
+      <Asset Guid="2171a171666577b4395c1bd3bf9c2b22" ResourceName="Art/3F/Fbx/Materials/dangzuzhi" />
+      <Asset Guid="21af494bcce991e4198a49dcbff8a03a" ResourceName="Art/3F/Textures/M_pizhi" />
+      <Asset Guid="21e2b3b739ca9e14e9b3173b59baab8c" ResourceName="Art/3F/Materials/b08_b05" />
+      <Asset Guid="21fd018852c95f54799cb716cc22b75c" ResourceName="Character/20Girl/Materials/20girl_hair" />
+      <Asset Guid="230cfa53aaeabaf47be613afee8d1d2b" ResourceName="Art/shandong_4/dimian" />
+      <Asset Guid="2385099cade4d7f4882ebe9d204d44ef" ResourceName="Art/1F/Textures/qiangti" />
+      <Asset Guid="24352bac5f5d70d41b8315d5e174428c" ResourceName="Art/1F/Materials/DFT" />
+      <Asset Guid="244faca07f7ed6c49b4b6d311ba9cb00" ResourceName="Art/4F/Materials/huapeng03" />
+      <Asset Guid="249193897c4bd16448e2934f4b86af15" ResourceName="Art/4F/Materials/billboard2" />
+      <Asset Guid="24a73dccd7b6fad4798be282f96a21f4" ResourceName="URPShader" />
+      <Asset Guid="2513e5bfde178364fa172316f2094827" ResourceName="Character/50man/fbx/Man_50" />
+      <Asset Guid="25518b5143b2562418ab8cc2912eea27" ResourceName="Character/20Girl/Textures/cloth/cloth_DA_1" />
+      <Asset Guid="25f6dc82ee5f5df4ab4ff9833a115cd6" ResourceName="Art/1F/Materials/yinshuiji6" />
+      <Asset Guid="26320c74aedbda9458fa352b84ed281d" ResourceName="Art/3F/Materials/diantiping2" />
+      <Asset Guid="2636c5dd2e5e40343a4ec56e9b4fd756" ResourceName="Art/3F/Materials/guanli" />
+      <Asset Guid="2668b06bdc353554eb798e04330e487c" ResourceName="Art/3F/Textures/hua22" />
+      <Asset Guid="270f160599442c342bdf5e08fcf64935" ResourceName="Art/3F/Textures/xiaofang" />
+      <Asset Guid="2735cfc7ad6eb6d41bc51d8cbd62f5f5" ResourceName="SarsAssets/Textures/35Girl/Materials/35girl_cloth_2" />
+      <Asset Guid="273a84d6ed81bd2459b2b3329a1b8a4f" ResourceName="Art/1F/Materials/lambert1" />
+      <Asset Guid="274649b0e221539409070ebf6c18918b" ResourceName="StarterAssets/ThirdPersonController/Character/Sfx/Player_Footstep_09" />
+      <Asset Guid="276786d0c136eb845842ab0cc97c9230" ResourceName="Art/1F/Materials/gongzhengchu02" />
+      <Asset Guid="27c94c27f4b6e4c4bb7aca45ab9a31c9" ResourceName="Art/3F/Materials/1" />
+      <Asset Guid="27d4f18b4ef7f6441838708e15f2df81" ResourceName="Character/35boy/Textures/hair/hair_N" />
+      <Asset Guid="27da8449b7498d34a9efda8e147faeff" ResourceName="Art/1F/Fbx_youhua/daofutai" />
+      <Asset Guid="27fb45857ed72884d90243b620a10f97" ResourceName="SarsAssets/Textures/35Man/Textures/cloth2_1_D" />
+      <Asset Guid="2861459260b14a2481f8f8e7f6637d8f" ResourceName="URPShader" />
+      <Asset Guid="28786324141e0984b84c57959407f70d" ResourceName="Character/50man/Textures/eye/eye_DA" />
+      <Asset Guid="28ad96ba5bfaa2f46ad2b03d8ec1e939" ResourceName="Art/shandong_4/guanggaopai01" />
+      <Asset Guid="28cf4fdcddf14f7489b8c7ac137c8d19" ResourceName="SarsAssets/Images/chuan_4" />
+      <Asset Guid="29841e7d5bbfb5b419c9ad16ca8bc4c1" ResourceName="StarterAssets/ThirdPersonController/Character/Sfx/Player_Footstep_06" />
+      <Asset Guid="29868e73b638e48ca99a19ea58c48d90" ResourceName="URPShader" />
+      <Asset Guid="29dfbc3b95e57444dbbffc34a6a7fe6a" ResourceName="Art/3F/Textures/quhaodiaopin" />
+      <Asset Guid="2a0dbb1d3ef383144943567454081edc" ResourceName="Art/4F/Textures/yizi_MetallicSmoothness" />
+      <Asset Guid="2aed67ad60045d54ba3a00c91e2d2631" ResourceName="URPShader" />
+      <Asset Guid="2af04c670e2043b42aa873a5c10107a3" ResourceName="SarsAssets/Images/minimap_3f" />
+      <Asset Guid="2af71d7d621c92042bd48ca702c239fb" ResourceName="Art/Common/Fbx/Indicate/dianti" />
+      <Asset Guid="2bad4ca2b01a1b641961d680e4919834" ResourceName="Character/35girl/Materials/35girl_body" />
+      <Asset Guid="2c4e1a730775e254dba3fc18930b23f2" ResourceName="Entity/ShowRole/2003" />
+      <Asset Guid="2c75dc5cafadaa440a59d12ae6a796c0" ResourceName="Character/20Girl/Textures/kouqiang/kouqiang_DA" />
+      <Asset Guid="2c94fa1b354e04f99ae6f617304304c0" ResourceName="Character/20Man/Materials/body" />
+      <Asset Guid="2ce8fb4b5228d3846ace306d1e967454" ResourceName="Art/3F/Materials/3F_AlbedoTransparency" />
+      <Asset Guid="2cefce7a2acad004fbfdce16878520df" ResourceName="Entity/Role/1001" />
+      <Asset Guid="2d136ebaf0322474cbfe28c29df29b7e" ResourceName="Character/Waitress/Textures/new_body/norml" />
+      <Asset Guid="2d1afbbe6de18df46962fdbc59f18445" ResourceName="Art/Qiang3/muyingshi" />
+      <Asset Guid="2d582681792dcd6499da34ca3e7111d0" ResourceName="Art/Other/Textures/pm1" />
+      <Asset Guid="2d79d982b79ba924aaed332899ede289" ResourceName="Art/3F/Materials/baijinshu" />
+      <Asset Guid="2d9f6a569c0b340a388b3e7c0428548c" ResourceName="URPShader" />
+      <Asset Guid="2da54da63414aeb4cabfad09ed3db4b7" ResourceName="Art/4F/Materials/billboard1" />
+      <Asset Guid="2dab241b94b0c2349b67f7effe13ec4d" ResourceName="Art/4F/Fbx/ding_4f" />
+      <Asset Guid="2dc28aabe253f8b4eb968f0c0732d3eb" ResourceName="Art/Other/Fbx/lingxing" />
+      <Asset Guid="2dd037a8af13ccc4dba112c97d0dafaf" ResourceName="Art/3F/Fbx/Materials/dkm1" />
+      <Asset Guid="2df1fbadbb1491d48b1cd6c9b7589a01" ResourceName="Art/3F/Materials/jiaoyanjidi" />
+      <Asset Guid="2e107c1c040e9a94ba20efc14938346a" ResourceName="Art/1F/Textures/door2" />
+      <Asset Guid="2e73711a1fedcd04485081ad175a437c" ResourceName="Character/50man/Materials/50man_cloth" />
+      <Asset Guid="2e84771918085d947b7d3e2ec21b0f3a" ResourceName="SarsAssets/Textures/20Girl/Materials/20girl_cloth2" />
+      <Asset Guid="2ecfb6cc93f105d41b4a45493c47e216" ResourceName="Art/3F/Textures/skm" />
+      <Asset Guid="2ed9ccc662eab904db84b1f4a131af07" ResourceName="Character/Waitress/Textures/body/body_DA" />
+      <Asset Guid="2ee6adfc21292b04da05a048e6e3f8c3" ResourceName="Art/shandong_4/bangongshinei4F004" />
+      <Asset Guid="2ef335dbdf8c85348bbc35e20c992ede" ResourceName="Art/4F/Fbx/Qiang3" />
+      <Asset Guid="2f331a3b83d3fb440b01adbcdfd8ec45" ResourceName="Art/shandong_4/yinhang3" />
+      <Asset Guid="2f7d88537a28a564fad0c1789c612c7d" ResourceName="Art/3F/Textures/4" />
+      <Asset Guid="2f7f3dde7ae722a4aafffe20691ad702" ResourceName="StarterAssets/ThirdPersonController/Character/Sfx/Prefabs/CanvasInputs/UI_Canvas_StarterAssetsInputs_Joysticks" />
+      <Asset Guid="2f9728aabed6bfb4e98dcb52f5e6cbff" ResourceName="Art/shandong_4/sign1" />
+      <Asset Guid="2fcacf2bb004ccb439e8db197b6b4e50" ResourceName="Art/3F/Textures/dndn3" />
+      <Asset Guid="2ffa2191fa6bd8841a27e915fe4fd278" ResourceName="Character/35boy/Materials/35boy_yanjing" />
+      <Asset Guid="30170769f6b23c44b9097cacf5b1843d" ResourceName="Art/3F/Materials/Mat3d66_11057624_82_74371" />
+      <Asset Guid="305143d7e0850fb4c9b0d56109958a14" ResourceName="Art/3F/Materials/lajitong1" />
+      <Asset Guid="307181ad380c4714ea9f1fcb9ab28170" ResourceName="Entity/ShowRole/2002" />
+      <Asset Guid="30bf221fd5d5df74893979c39c805891" ResourceName="Entity/Role/1002" />
+      <Asset Guid="30fa68ce467463643a86b839ca0eb195" ResourceName="URPRTShader" />
+      <Asset Guid="31321ba15b8f8eb4c954353edc038b1d" ResourceName="URPRTShader" />
+      <Asset Guid="31543b51175a56748a46aeca4e1e098a" ResourceName="Shaders" />
+      <Asset Guid="3181bd34df018414f871cfb036b9a21d" ResourceName="Art/3F/Textures/zhibanshi" />
+      <Asset Guid="319b27d8fc2fecf4abf5bf925378ee34" ResourceName="Entity/ShowRole/4003" />
+      <Asset Guid="31d0dcc6f2dd4e4408d18036a2c93862" ResourceName="URPRTShader" />
+      <Asset Guid="3255f8c19eed2554aac265eb60356271" ResourceName="Character/50man/Textures/hair/hair_N" />
+      <Asset Guid="33102dde19df9634694680715b100a0e" ResourceName="SarsAssets/Images/1f" />
+      <Asset Guid="3350e2b20a73ddf4ab7251688dbe0297" ResourceName="Art/4F/Materials/bangongshinei4F004" />
+      <Asset Guid="3380cd89f58a6d844bcdc27e93219f2b" ResourceName="Art/4F/Materials/bangongshinei4F005" />
+      <Asset Guid="33a8e754f5496844898a57802c715a79" ResourceName="Art/1F/Textures/ding" />
+      <Asset Guid="3434857b2117749408678660a1900207" ResourceName="Art/3F/Fbx/Materials/lajitong2" />
+      <Asset Guid="347de578aa147674e886ea0b18be860b" ResourceName="Art/shandong_4/bangongshinei4F002" />
+      <Asset Guid="3523c0d4bf07a0d4fac3ae8b00a4a894" ResourceName="Art/1F/Materials/zizhufuwuqu2" />
+      <Asset Guid="356acfa0411dd774fa78ec6670a80316" ResourceName="Art/3F/Fbx/Materials/lingdaoguanhuai" />
+      <Asset Guid="358b5eeadca0a9a488550823cabc454c" ResourceName="Art/3F/Materials/diaopaiA04" />
+      <Asset Guid="362d9548b48c42c4e9ba050386f9c7a7" ResourceName="Character/Waitress/Textures/cloth/cloth_N" />
+      <Asset Guid="3652924e424d78d428a1da7dec81e357" ResourceName="Art/3F/Materials/quhaopai_2" />
+      <Asset Guid="36e567ab22cd2bc4394705515a5e2ac0" ResourceName="Art/huiketing/Textures/PingMu1_AlbedoTransparency" />
+      <Asset Guid="3739e562a03fc0b4982d8aa66cc50865" ResourceName="URPRTShader" />
+      <Asset Guid="3765807b583fb7e4ca9482d9cbc31364" ResourceName="Character/20Man/fbx/sitdown" />
+      <Asset Guid="37a1cd8d2fadd6043ab914366ca3ed48" ResourceName="Art/3F/Textures/skm3" />
+      <Asset Guid="37c212482bf321d43861f5449f014d04" ResourceName="Art/Common/Fbx/Indicate/shizhenggongyongqu" />
+      <Asset Guid="37fc99428b74c99419e3d5afb9a1b4d1" ResourceName="Art/huiketing/Materials/Qiang_H" />
+      <Asset Guid="3832b82d54da969488d5a5966b8f88c1" ResourceName="Art/3F/Fbx/Materials/QX-uv" />
+      <Asset Guid="384aba985f106ef49b8af2c3ccb6404d" ResourceName="Art/1F/Materials/jinshu" />
+      <Asset Guid="388a009bf8b734048a17731299d86801" ResourceName="Character/20Man/Materials/eye" />
+      <Asset Guid="38f1f2b4b90bb284482f330e6dff1622" ResourceName="Art/3F/Materials/qiyeping" />
+      <Asset Guid="390113e5b3ce49844aff2d3f643c73a8" ResourceName="Art/3F/Materials/lvse" />
+      <Asset Guid="397610ecc305fe6458e835b12bd67895" ResourceName="Art/3F/Fbx/Materials/D01-D04" />
+      <Asset Guid="3a8ebe3ee0480f4418c26c2501f8e406" ResourceName="Art/3F/Textures/zhuomianpin3" />
+      <Asset Guid="3ad46755e95d4354388ff4029b280e54" ResourceName="Character/50woman/fbx/run1" />
+      <Asset Guid="3b16144f2cafbc94c9172cfee096c990" ResourceName="Art/1F/Fbx/dianti" />
+      <Asset Guid="3b1aab34b3d54ca4b97e5b3527043bbb" ResourceName="Art/3F/Fbx/Materials/shandongdaxue" />
+      <Asset Guid="3b60360d98a7c8b4987e7cefd49913c4" ResourceName="Art/3F/Textures/diaopaiaA03_1" />
+      <Asset Guid="3b850faae2685384e957abb3e494f2dc" ResourceName="Character/Waitress/Textures/cloth/cloth_DA" />
+      <Asset Guid="3bf040dc48f4d69499e6b3d4b30aceac" ResourceName="Art/4F/Fbx/paizi" />
+      <Asset Guid="3bf455c1a6fdd5746b44b6fe06239c9c" ResourceName="Art/3F/Fbx/Materials/b08-b05" />
+      <Asset Guid="3bfad5bee87f3a349a0318fa3e34ef7d" ResourceName="SarsAssets/Textures/35Girl/Textures/cloth_DA_2" />
+      <Asset Guid="3c2bedd102cb3234b8ade43e96479c20" ResourceName="Art/3F/Fbx/Materials/danyi-uv2" />
+      <Asset Guid="3c7b5d7f9f39aef4982c45fbd73ccae5" ResourceName="Character/35boy/Textures/yanjing/yanjing_M" />
+      <Asset Guid="3c7f73a26ad692d459fa0c6b576f6694" ResourceName="Art/3F/Materials/baidalishi" />
+      <Asset Guid="3c9d6345e86aa9a42b05f5307705efe0" ResourceName="Art/3F/Fbx/Materials/A09-666" />
+      <Asset Guid="3ca6c239bb634e740b53605d229bf4ca" ResourceName="Art/shandong_4/geduan" />
+      <Asset Guid="3d00e7f3127d6a24891a47b74ce2c7c9" ResourceName="Art/3F/Textures/q1" />
+      <Asset Guid="3d0b5ab3e1c082d4baab633fff01c2fc" ResourceName="Art/4F/Materials/quhaoji_uv" />
+      <Asset Guid="3d12f8463ce9f254c87f2cda1730d255" ResourceName="Art/3F/Materials/xibian2" />
+      <Asset Guid="3d3a1d83fefc0da49955f08acaa01fc5" ResourceName="Art/4F/Materials/dianshi" />
+      <Asset Guid="3d8336a6cea197d44a020d9fa59fe416" ResourceName="SarsAssets/Textures/50Girl/Materials/50woman_cloth_1" />
+      <Asset Guid="3da3071d46469d24185ccdf6e188f108" ResourceName="Art/1F/Materials/loucengbenbu1" />
+      <Asset Guid="3dc30c90a2b289a4b97dd1a493681b67" ResourceName="Art/1F/Materials/men04" />
+      <Asset Guid="3e0025ce1b7d04d5fb5607f342994b4f" ResourceName="SarsAssets/Images/MobileUI/yjoystick_dir" />
+      <Asset Guid="3e5229234f100114db71160da0fce71d" ResourceName="Art/3F/Materials/xibian4" />
+      <Asset Guid="3e673ecf9828041448a7de50e966e73c" ResourceName="Art/3F/Textures/qianmuwen" />
+      <Asset Guid="3e6c5ef8114b189469157dfd916e9c6c" ResourceName="Art/Common/csm/Materials/csm03" />
+      <Asset Guid="3e7efdf4e04440d4f905a0c8d4a89a04" ResourceName="Art/3F/Textures/1" />
+      <Asset Guid="3e919864a75471b4a8c70baeb77ff5be" ResourceName="Art/3F/Textures/danrenshafa_ju2" />
+      <Asset Guid="3f1f7ec9e0c852a48826fe085f257d80" ResourceName="URPShader" />
+      <Asset Guid="3f64d81713a66524082a3bcc8b710afd" ResourceName="Character/50woman/Materials/50woman_body" />
+      <Asset Guid="3f9c17346089e9b4bb09cbdcc62fceff" ResourceName="Art/4F/Fbx/4Fmen1" />
+      <Asset Guid="3fad3d6468895dd4aa3bbe83c3b8f1a5" ResourceName="Art/4F/Fbx/biaoti1" />
+      <Asset Guid="3ffb723e48eb24c478b99696efa461d5" ResourceName="Character/50woman/Textures/eye/eye_DA" />
+      <Asset Guid="4002360c54a425942b158df46e3d3373" ResourceName="Character/50woman/Textures/cloth/cloth_DA" />
+      <Asset Guid="402d2f20cd6875c489708d18412668ee" ResourceName="Art/1F/Materials/chuang_A" />
+      <Asset Guid="403fd390470d5db4297ac063d24e9316" ResourceName="Art/1F/Materials/yizi" />
+      <Asset Guid="4085e374ea44a0343b7a255824d3ceab" ResourceName="Art/3F/Textures/loucengbiaoshi" />
+      <Asset Guid="408d0abc273c45147b24fa0e683380bc" ResourceName="Art/3F/Materials/chuangdong3" />
+      <Asset Guid="4101b95fe42c9e545972baaa80735382" ResourceName="Art/3F/Materials/guanggao02" />
+      <Asset Guid="4117ece4c96b3d143b1b21a4a875c554" ResourceName="Art/1F/Materials/waijing01" />
+      <Asset Guid="411971b870c3e334c99c5565023b61d4" ResourceName="Art/Other/Fbx/Materials/huapeng02" />
+      <Asset Guid="4168ec641cc1bd742b61db1fbacc8cb0" ResourceName="Art/1F/Textures/exteror2" />
+      <Asset Guid="419ebebe68fdc24468f1045dbe077314" ResourceName="Character/35boy/Textures/hair/hair_DA" />
+      <Asset Guid="41b716406d387a74b92330ebaac6d0ef" ResourceName="Character/50woman/Textures/cloth/cloth_N" />
+      <Asset Guid="41bc69d9361c12a419104e1711991f12" ResourceName="Character/50man/fbx/huishou" />
+      <Asset Guid="41f4a7238b59ab242b7f45ce8bcf1a27" ResourceName="Art/1F/Textures/gonghang" />
+      <Asset Guid="420f5d10e143b4b4e98701e0fb4c61ae" ResourceName="Character/50woman/Textures/hair/hair_DA" />
+      <Asset Guid="422f97abcfbcd634f929b6896fb6229a" ResourceName="Character/20Man/fbx/run" />
+      <Asset Guid="42746adb0bf41a04487b382ab2f975c0" ResourceName="Character/35girl/Textures/hair/hair_DA" />
+      <Asset Guid="427e1b7506b53b14ba8290043b5c4551" ResourceName="Character/35boy/fbx/run1" />
+      <Asset Guid="42953965b758bc94d815fbd9069c6435" ResourceName="Art/3F/Textures/chuangdong3" />
+      <Asset Guid="42e44e01c516a124b838f8ee0628684d" ResourceName="Character/35boy/fbx/idle" />
+      <Asset Guid="4376cd82f5b7c95499694cb6b9dc52ae" ResourceName="Art/3F/Fbx/dianshiji" />
+      <Asset Guid="43e5643bf27f5a4479007113a51eb8e5" ResourceName="Art/Qiang3/bangongshinei4F002" />
+      <Asset Guid="4419d82f33d36e848b3ed5af4c8da37e" ResourceName="StarterAssets/ThirdPersonController/Character/Sfx/StarterAssets" />
+      <Asset Guid="44245ab89240f51459a5077d7145c452" ResourceName="URPRTShader" />
+      <Asset Guid="4431b1f1f743fbf4eb310a967890cbea" ResourceName="URPShader" />
+      <Asset Guid="443eeac16e0042147a8eb09264a9ce13" ResourceName="Art/Common/yizi/Materials/YZ-b" />
+      <Asset Guid="4445dc91a1b5e444e8298e033ee9f783" ResourceName="Art/1F/Materials/dapingqianse" />
+      <Asset Guid="44988597657c4754b8afd56533881b17" ResourceName="Entity/NPC/GZRY_3F" />
+      <Asset Guid="44b1505970378f14eb55536d08c75ba8" ResourceName="Art/1F/Textures/lingshigui-6" />
+      <Asset Guid="44f06d98458f2154e9c7e882007827d7" ResourceName="Character/Waitress/Materials/M_Cloth" />
+      <Asset Guid="44fc62292b65ab04eabcf310e799ccf6" ResourceName="URPShader" />
+      <Asset Guid="4537f4f69c1f54e47a47f86e5e4fa3de" ResourceName="Art/3F/Materials/guanggao01" />
+      <Asset Guid="453905527402256449c7a886df66a7be" ResourceName="Art/Common/Textures/shu" />
+      <Asset Guid="45760dd788a58f74da83567cdbf8c6f0" ResourceName="Art/3F/Textures/heijinhua" />
+      <Asset Guid="4578819ea237dae4f8ec31f186bed442" ResourceName="Art/1F/Fbx/YiZi_A" />
+      <Asset Guid="457b75bdb0782314e8977e7fdcc2ab10" ResourceName="Character/50woman/fbx/idle" />
+      <Asset Guid="459bf9c8885a1594d9d3bb2ad58d6a57" ResourceName="Art/1F/Materials/loucengfenbu" />
+      <Asset Guid="45bd210954c687a4c965c9a9229258c8" ResourceName="Entity/Role/4003" />
+      <Asset Guid="45e5cb8cd65416846811fe883bc9757d" ResourceName="Art/1F/Textures/ZC01_Normal" />
+      <Asset Guid="4622bfb08f9a3c44887a3f2c8f68b8e8" ResourceName="Character/Waitress/Materials/M_Body" />
+      <Asset Guid="463a8185744c2459f8e621f4e4eb74d3" ResourceName="URPShader" />
+      <Asset Guid="46499ef0808baec49a4386abd8281998" ResourceName="Art/4F/Fbx/quhaoji" />
+      <Asset Guid="465e04bef841c6041bf25bb19b835faf" ResourceName="Art/Common/csm/Textures/fx_d_noise_033" />
+      <Asset Guid="46eed15948957a64ba1790221ab24a51" ResourceName="Character/35girl/fbx/Girl_35" />
+      <Asset Guid="4705e7a90ae705241a18a8cfda04c458" ResourceName="Art/3F/Fbx/Materials/sp-01" />
+      <Asset Guid="472dbd5efbaea3147a1eee1874d10415" ResourceName="Art/1F/Textures/chuanghu01" />
+      <Asset Guid="476b4c55f4fc7f44e89ab13190b0a2d8" ResourceName="Art/Common/Materials/shu" />
+      <Asset Guid="4776bb456bc998e418fbe7170cf9a773" ResourceName="Art/1F/Materials/haibao1" />
+      <Asset Guid="47cac7e23975e6445969281d17e17f84" ResourceName="Character/Waitress/Textures/new_body/bc" />
+      <Asset Guid="485b5f59b531da443bbe01ed0b1e4db2" ResourceName="Art/3F/Materials/juanlian2" />
+      <Asset Guid="4873d3c2325311d4f8129a7f0ce6b065" ResourceName="Character/50woman/fbx/run" />
+      <Asset Guid="4896d0511a2acc14d81987c0c6215b08" ResourceName="Art/3F/Materials/bei2" />
+      <Asset Guid="4955de308b2198e4bb3c514f6d4f4d73" ResourceName="Art/3F/Fbx/Materials/hei" />
+      <Asset Guid="496635a8b804cfb499bcffa215b2de79" ResourceName="Art/shandong_4/Billboard1" />
+      <Asset Guid="49856a13058a23642b6009a8e8d39e73" ResourceName="Character/50woman/Materials/50woman_kouqiang" />
+      <Asset Guid="4990ebc95253649048f9ed739dd02853" ResourceName="Character/20Man/Textures/hair/hair_DA" />
+      <Asset Guid="49af093879803914b9502ebd002d03d5" ResourceName="Character/35boy/fbx/huishou" />
+      <Asset Guid="4a1f60718b0b6c643ba5b7638055b4f8" ResourceName="Art/3F/Textures/guanggao_2" />
+      <Asset Guid="4a61f459e8e776b4495a381b5ee4c0af" ResourceName="Art/3F/Materials/pai4" />
+      <Asset Guid="4a6da3f90d18c6d46b4786e448490265" ResourceName="Art/3F/Fbx/Materials/lajitong1" />
+      <Asset Guid="4a84ae8fa59fbc643a04c0fbe8a79818" ResourceName="Character/35boy/Textures/cloth/cloth_N" />
+      <Asset Guid="4a8b78c5440b133458477ae2b4b0ce8f" ResourceName="Entity/Environments/yi_4F" />
+      <Asset Guid="4abde91293d451449bc16735249ec788" ResourceName="Character/35girl/fbx/run1" />
+      <Asset Guid="4b2b75ca18a4342469937d564158237f" ResourceName="Entity/Role/3003" />
+      <Asset Guid="4b62f3600eb43a94baba017c220c3b0c" ResourceName="Art/3F/Textures/sp_04" />
+      <Asset Guid="4b6f87c50044d5a40a7ec264e2ec8272" ResourceName="Art/3F/Textures/dianshi3" />
+      <Asset Guid="4b75eb30c34f79f43a7122b2d3f6444b" ResourceName="Art/3F/Fbx/Materials/qianmuwen" />
+      <Asset Guid="4c89699af5bc5e2449caf900a57ab40f" ResourceName="Art/Common/Fbx/Indicate/minshengshiwuqu" />
+      <Asset Guid="4d045fa103197cc42a6952318397d5c8" ResourceName="Art/3F/Textures/sp_03" />
+      <Asset Guid="4d1f1602ad657a448a5b046018185e63" ResourceName="Character/50woman/fbx/walk" />
+      <Asset Guid="4d39fb94e77284c48ac84c31b26e3569" ResourceName="Art/1F/Materials/ZC01_AlbedoTransparency" />
+      <Asset Guid="4d682cdcce2c74e489e33a7a0c870ed0" ResourceName="Entity/Role/6001" />
+      <Asset Guid="4d9919f92c8da61419fb1fa3c5558214" ResourceName="Art/3F/Textures/dengxiang" />
+      <Asset Guid="4e25e41dc19a2524abf6da154e63f233" ResourceName="Character/50man/Textures/cloth/cloth_DA" />
+      <Asset Guid="4e5352d4e055466498c8096291e480d4" ResourceName="Art/3F/Textures/xm_02" />
+      <Asset Guid="4e76e3e373e2a67438677cf2a28b6a7b" ResourceName="Art/1F/Textures/weixin" />
+      <Asset Guid="4e93516248c34b54a83c8c0260dc0783" ResourceName="Art/3F/Textures/denghouyi3" />
+      <Asset Guid="4edda900c3bcd504891ae8e746e084df" ResourceName="Art/3F/Textures/guanggao_4" />
+      <Asset Guid="4f1e4178e42953145af24ea6cbe8fcb3" ResourceName="Art/4F/Textures/ZhaJi_LaJiTong_SP_lambert1_Normal" />
+      <Asset Guid="4f2bac7e731d50648b88a46d04d70958" ResourceName="SarsAssets/Textures/20Girl/Materials/20girl_cloth3" />
+      <Asset Guid="4fae97e88187f554997cbb009ec00e4a" ResourceName="Art/3F/Fbx/Materials/deng" />
+      <Asset Guid="502c6af04fdba0a4e86ee176bd949e27" ResourceName="Art/3F/Materials/dianti111" />
+      <Asset Guid="505ff6f364adf7e498d63b83347cab71" ResourceName="Art/3F/Materials/xi" />
+      <Asset Guid="508d1c3dcf86e4942af622aa5e6676f1" ResourceName="SarsAssets/Images/dianti_tips" />
+      <Asset Guid="519469e5f151ddb40a650b66f48175cb" ResourceName="URPShader" />
+      <Asset Guid="5212eed334f00f040b6459cddd944377" ResourceName="Art/1F/Materials/haibao2" />
+      <Asset Guid="52481f7e683688542a52e95b766a74b6" ResourceName="Character/35girl/fbx/idle" />
+      <Asset Guid="5249393a0b3501d49bb792a18f67f443" ResourceName="Character/35boy/fbx/Man_35" />
+      <Asset Guid="5262b0d8a1b30834db086337ec5aed77" ResourceName="Art/4F/Materials/bangongshinei4F002" />
+      <Asset Guid="527070c5358a4f64392df036dc72a44c" ResourceName="Art/1F/Textures/guodao04" />
+      <Asset Guid="527ec40720fae9145a71ed0f01c54630" ResourceName="Art/1F/Materials/qiangti_" />
+      <Asset Guid="52b8272fdc9d7de449f8fecc6be61e19" ResourceName="Entity/Role/4002" />
+      <Asset Guid="5368de6c44bd794479e556861617de0a" ResourceName="SarsAssets/Textures/35Man/Materials/35boy_cloth2_1" />
+      <Asset Guid="5393b4688df2ea747bbcf71f0f11eae3" ResourceName="Art/1F/Materials/zhanshiping_chaxun01" />
+      <Asset Guid="53c31f4028e13e4469d7e84a211d0c66" ResourceName="Art/3F/Fbx/Materials/b01-b04" />
+      <Asset Guid="5420a6a0e84af064abbc57d38de1e806" ResourceName="Art/3F/Materials/tie1" />
+      <Asset Guid="5454daeb9750f1742a8f8e06264939c1" ResourceName="Character/50man/Textures/yanjing/yanjing_M" />
+      <Asset Guid="5476d51ec16100b41bcf709fc9645f95" ResourceName="Art/3F/Materials/heijinhua" />
+      <Asset Guid="5484d082c10b27a4b97b756bdeba23f2" ResourceName="SarsAssets/Textures/50Man/Textures/cloth_DA" />
+      <Asset Guid="54bbb294811b6f2499f0ce457a44e95e" ResourceName="Character/20Man/fbx/walk" />
+      <Asset Guid="553041c0ed9aa6f4d885daaa2e5ed1f5" ResourceName="Art/1F/Materials/WC" />
+      <Asset Guid="55619492e7385b14d8870eb0f24c59a5" ResourceName="Entity/ShowRole/1002" />
+      <Asset Guid="55a22d357944d00499d4c6eb3b1d9fc5" ResourceName="Art/3F/Fbx/Materials/xm-01" />
+      <Asset Guid="55e6929e00a20d64eadff49d59e097db" ResourceName="URPShader" />
+      <Asset Guid="55ff3f066550fe0418af535d751916d8" ResourceName="Character/50woman/Materials/50woman_jiemao" />
+      <Asset Guid="562b7ae4f629f144aa97780546fce7c6" ResourceName="URPShader" />
+      <Asset Guid="566a02d715014444ba5c9715211a21c8" ResourceName="Art/3F/Fbx/Materials/pai5" />
+      <Asset Guid="566e9eb0f45fadc44b54e25d58cf96e8" ResourceName="SarsAssets/Fonts/simhei" />
+      <Asset Guid="56b1b1d1ae2bc744aa671911d80830cd" ResourceName="SarsAssets/Images/userNameBack" />
+      <Asset Guid="56be499a0fbc1bb46b48835e2b9244e8" ResourceName="SarsAssets/Images/minimap_1f" />
+      <Asset Guid="56ffb27843f625d4e9cab335da18ab03" ResourceName="Art/1F/Materials/guodao04" />
+      <Asset Guid="571b2009c4ade77488034e30c2158d95" ResourceName="Character/35boy/Textures/body/body_DA" />
+      <Asset Guid="573620ae32aec764abd4d728906d2587" ResourceName="URPShader" />
+      <Asset Guid="5737311aef21c35499cadf7ce7e3766a" ResourceName="Art/3F/Materials/cxj3" />
+      <Asset Guid="5740478dc32f51d4c81ca2f11b76ce02" ResourceName="Character/50woman/fbx/Woman_50" />
+      <Asset Guid="574332cc54d34b3b96cd214f5febe833" ResourceName="URPShader" />
+      <Asset Guid="5787997f0560f5047a79622c1e6bdf39" ResourceName="Entity/ShowRole/3001" />
+      <Asset Guid="58a015e5bc42c8744864cb00f923e4b7" ResourceName="Character/Waitress/Waitress_06" />
+      <Asset Guid="58ebee08b827b4d0988b255417d53dc9" ResourceName="Character/20Man/Textures/jiemao/jiemao_DA" />
+      <Asset Guid="5901514ffdbd29f4099f92bd5102ebef" ResourceName="Art/1F/Textures/dimian01" />
+      <Asset Guid="59069173a3f5e5e4ab17fa7cf80db2e3" ResourceName="Character/35girl/Textures/kouqiang/kouqiang_DA" />
+      <Asset Guid="591b621f23931224282f23e593084275" ResourceName="Character/35girl/Materials/35girl_cloth" />
+      <Asset Guid="5925f1e285975954e8ce24ce5ca5085b" ResourceName="Art/3F/Materials/tiyanqu_uv" />
+      <Asset Guid="594ea882c5a793440b60ff72d896021e" ResourceName="URPRTShader" />
+      <Asset Guid="59f313e645b60b642b6f8ca65fa4825b" ResourceName="Art/3F/Textures/guanggao_1" />
+      <Asset Guid="5a1bdbd5e77d61442b4080d75253bc02" ResourceName="Art/3F/Materials/dftbeijing2" />
+      <Asset Guid="5a930b90d641a094f852dfc4ab286169" ResourceName="Art/3F/Textures/danrenshafa_lan3" />
+      <Asset Guid="5a9317432568a8d4f8c995c3b37c8614" ResourceName="Art/3F/Materials/b01_b04" />
+      <Asset Guid="5adec91c943148348a24311142030c44" ResourceName="Art/3F/Fbx/Materials/TD" />
+      <Asset Guid="5ae174e5655a7db4ebd779d76ebc1b9d" ResourceName="Character/50woman/Materials/50woman_cloth" />
+      <Asset Guid="5b23b40d571d7e64cb49407bc0dd3fd7" ResourceName="Art/1F/Materials/men01" />
+      <Asset Guid="5b2f792c98f504a49866215d27f2466e" ResourceName="Art/3F/Materials/guanggao05" />
+      <Asset Guid="5b309fc11f987a24e9312ebe7b9b4342" ResourceName="Art/Other/Fbx/Materials/pm1" />
+      <Asset Guid="5b554f4524e74d044af3ac6fd9397704" ResourceName="Art/3F/Textures/bj3" />
+      <Asset Guid="5b6c0dde53d6af948a45b728feb3d32b" ResourceName="Art/3F/Materials/manyijiti" />
+      <Asset Guid="5bb1a67d260a92f44973fdb93a361b3c" ResourceName="Art/4F/Textures/yizi_lambert1_AlbedoTransparency" />
+      <Asset Guid="5c2811ed3d20237458d27b983aeaef39" ResourceName="Character/35girl/Materials/35girl_hair" />
+      <Asset Guid="5c7044aab224b5d4eb5b7c20bcf82056" ResourceName="Art/4F/Materials/quhaoji-uv" />
+      <Asset Guid="5c81372d981403744adbdda4433c9c11" ResourceName="URPShader" />
+      <Asset Guid="5cd29607a011eaf47a45e118cc794c23" ResourceName="Entity/Role/2003" />
+      <Asset Guid="5ce48c49ca7ae074abb94d154270ce04" ResourceName="Art/Common/Fbx/Indicate/24xiaoshizizhufuwuqu" />
+      <Asset Guid="5d365e7047e3438419ab83c12971d782" ResourceName="Art/shandong_4/haibao05" />
+      <Asset Guid="5d3eeb154a8d9b844aaf0e0243ff7b88" ResourceName="SarsAssets/Textures/35Girl/Textures/cloth_DA" />
+      <Asset Guid="5d493d21881a94540a89b884a96dc902" ResourceName="Art/Common/Textures/mumen" />
+      <Asset Guid="5d4d45d88e845e943862ffa9e7c08fbe" ResourceName="Art/Other/Fbx/youzhuan" />
+      <Asset Guid="5d57113a17c1f064292f7fc79ea0c57e" ResourceName="Art/shandong_4/guanggaopai02" />
+      <Asset Guid="5d71043b761517b479f20c41da7c4950" ResourceName="Art/3F/Materials/loucengbiaoshi" />
+      <Asset Guid="5d94cb5cc4432f94693d678b099bfb10" ResourceName="Art/3F/Materials/Material_2147445736" />
+      <Asset Guid="5da09f0068a529a4187015ff0121d112" ResourceName="Art/3F/Materials/2" />
+      <Asset Guid="5e1cd91d934d18a4abe703f2b26c00d1" ResourceName="Art/3F/Textures/dkm1" />
+      <Asset Guid="5e226d7ddf73d5b46a4f291bb77214ce" ResourceName="Art/3F/Materials/quhaodiaopin" />
+      <Asset Guid="5e3d057810f9de94ea8da749b902532f" ResourceName="Art/3F/Materials/c01_c10" />
+      <Asset Guid="5e3d93ad1a086c54a81dff56bf655ff2" ResourceName="Art/1F/Textures/yinshuiji6" />
+      <Asset Guid="5e7134d6e63e0bc47a1dd2669cedb379" ResourceName="URPShader" />
+      <Asset Guid="5e9a661d6a399244db0a71b434af2d89" ResourceName="Art/3F/Textures/hua33" />
+      <Asset Guid="5ec81c81908db34429b4f6ddecadd3bd" ResourceName="URPShader" />
+      <Asset Guid="5f1864addb451f54bae8c86d230f736e" ResourceName="URPShader" />
+      <Asset Guid="5f5dbad259b8fff429ef2bb6520d09b1" ResourceName="Art/4F/Materials/door1" />
+      <Asset Guid="5f5df7784823a924e921688f4009c602" ResourceName="Art/3F/Textures/juanlian2" />
+      <Asset Guid="5f8cea4f4fce7414ab78bcbf51dca71c" ResourceName="URPShader" />
+      <Asset Guid="5fd9a8feb75a4b5894c241777f519d4e" ResourceName="URPShader" />
+      <Asset Guid="6061506e3ff8573459f8b7f36958dc67" ResourceName="Art/huiketing/Textures/Qiang1_Normal" />
+      <Asset Guid="606691befd5027c48bbe682d0a463346" ResourceName="Art/shandong_4/muwen" />
+      <Asset Guid="609da49f0a7984a4f928a060eaac51fd" ResourceName="Art/3F/Materials/zhanshigui" />
+      <Asset Guid="60dd11fbbd1db2a41a500ee828b633a4" ResourceName="Character/Waitress/ren" />
+      <Asset Guid="60e10855641b4d84da68ec72e6f6eeb8" ResourceName="URPShader" />
+      <Asset Guid="60fd15d2eada2934bbe89117435fe659" ResourceName="Art/3F/Textures/xibian3" />
+      <Asset Guid="6105cbbb4bd573147bfcf017337f396d" ResourceName="Art/shandong_4/door2" />
+      <Asset Guid="6126613c5f1118640b94f8623b20dd19" ResourceName="SarsAssets/Textures/35Man/Materials/35boy_cloth_1" />
+      <Asset Guid="6153009e42a2b8e44a5c1f3492932b23" ResourceName="Art/Other/Fbx/diannao" />
+      <Asset Guid="61543bcadff162f46aa898beb0fef402" ResourceName="Art/1F/Textures/WC" />
+      <Asset Guid="61c8dc215976965408ef41305750eea0" ResourceName="Art/shandong_4/yinhang1" />
+      <Asset Guid="622c9883b40f8694fa874f9e804cc949" ResourceName="Art/shandong_4/Materials/poster2" />
+      <Asset Guid="6375f27a9c1c60f4bbc5ebe26477ae3d" ResourceName="Art/3F/Textures/chuankongban" />
+      <Asset Guid="637c27b6fe6224a06b2b066769d0a6e6" ResourceName="URPShader" />
+      <Asset Guid="63ca6fd5d6fa8964cb73630da0c4b928" ResourceName="Character/50man/fbx/guzhang" />
+      <Asset Guid="63eaba0ebfb82cc43bde059b4a8c65f6" ResourceName="URPShader" />
+      <Asset Guid="644ef015d518cc949be7e218c809102c" ResourceName="Entity/Prefab/efx_Role_tips" />
+      <Asset Guid="645239ce1bb8baa4ebac454d66a814fa" ResourceName="Art/3F/Fbx/Materials/qiyeping" />
+      <Asset Guid="64525f83abfff044eb2012443b26543d" ResourceName="Art/3F/Materials/diantianniu2" />
+      <Asset Guid="646a9816f58b0e046959eae05ca76221" ResourceName="Art/3F/Textures/diaopaiaA02" />
+      <Asset Guid="647126638a0bc104f96f694bc27d3ee7" ResourceName="Art/1F/Textures/kuaidiqu" />
+      <Asset Guid="64c29fcd45b38344e8c861d9fdde3577" ResourceName="Art/3F/Textures/xi" />
+      <Asset Guid="650dd9526735d5b46b79224bc6e94025" ResourceName="URPShader" />
+      <Asset Guid="6597eb18b1fa56941a3798cc48ec0bf3" ResourceName="Art/1F/Materials/kuaidiqu" />
+      <Asset Guid="65df88701913c224d95fc554db28381a" ResourceName="URPShader" />
+      <Asset Guid="6626f3f6c11d7e6469d2a537f95a6d5a" ResourceName="Character/20Girl/fbx/idle1" />
+      <Asset Guid="662ce88e35c184748948f3a4bb5fe4c1" ResourceName="Art/3F/Textures/diaopai001" />
+      <Asset Guid="663213a04ee8089408b51993c959e5c7" ResourceName="Art/Common/Fbx/Indicate/shuzizhengwuzhuanqu" />
+      <Asset Guid="666c1f12ece32ed4d8017d80649ec500" ResourceName="Art/3F/Materials/tex" />
+      <Asset Guid="66a1cc12387b5454ba5acaa93a3cbfe3" ResourceName="Art/Other/Fbx/huapen3F" />
+      <Asset Guid="66e3e1f7289a3a74d9c5f5babac0c163" ResourceName="Art/3F/Fbx/Materials/dengxiang" />
+      <Asset Guid="671bd7939bdea48488e1089ea0f7b2fc" ResourceName="Art/3F/Materials/b10_b09" />
+      <Asset Guid="675a24ef03c689842945e49391dd43b0" ResourceName="Art/3F/Fbx/Materials/diantimen" />
+      <Asset Guid="67aac180799f42241a2e27496bef71e2" ResourceName="SarsAssets/Images/role_tips" />
+      <Asset Guid="67c8b33e424ccdc4486edf538ab91c5a" ResourceName="StarterAssets/ThirdPersonController/Character/Sfx/Player_Footstep_08" />
+      <Asset Guid="67ce1ca5ba6c9d74ab78aa1a083cb0d0" ResourceName="Art/huiketing/Textures/DiMian1_AlbedoTransparency" />
+      <Asset Guid="67e3e0cfa0204244683a6c506307f311" ResourceName="URPShader" />
+      <Asset Guid="6807b3cbcfe6f0141aed29381182ffc4" ResourceName="Entity/Role/6003" />
+      <Asset Guid="683f1f7b7e6a3c84fa9bfb168f7612b1" ResourceName="Art/3F/Materials/diaopaiaA02" />
+      <Asset Guid="6856ff5ff20c9a441b1d40ad3ec59659" ResourceName="Art/shandong_4/1/qiangti" />
+      <Asset Guid="68682e4cad0919c41a911953bdf8fa64" ResourceName="Art/4F/Materials/pm1" />
+      <Asset Guid="6894fa85ce884ea49b8ce2363577a0e8" ResourceName="Art/3F/Textures/diaopaiA07" />
+      <Asset Guid="68aa0735790819043ab05b022b32c7c2" ResourceName="SarsAssets/Images/IcoMind" />
+      <Asset Guid="68d5146fc5f4ed140a1da295f9fd887d" ResourceName="Art/1F/Fbx_youhua/lipai" />
+      <Asset Guid="693515911c7346d448c10a3cfc4acf45" ResourceName="URPShader" />
+      <Asset Guid="69c1f799e772cb6438f56c23efccb782" ResourceName="URPShader" />
+      <Asset Guid="69e83e8cbcc44304a93d716f741a22ec" ResourceName="Art/3F/Materials/skm" />
+      <Asset Guid="69ee9440b8e7dbf4c9861ee7bac5386a" ResourceName="Art/3F/Fbx/Materials/bangyang" />
+      <Asset Guid="6a1143ee683302f4aa628c052723efc1" ResourceName="URPRTShader" />
+      <Asset Guid="6a2026768502b3d4b90e8cf09acbc268" ResourceName="Art/1F/Textures/wenmingchengshi" />
+      <Asset Guid="6a599d17adcc8cb4297af68034fe2d77" ResourceName="Art/shandong_4/yinhang2" />
+      <Asset Guid="6a764171ec19bf94eb2485e15f0fd543" ResourceName="SarsAssets/Textures/50Girl/Materials/50woman_cloth_2" />
+      <Asset Guid="6a96d9a5a96a4b74a8a27154fb795be2" ResourceName="Art/Other/Materials/NewMaterial" />
+      <Asset Guid="6aa45ba0b4524671ae57fb74652592f3" ResourceName="URPShader" />
+      <Asset Guid="6ac9bb509745a2b429e0c0e9ed8c38b0" ResourceName="Entity/Prefab/SoundSign" />
+      <Asset Guid="6aef99387a300c042a4848007f542904" ResourceName="Art/3F/Fbx/Materials/juanlian2" />
+      <Asset Guid="6b54ebef2e7cedd43a7e413af1a678f7" ResourceName="Character/20Man/fbx/huishou" />
+      <Asset Guid="6b6e0eb82e56d504d91518c5c2e722e0" ResourceName="Art/Other/Materials/lingxing" />
+      <Asset Guid="6b93368081b32d0439673f351d7ace7b" ResourceName="Art/huiketing/Textures/HuiYiShi_Normal" />
+      <Asset Guid="6c14f0119b378bb4196f97c91f86ea91" ResourceName="Character/35boy/fbx/walk" />
+      <Asset Guid="6c58cf391b3a82143b6e81a2ce21955b" ResourceName="Art/3F/Textures/shandongdaxue" />
+      <Asset Guid="6c5fef14c3929d5469affdcf5d5d9d84" ResourceName="Art/4F/Materials/geduan" />
+      <Asset Guid="6cd35e7044ee7d942a0aaebd6a16bdf1" ResourceName="Character/Waitress/Textures/eye/eye_DA" />
+      <Asset Guid="6cda457ac28612740adb23da5d39ea92" ResourceName="URPShader" />
+      <Asset Guid="6d3b6b5c1f623a24b820e88d015d3cb8" ResourceName="Art/3F/Textures/zhuanquding" />
+      <Asset Guid="6d5f5798dc141a4438329011f95f26b7" ResourceName="Art/3F/Fbx/Materials/xi" />
+      <Asset Guid="6d816be8828e71f46bb599fe21531fda" ResourceName="Art/4F/Fbx/4Fzhuzi" />
+      <Asset Guid="6dbdb2268a6b4fa46bc3f47de018fe06" ResourceName="Art/3F/Materials/Mat3d66_11057624_81_57542" />
+      <Asset Guid="6dd6b6429c46a1d4b8b343337813e1cd" ResourceName="Art/3F/Materials/QX_uv" />
+      <Asset Guid="6e2d1273aee4b5e48b1defa01825ab53" ResourceName="Art/Common/csm/Textures/fx_c_line_004_ycl" />
+      <Asset Guid="6e39a5a38759bfc49a13b9e7c4ec9865" ResourceName="SarsAssets/Images/windowNo" />
+      <Asset Guid="6e76259f82a36cf40b7def876e8c4e5a" ResourceName="SarsAssets/Images/BackMap" />
+      <Asset Guid="6eb08bfc0fd869c47b796c42ada099da" ResourceName="StarterAssets/ThirdPersonController/Character/Sfx/Prefabs/VirtualInputs/UI_Virtual_Joystick" />
+      <Asset Guid="6ee658340aa16f448bed2822bab89fd3" ResourceName="Art/3F/Textures/cxj3" />
+      <Asset Guid="6f08a3ccad379f54486acb90de98d058" ResourceName="Art/3F/Fbx/Materials/muwen" />
+      <Asset Guid="6f8812de31283e54fbf36d75acaa7a30" ResourceName="Art/1F/Textures/nonghang" />
+      <Asset Guid="6faa4471d05a7ff49b8265f96c7ad903" ResourceName="SarsAssets/Images/0" />
+      <Asset Guid="6ff74da302087b545be25bf3de04d4d0" ResourceName="Art/3F/Materials/deng" />
+      <Asset Guid="6fff5b6ae7005e74680c547ee3a08f61" ResourceName="Art/3F/Textures/333" />
+      <Asset Guid="70003ec87ea6481a920369a377c1b623" ResourceName="URPShader" />
+      <Asset Guid="7055a0f52e94b6545b159ee596d7e3d0" ResourceName="Character/50man/Textures/jiemao/jiemao_N" />
+      <Asset Guid="7113d9fd1b083854390132e2ccf7cf2a" ResourceName="Art/shandong_4/Materials/poster3" />
+      <Asset Guid="71289129e366f484486b2046412cf399" ResourceName="Art/3F/Fbx/Materials/cw" />
+      <Asset Guid="715923cdfb9524044b087b3642b17981" ResourceName="Art/3F/Fbx/Materials/q2" />
+      <Asset Guid="71618647cb5a93c4dbd750d24f6a091d" ResourceName="Art/3F/Textures/pai4" />
+      <Asset Guid="717bb7577614d174cb6484dc21e540a8" ResourceName="SarsAssets/Textures/50Girl/Textures/cloth_DA" />
+      <Asset Guid="7183fa90ca892764f815d951cc6272c8" ResourceName="Art/1F/Textures/ZhaJi_LaJiTong_SP_lambert1_AlbedoTransparency" />
+      <Asset Guid="729a29653df884e21b744976c01a27ad" ResourceName="SarsAssets/Prefabs/Moblie" />
+      <Asset Guid="72b58de536771b04d9522e5b396d96e8" ResourceName="Art/3F/Fbx/Materials/lajitong" />
+      <Asset Guid="72bcf780b12e7a94989a17aa916f8c15" ResourceName="Art/3F/Textures/tiyanqu_uv" />
+      <Asset Guid="72f526a6a9890f643a88e85a61c86c8a" ResourceName="StarterAssets/ThirdPersonController/Character/Sfx/Player_Footstep_01" />
+      <Asset Guid="7301898db0ec7de40b4d04cd1b6fe0b6" ResourceName="Character/50man/Textures/jiemao/jiemao_DA" />
+      <Asset Guid="7343717a172ac2547b3d5ffe90df9841" ResourceName="Character/50man/Textures/yanjing/yanjing_DA" />
+      <Asset Guid="739906183d5f0cf43af3d0e94b3002e5" ResourceName="Art/Other/Fbx/quhaoji" />
+      <Asset Guid="73b676d7ffbbe7745be5adbafb1ac8d6" ResourceName="Art/1F/Textures/toushuxiang" />
+      <Asset Guid="73bfb012b0cb13e4f8b2a57e5144b02b" ResourceName="SarsAssets/Images/dashuju" />
+      <Asset Guid="73cec4744f325e343a0a8cec9a7c5ea1" ResourceName="Character/50woman/Textures/hair/hair_N" />
+      <Asset Guid="73daf636ba8048745b9fa23e3212594f" ResourceName="Art/3F/Materials/bai" />
+      <Asset Guid="73f05b01826b74179aa77757931eab58" ResourceName="SarsAssets/Images/MobileUI/yjoystick_circle" />
+      <Asset Guid="7426af9c035744a40add656d6b1e64d9" ResourceName="Character/20Man/Textures/cloth/cloth_DA" />
+      <Asset Guid="744766561aaa66048ae86dd6e25fe07d" ResourceName="Art/3F/Fbx/Materials/chuankongban" />
+      <Asset Guid="7484c0ff91719a24ba57731a9e09a037" ResourceName="Character/35boy/Textures/cloth2/cloth2_N" />
+      <Asset Guid="7484ce6f8ca3d81408c606b5ae8b9ff3" ResourceName="StarterAssets/ThirdPersonController/Character/Sfx/Prefabs/CanvasInputs/UI_Canvas_StarterAssetsInputs_TouchZones" />
+      <Asset Guid="749e1c2d203942319da1fdb1d94c5f2a" ResourceName="URPShader" />
+      <Asset Guid="74b1585886a85614aa34e2c8e303c77a" ResourceName="URPShader" />
+      <Asset Guid="74bc3cf743d12134eab27b049884529d" ResourceName="Art/3F/Materials/qiyefuwu" />
+      <Asset Guid="74e48e5a224824141922b539c04b71e7" ResourceName="Art/1F/Textures/ZC01_AlbedoTransparency" />
+      <Asset Guid="751aa1b6637101946b2fdbb7aa27d6ad" ResourceName="StarterAssets/ThirdPersonController/Character/Sfx/UI/UI_Icon_Jump" />
+      <Asset Guid="75b42b563c7cf054a98b8715d26eb45a" ResourceName="Entity/ShowRole/6002" />
+      <Asset Guid="75e4321541dab5a43b7b42dd73e8e140" ResourceName="Art/3F/Textures/daping1" />
+      <Asset Guid="75f1c69cf415de7408e9847382be7fa6" ResourceName="Art/3F/Materials/xf" />
+      <Asset Guid="76660901fe59bf84fabf8545bde73b96" ResourceName="SarsAssets/Sounds/click" />
+      <Asset Guid="7688cdcc82fb343d9a68562a9e30736a" ResourceName="StarterAssets/ThirdPersonController/Character/Sfx/Prefabs/CanvasInputs/UI_Canvas_Custom_Joysticks" />
+      <Asset Guid="76d98a6fd167a184b95074c9091e3dae" ResourceName="Character/Waitress/Animations/sitdown1" />
+      <Asset Guid="7704be738e7a1364bb4df05f7d6648ad" ResourceName="Art/1F/Materials/biaoshi_wc" />
+      <Asset Guid="7706b2a8441696241a187c3842010537" ResourceName="Art/1F/Materials/gongzhengchu" />
+      <Asset Guid="7761aea232f797045bb9b0c4c1ae2ace" ResourceName="Art/1F/Textures/dianti_Normal2" />
+      <Asset Guid="77774d9009bb81447b048c907d4c6273" ResourceName="URPShader" />
+      <Asset Guid="77b78f5aa2615534c8431758487b8935" ResourceName="Art/4F/Materials/pingmu" />
+      <Asset Guid="77ed0340d5e09694f94a22e31b1be059" ResourceName="Art/1F/Materials/dianti_AlbedoTransparency" />
+      <Asset Guid="782fa6f32b96eef4b8efb145941ab7ef" ResourceName="Art/Other/Materials/Light" />
+      <Asset Guid="785bbfdbf8bd3344da5a95f6fefd00d1" ResourceName="Art/3F/Materials/dengxiang" />
+      <Asset Guid="78a08787ca30045abb69f6f7dd878e09" ResourceName="URPRTShader" />
+      <Asset Guid="793dfd7bc015b214c8a94d5fe7b1b686" ResourceName="Art/1F/Textures/dianti_Normal" />
+      <Asset Guid="7a1584ff8f5a5ec4cb16263accedba2d" ResourceName="Art/shandong_4/guanggao6" />
+      <Asset Guid="7afccfec20ce5124f86725e8b222ee46" ResourceName="Character/Waitress/Materials/M_Mouth" />
+      <Asset Guid="7b3ede40266cd49a395def176e1bc486" ResourceName="URPShader" />
+      <Asset Guid="7b5a0959408973e4f8ec8755bf2c71db" ResourceName="Art/Common/Fbx/Indicate/xiangmufuwuzhuanqu" />
+      <Asset Guid="7b6328a4b0ed14a9ea5e0629d7c7966c" ResourceName="URPShader" />
+      <Asset Guid="7b95650c78358a24da4ecd944100b832" ResourceName="Art/3F/Fbx/Materials/sp-04" />
+      <Asset Guid="7bcd26c489fb3f747be6d0f1c5e9647a" ResourceName="Art/shandong_4/notice1" />
+      <Asset Guid="7c6f0e79105af8e408f1711694c626b8" ResourceName="Art/3F/Materials/zhishipai1" />
+      <Asset Guid="7d642e38a17a86044b04926fdaea043e" ResourceName="Art/3F/Textures/skm4" />
+      <Asset Guid="7d6f5b239ebd8ca41b96b226a7575c51" ResourceName="Art/3F/Materials/dddd" />
+      <Asset Guid="7d7942accee18274db37bdc709cab561" ResourceName="Art/1F/Textures/shugui8" />
+      <Asset Guid="7d7e176424b0e544bbd150630c509bac" ResourceName="Character/35girl/Materials/35girl_eye" />
+      <Asset Guid="7e60080c8cd24a2468cb08b4bfee5606" ResourceName="URPShader" />
+      <Asset Guid="7e82b633dd814cb45ac3985097aaf435" ResourceName="Art/3F/Textures/lajitong1" />
+      <Asset Guid="7e876a0970f41a3489cbfa72f9ea5c6d" ResourceName="Entity/Role/2002" />
+      <Asset Guid="7e967c3bbfb343342b70b26a7263c7b1" ResourceName="Art/Common/csm/csm" />
+      <Asset Guid="7f577824796826a4393f9d08fa45924b" ResourceName="Art/4F/Materials/equipment" />
+      <Asset Guid="7f888aff2ac86494babad1c2c5daeee2" ResourceName="URPShader" />
+      <Asset Guid="7f8e9912185c00e4981bbc8e7694f414" ResourceName="Art/3F/Textures/cxj4" />
+      <Asset Guid="7faab11f0a449454ab84fdceb66ffec1" ResourceName="Art/shandong_4/pingmu" />
+      <Asset Guid="7fbe8aeb2720f504f80fa989f690f76c" ResourceName="Art/3F/Fbx/Materials/qiyefuwu" />
+      <Asset Guid="8017c1f3494580c4d82bf33d29fe5b54" ResourceName="Art/4F/Materials/wenmingchengshi" />
+      <Asset Guid="8030455c1cfa2d44ca916a173b999eed" ResourceName="Art/4F/Materials/bangongshinei4F1" />
+      <Asset Guid="8031ffa76a4ce4f47ab51fc3ad9e1e02" ResourceName="Art/1F/Textures/door1" />
+      <Asset Guid="80aa867ac363ac043847b06ad71604cd" ResourceName="URPShader" />
+      <Asset Guid="80b81ab656f03724f8228ce2dec4a998" ResourceName="Character/35girl/fbx/walk" />
+      <Asset Guid="80e83b4aeb92a6e43bf26ef3f536748e" ResourceName="Art/4F/Materials/chuangkoutai" />
+      <Asset Guid="81735a5e7270f2547b0b36c47fe8c00b" ResourceName="Character/20Girl/Textures/cloth/cloth_N_1" />
+      <Asset Guid="819e029b0822bf543a400a1d340a1b42" ResourceName="SarsAssets/Images/minimapbg" />
+      <Asset Guid="823551379b14da74dacbb6ca03da2717" ResourceName="Art/3F/Textures/ltby6" />
+      <Asset Guid="824fa106fd0294d438960b495eaf0d09" ResourceName="Art/3F/Fbx/Materials/beijing3" />
+      <Asset Guid="825dbb41878f35f40a57c632a98a65a2" ResourceName="Art/4F/Textures/ZhaJi_LaJiTong_SP_lambert1_Ao" />
+      <Asset Guid="82ec7f52b0f317649b09239464710fb0" ResourceName="Art/1F/Materials/11_Default" />
+      <Asset Guid="82f6e9256d1487c4290945777c4a9416" ResourceName="SarsAssets/Images/BackRenDi" />
+      <Asset Guid="83c2257854f40c4408e064397fa0056a" ResourceName="Art/3F/Materials/q2" />
+      <Asset Guid="83f4a98580419ae449664dacf53c54b5" ResourceName="Art/3F/Fbx/Materials/datingwenzi" />
+      <Asset Guid="844ff258a625cdc48ad15b10a2be8dbf" ResourceName="Entity/ShowRole/4001" />
+      <Asset Guid="845b624aeaab14fd1ad63eb43fe8d44e" ResourceName="Character/20Man/Materials/jiemao" />
+      <Asset Guid="84b4941fd1eda3644bf15641a0e8ea07" ResourceName="Art/3F/Materials/bangyang" />
+      <Asset Guid="84d5c0b2f405bcd408b9b3726d357c66" ResourceName="Art/3F/Textures/guanggao" />
+      <Asset Guid="84f5aa0e2789898408104ce8e720bf8f" ResourceName="Art/3F/Fbx/3F-1" />
+      <Asset Guid="85016e0f2b01da248b9663dd49a161b0" ResourceName="StarterAssets/ThirdPersonController/Character/Sfx/Player_Footstep_02" />
+      <Asset Guid="8516d7a69675844a7a0b7095af7c46af" ResourceName="URPShader" />
+      <Asset Guid="85264cde0bfa493438530a87bab4f1be" ResourceName="Art/3F/Materials/gh" />
+      <Asset Guid="853ce26c04e32524ca6aa6f003210ae1" ResourceName="Art/3F/Materials/zhuanquding" />
+      <Asset Guid="856174336b3bc94438635563f4350a2e" ResourceName="Art/1F/Textures/dianti_AlbedoTransparency" />
+      <Asset Guid="85afc1f6309020d4ba97698056cdd96f" ResourceName="Art/4F/Fbx/guanggaopai06" />
+      <Asset Guid="85f7860cf76171b438c51eb5fcd238ce" ResourceName="URPShader" />
+      <Asset Guid="8682cacb7f4d04640aaf633736fab3cf" ResourceName="Art/3F/Materials/tijiaoxian" />
+      <Asset Guid="86e4e8960543c24408dfd8c6b8b1e9d3" ResourceName="Art/1F/Materials/chuanghu01" />
+      <Asset Guid="871db64671a7c1048aee3850b95e06c0" ResourceName="SarsAssets/Images/mask" />
+      <Asset Guid="87505ca2cdb4f424abf37203f3455cd8" ResourceName="Art/3F/Materials/beiqiang3" />
+      <Asset Guid="87c5bb7cc01afca4b8424d87a835c633" ResourceName="Character/35boy/Textures/cloth/cloth_DA" />
+      <Asset Guid="87d55c5c0bffb104785cd969dfa01402" ResourceName="Character/20Girl/fbx/sitdown" />
+      <Asset Guid="8800c1212fa36d648ae0a48f411a2f33" ResourceName="Art/3F/Textures/nanweibiaozhi" />
+      <Asset Guid="88b1dd1d702aa1f4db7f1339455f5f57" ResourceName="Art/4F/Materials/huapeng" />
+      <Asset Guid="8904912b58694e642b91fad5b9633d4e" ResourceName="SarsAssets/Images/4f" />
+      <Asset Guid="890b498ba9d5a8c478ba9ce5f38333b2" ResourceName="Art/Common/yizi/Textures/yizi-m" />
+      <Asset Guid="89389ddd90be440ba911858fe89427c2" ResourceName="Character/20Man/Textures/cloth/cloth_N" />
+      <Asset Guid="8955260262cf3d34d8483715dbec238c" ResourceName="Scenes/3F" />
+      <Asset Guid="89827a9b4054a26479121b0838b0fce9" ResourceName="Art/4F/Materials/heise" />
+      <Asset Guid="898ce4c49ecbcd14fac96b4a150683e7" ResourceName="Art/1F/Materials/honghua" />
+      <Asset Guid="89c636ed93ebf7a4f8a11a5858d87c4e" ResourceName="Art/3F/Fbx/Materials/daping2" />
+      <Asset Guid="8a02a4e927d924589b012c4a6a81924c" ResourceName="Character/20Man/Materials/kouqiang" />
+      <Asset Guid="8a034df5218522c418c3f146eedf86fb" ResourceName="Art/3F/Materials/cxj4" />
+      <Asset Guid="8af39041bb342f540917f81ee7347e4e" ResourceName="Art/4F/Materials/yizi_AlbedoTransparency2" />
+      <Asset Guid="8af79e1aa342d394faa866c534adee93" ResourceName="Art/4F/Fbx/shandong_4Variant" />
+      <Asset Guid="8ba2adc59ec3dde4d97c5f5b3ce29095" ResourceName="Art/Common/Materials/hideMat" />
+      <Asset Guid="8ba36b6596e931145bbad992032afb1a" ResourceName="URPShader" />
+      <Asset Guid="8bef43cdc1e398c4186027defbfb875c" ResourceName="Art/Other/Textures/lingxingEM" />
+      <Asset Guid="8bf73999eca69514c9429c63935ad8fb" ResourceName="Art/3F/Materials/skm4" />
+      <Asset Guid="8c2b1c7cc3662df4a83219d4c1fa8857" ResourceName="Art/3F/Materials/datingwenzi" />
+      <Asset Guid="8c50b07b26d6cde46b425224df691bfc" ResourceName="Entity/Prefab/zhixian" />
+      <Asset Guid="8cd2c434bfd77e3479fa95115a7067c6" ResourceName="Art/3F/Fbx/Materials/dtm" />
+      <Asset Guid="8d0f1a5100117754f8517549d78e141a" ResourceName="Art/3F/Textures/hua11" />
+      <Asset Guid="8d2bb70cbf9db8d4da26e15b26e74248" ResourceName="URPShader" />
+      <Asset Guid="8d369d8c3d413a84187feacb59817a56" ResourceName="Entity/ShowRole/3002" />
+      <Asset Guid="8d8ed36103f470048bb7de9ddd38e125" ResourceName="Art/3F/Fbx/wenzi628" />
+      <Asset Guid="8db44c2120de14d4aad7be2a6f00f4d8" ResourceName="Art/1F/Fbx/ShanDong_F1" />
+      <Asset Guid="8e4b6dd268772744c95dc5b48acad9eb" ResourceName="Art/1F/Materials/jianhang" />
+      <Asset Guid="8edc9e9369a703942b9a88708fda5b4f" ResourceName="Art/shandong_4/dianshi" />
+      <Asset Guid="8ee0b061a1836fd46aa9a5412f399af5" ResourceName="Art/3F/Materials/diaopai001" />
+      <Asset Guid="8f5f335fe9a51104895cb46ba7b7e3c2" ResourceName="Art/1F/Fbx/yizi_2" />
+      <Asset Guid="8f7bc67518f3b4b419a490b480f255cd" ResourceName="Art/3F/Textures/q2" />
+      <Asset Guid="8f8338910850f604c89868f0f2f1c4c6" ResourceName="Art/Common/csm/Materials/csm02" />
+      <Asset Guid="8fbe92a9edfe6074e841d6dd1509bc59" ResourceName="URPShader" />
+      <Asset Guid="8ffb80d9e13725f419a03ec093fbd3e1" ResourceName="Art/shandong_4/dizhen" />
+      <Asset Guid="90ded0611e490aa4ba6961afbfc2280d" ResourceName="StarterAssets/ThirdPersonController/Character/Sfx/UI/UI_Circle_Faded" />
+      <Asset Guid="9136439114230b64299da532faa6b4ad" ResourceName="Art/shandong_4/Billboard3" />
+      <Asset Guid="914de2c32a5ee1c408c76429f5bb54f2" ResourceName="Character/35girl/fbx/guzhang" />
+      <Asset Guid="918670395dbb91840b6877c34441cded" ResourceName="Art/Other/Fbx/muwen" />
+      <Asset Guid="91b03ec68aef8044baee65096d4c21a8" ResourceName="Character/20Girl/fbx/walk" />
+      <Asset Guid="923a26a9510e1e54c9074101c6981513" ResourceName="Art/3F/Fbx/Materials/weidang" />
+      <Asset Guid="92653d68ba0c3a947bf1fa397c5f9dfa" ResourceName="Character/Waitress/Textures/hair/hair_DA" />
+      <Asset Guid="92673cbb58cac8e4d8b5d044ce912dd8" ResourceName="URPShader" />
+      <Asset Guid="928606d98b9baac46abf93027dff1f62" ResourceName="Art/4F/Materials/yizi_AlbedoTransparency" />
+      <Asset Guid="92aee13f5321968408007de8741ab44b" ResourceName="Art/shandong_4/Materials/poster5" />
+      <Asset Guid="92f5be89aa7166343aa0a7315edc04ee" ResourceName="Art/4F/Materials/muwen" />
+      <Asset Guid="931e5ffca47cea54783e99bf989216b5" ResourceName="URPShader" />
+      <Asset Guid="933532a4fcc9baf4fa0491de14d08ed7" ResourceName="URPShader" />
+      <Asset Guid="93446b5c5339d4f00b85c159e1159b7c" ResourceName="URPShader" />
+      <Asset Guid="936e79dc4024f3d4984f6653fa52f6b9" ResourceName="Art/3F/Textures/bei2" />
+      <Asset Guid="936f59c8cdce64127a4c665aa7821462" ResourceName="Character/20Man/Materials/hair" />
+      <Asset Guid="93b2ac4bf7d8c4a4f87d3ee184abb45b" ResourceName="Art/3F/Materials/heidalishi" />
+      <Asset Guid="93ea8933a66a5884d90fc96128fd52b8" ResourceName="Art/4F/Materials/qiangti" />
+      <Asset Guid="944be5cfd2c4c27459ca948e8a5e6641" ResourceName="Art/Common/Materials/01_Default" />
+      <Asset Guid="944e767af779a3c48b7bc98f486b98aa" ResourceName="Art/1F/Textures/zizhufuwuqu" />
+      <Asset Guid="94604cb14d6b35249a2753edb24fc9e0" ResourceName="Art/3F/Materials/A09_A028" />
+      <Asset Guid="9483ea1928426c540bde747a69f4c98c" ResourceName="SarsAssets/Images/chuan_3" />
+      <Asset Guid="948b4288e2ec93a40978dce54bf43f0b" ResourceName="Character/35boy/Textures/jiemao/jiemao_DA" />
+      <Asset Guid="95552797771dfd74b8585f11ada81bea" ResourceName="Art/3F/Materials/dong" />
+      <Asset Guid="959fd546b93569d428f1af8959be7109" ResourceName="Art/3F/Textures/manyijiti" />
+      <Asset Guid="9604e389528d04ae39fe05a7b4212172" ResourceName="URPShader" />
+      <Asset Guid="96d46d728e9fa7b429db9c9daae3ac04" ResourceName="Art/3F/Materials/dianshi3" />
+      <Asset Guid="971e7c84ed6bc40fc95bdbb2e008013f" ResourceName="URPShader" />
+      <Asset Guid="971f33d33192b224c86389ad9f24f09c" ResourceName="SarsAssets/Textures/35Girl/Materials/35girl_cloth_1" />
+      <Asset Guid="97276e882ecec584faeb2ba997153718" ResourceName="Character/20Girl/Textures/eye/eye_DA_1" />
+      <Asset Guid="97832dc646b4fb4498bf5aa61e366c13" ResourceName="URPShader" />
+      <Asset Guid="978ba2ebe66270f4a8d1aa16326740dc" ResourceName="Art/shandong_4/chuangjing" />
+      <Asset Guid="97a42677a0be48c4aafe53b60c9dccaa" ResourceName="Art/1F/Fbx_youhua/men1" />
+      <Asset Guid="97cbb1d66001d9c4a8a4236d37eba9e9" ResourceName="Art/3F/Fbx/Materials/A09-A028" />
+      <Asset Guid="97ce72d5527034cbca1d95b53d583472" ResourceName="URPShader" />
+      <Asset Guid="97f8b391aff3f5648857a35a75fdccfa" ResourceName="Art/3F/Materials/zhishipai" />
+      <Asset Guid="9829b1cf45bde5e49adb5a589e857859" ResourceName="Character/50man/Materials/50man_yanjing" />
+      <Asset Guid="982b9aaf74dac1549b379330e36d7468" ResourceName="Art/1F/Textures/cemen" />
+      <Asset Guid="983bb0ec1fe5f5c4ca17820794786d1b" ResourceName="Art/3F/Fbx/Materials/diantianniu2" />
+      <Asset Guid="9860a701870d49a499ae7029f979e768" ResourceName="Character/35boy/fbx/sitdown" />
+      <Asset Guid="9875a245ac49007498213638a307faa1" ResourceName="URPRTShader" />
+      <Asset Guid="9909e76dc0f5f17478f54875f87cc328" ResourceName="Art/Common/Materials/zhixian" />
+      <Asset Guid="99134b1f0c27d54469a840832a28fadf" ResourceName="URPShader" />
+      <Asset Guid="9920c1f1781549a46ba081a2a15a16ec" ResourceName="URPShader" />
+      <Asset Guid="9a48a2987a0e11645adf07fe4a8d5ec9" ResourceName="URPShader" />
+      <Asset Guid="9a81053fc7509dd4685f8c45dd384bb4" ResourceName="Art/Other/Textures/zuanshifaguang" />
+      <Asset Guid="9aa87b50def58c64c8263dc55adbf4f4" ResourceName="Art/3F/Materials/dangzuzhi" />
+      <Asset Guid="9aad50859486d4444bd16924d9f4052e" ResourceName="Art/1F/Materials/wechat_20230527101802" />
+      <Asset Guid="9ac552938b82b8843a2dc0f41aca8054" ResourceName="Art/3F/Fbx/Materials/shigao" />
+      <Asset Guid="9ace35aa1f108cc42b8b9d2bc32ddd9a" ResourceName="SarsAssets/Images/chuan_1" />
+      <Asset Guid="9ad791e0180d61c4698c785008ef3360" ResourceName="Art/3F/Fbx/Materials/tie1" />
+      <Asset Guid="9b4e681081e2b4c469111bb649e2f7ee" ResourceName="URPShader" />
+      <Asset Guid="9c18cd3c3b480d541abba155e0b2640a" ResourceName="Art/4F/Fbx/Light" />
+      <Asset Guid="9c3725be60708d544ac3424adf91d05f" ResourceName="Art/huiketing/Materials/Qiang1_AlbedoTransparency" />
+      <Asset Guid="9c4665dc5971cf348b92a219d3e59c11" ResourceName="Art/3F/Textures/jiaoyanjidi" />
+      <Asset Guid="9cc6005245dc5d7488f086487406007c" ResourceName="Art/3F/Fbx/Materials/yuan" />
+      <Asset Guid="9d0bab932941a9545a3d77cb5af19679" ResourceName="Entity/ShowRole/5002" />
+      <Asset Guid="9d42f3a415f221443aa72eb62ef1cb7c" ResourceName="Art/Common/Fbx/Indicate/yijianshiyicibanzhuanqu" />
+      <Asset Guid="9d69193ecea7668438ed691d4da73da5" ResourceName="Art/3F/Fbx/Materials/guanli" />
+      <Asset Guid="9dd175ab0d0d7594ba08f22382a2c2ae" ResourceName="Art/4F/Fbx/guanggaopai" />
+      <Asset Guid="9de71e8e8ee83ee489d9714e228c50bc" ResourceName="Character/Waitress/Animations/idle" />
+      <Asset Guid="9dfc825aed78fcd4ba02077103263b40" ResourceName="URPRTShader" />
+      <Asset Guid="9e04707cd1d47a84d94e07381238a9e3" ResourceName="Art/3F/Textures/weidang" />
+      <Asset Guid="9e0bbedbd6b16ef438b09ad1209f891a" ResourceName="Art/4F/Materials/hui1" />
+      <Asset Guid="9e314cca9b197514dbef029515955d80" ResourceName="Art/3F/Textures/denghoudibiao" />
+      <Asset Guid="9e55d9b4642484f41be20c69a9b48063" ResourceName="StarterAssets/ThirdPersonController/Character/Sfx/Prefabs/VirtualInputs/UI_Virtual_Button" />
+      <Asset Guid="9ec4835dc8f939b43a25d533c3425ed6" ResourceName="Character/35girl/Materials/35girl_jiemao" />
+      <Asset Guid="9ecab76bfd64744419d83065c05b49d7" ResourceName="Art/3F/Textures/bj2" />
+      <Asset Guid="9f211f478eb638a478f71485dfee12fb" ResourceName="Art/3F/Materials/diaopaiA06" />
+      <Asset Guid="9f7f1a445c7469241bd6c9f9f4eddb1b" ResourceName="SarsAssets/Textures/35Man/Textures/cloth2_D" />
+      <Asset Guid="9f92f12aebace5446a2101d5f68fe9bd" ResourceName="Art/Common/Fbx/siloushujia" />
+      <Asset Guid="9fd6651b2065d424cbaf49d3f266e2f9" ResourceName="Character/20Man/fbx/idle" />
+      <Asset Guid="a0a4b4db7ea08de4885ef05b4a4946c1" ResourceName="Art/3F/Materials/dengzi" />
+      <Asset Guid="a10b8e21e87252743a856aac2c909869" ResourceName="Art/3F/Fbx/Materials/zhanshigui" />
+      <Asset Guid="a1360b69b891bb44c9da747fd4dcf6ca" ResourceName="Art/3F/Fbx/Materials/tiyanqu-uv" />
+      <Asset Guid="a1524a1b2db3b3843932fbabb766a25c" ResourceName="Art/3F/Fbx/QX1" />
+      <Asset Guid="a15b78cf8ca26ca4fb2090293153c62c" ResourceName="URPShader" />
+      <Asset Guid="a160901ebe7516845b4f0f1738b158e3" ResourceName="Art/3F/Fbx/Materials/heise" />
+      <Asset Guid="a166f9547666f984b87c53e623218b43" ResourceName="Art/4F/Materials/yinhang1" />
+      <Asset Guid="a1a802ecaf6775746bb2a929fb554ad8" ResourceName="StarterAssets/ThirdPersonController/Character/Sfx/PlayerFollowCamera" />
+      <Asset Guid="a1aed603c63032d4ea8602e02231ba85" ResourceName="Art/3F/Materials/bj3" />
+      <Asset Guid="a1d0c2c08bacb3b4f8bccb02118882fe" ResourceName="Art/1F/Textures/gongzhengchu" />
+      <Asset Guid="a1e3f7aba33bfd840b077cdfb0fa26cf" ResourceName="Art/3F/Textures/3F_Normal" />
+      <Asset Guid="a2109167ec255834fb1f5357a3522086" ResourceName="Art/3F/Textures/2" />
+      <Asset Guid="a2539d33aa08dd142912e997677a49a7" ResourceName="Entity/Area_3F" />
+      <Asset Guid="a2d16125a56ad384fb8bedabdc9768a6" ResourceName="Art/1F/Textures/rongyu" />
+      <Asset Guid="a30f777166b478540a9853610a50702a" ResourceName="SarsAssets/Textures/35Man/Materials/35boy_cloth2_2" />
+      <Asset Guid="a3129e299d0744bb7bd42c2cea7cea2b" ResourceName="URPShader" />
+      <Asset Guid="a3194b8bbc96ef84fab1f98f4b7dae3e" ResourceName="StarterAssets/ThirdPersonController/Character/Sfx/Player_Footstep_10" />
+      <Asset Guid="a342e5f5f4316c44dbfccbea4fec2705" ResourceName="Art/3F/Materials/denghoudibiao" />
+      <Asset Guid="a361552991159403bbd785132d5cb812" ResourceName="URPShader" />
+      <Asset Guid="a3edf65fefd43c1419b1ae336f89b1bb" ResourceName="Character/50man/Materials/50man_eye" />
+      <Asset Guid="a3feb415335609a44876ceeea7144c59" ResourceName="Art/3F/Textures/tex" />
+      <Asset Guid="a48c90b3036d6bb45b7ef4c9519e444e" ResourceName="Art/1F/Textures/chuang-A" />
+      <Asset Guid="a4f87c0e5f3328047a79e4d0f97186ca" ResourceName="Art/Common/Fbx/Indicate/qiyefuwuzhuanqu" />
+      <Asset Guid="a5387d1743e375042930e10b0004c28e" ResourceName="Character/20Girl/Textures/jiemao/jiemao_DA_1" />
+      <Asset Guid="a55c175873259ad4599bdddf410f240e" ResourceName="Art/huiketing/Materials/DiMian1_AlbedoTransparency" />
+      <Asset Guid="a5600889c9fbafb4fba7686a57f431ee" ResourceName="Art/1F/Materials/exterior2" />
+      <Asset Guid="a56d48302d66f794793ebfbc2375e497" ResourceName="SarsAssets/DataTables/BinaryFiles/InteractiveNpc" />
+      <Asset Guid="a5b2d3c70b8c48f4cbb22adb4d05b0da" ResourceName="Art/3F/Fbx/Materials/daping1" />
+      <Asset Guid="a5ba700765518f44180d9c3b046b1386" ResourceName="Entity/ShowRole/2001" />
+      <Asset Guid="a5dd43fc563109e4794419cdc2ae445d" ResourceName="Art/1F/Materials/men03" />
+      <Asset Guid="a5fa9a2ef3443c341b16562a770fcfc6" ResourceName="Art/Common/csm/Materials/csm01" />
+      <Asset Guid="a62e66616d91c3148a0f3dba3894057e" ResourceName="Art/3F/Textures/sp_01" />
+      <Asset Guid="a6332b1f77411a04abc08668d2e5baf3" ResourceName="Art/3F/Fbx/Materials/zi" />
+      <Asset Guid="a63ccbef6bed14464a35b8a62ee9b775" ResourceName="URPShader" />
+      <Asset Guid="a6fe7fc300fcabc439ac6bf895e33f42" ResourceName="Art/shandong_4/chuangkoutai" />
+      <Asset Guid="a7b4204f611671d4d8be7959baff7f63" ResourceName="Art/3F/Fbx/Materials/dimian" />
+      <Asset Guid="a7ec8f16b6f5cef4aadfb45c9c8afa8b" ResourceName="Art/1F/Materials/ding" />
+      <Asset Guid="a8158c98a118c844cbbbbcc00032735d" ResourceName="Character/Waitress/Textures/jiemao/jiemao_DA" />
+      <Asset Guid="a817cb90496894b368593402e13b040c" ResourceName="URPShader" />
+      <Asset Guid="a82a82c10def3aa42b99d6f84aef68ee" ResourceName="Art/3F/Textures/heidalishi" />
+      <Asset Guid="a8663c9a0fb7a4546b594e7e8966dc3f" ResourceName="Scenes/FourFloor" />
+      <Asset Guid="a869e4949dfca30429c3594979476430" ResourceName="Art/3F/Materials/xibian3" />
+      <Asset Guid="a87f0a3f3204d6e47854a6244d383d37" ResourceName="Entity/Role/4001" />
+      <Asset Guid="a88c7675b5b1daa4db3d5ea10a59ee1f" ResourceName="Art/3F/Materials/dn2" />
+      <Asset Guid="a88eb18a2e69d9a4590101ac43a62a30" ResourceName="Entity/ShowRole/4002" />
+      <Asset Guid="a898106dfbe99d44f9ea62e01bc33930" ResourceName="Scenes/huiketing" />
+      <Asset Guid="a89bee29cffa951418fc1e2da94d1959" ResourceName="URPShader" />
+      <Asset Guid="a8d5c97876fe84413b2f630e2debf75b" ResourceName="URPShader" />
+      <Asset Guid="a8ef05bf92f0c0744bcb808505e49649" ResourceName="Art/4F/Materials/yinhang3" />
+      <Asset Guid="a90f8a28995561f459f0513a68b3dd88" ResourceName="Art/3F/Materials/jinshu" />
+      <Asset Guid="a926f91ce9455d847b494ccd7aebd782" ResourceName="Entity/Window/Window_3F" />
+      <Asset Guid="a95139ed92bd80643b089a6e7d5d4f97" ResourceName="Entity/Prefab/transfer" />
+      <Asset Guid="a97c105638bdf8b4a8650670310a4cd3" ResourceName="URPRTShader" />
+      <Asset Guid="aa032ee1f21ba0c42a3b107b71e96203" ResourceName="SarsAssets/Textures/35Man/Materials/35boy_cloth_1_2" />
+      <Asset Guid="aa130aaf5caa2e64bb037c6ae5ffdb8a" ResourceName="Art/3F/Materials/lajitong" />
+      <Asset Guid="aa283d110c6b627469d319b3a518d9be" ResourceName="Art/3F/Textures/zhanshigui" />
+      <Asset Guid="aa724604a03d18246abcd7c1f21b4b94" ResourceName="SarsAssets/Images/0_selected" />
+      <Asset Guid="aa8746ecddd55ae47b5b50ecc765e95d" ResourceName="Art/3F/Fbx/Materials/danrenshafa-ju2" />
+      <Asset Guid="aa9e8b8055a302849b959da082a7c8b2" ResourceName="Art/3F/Fbx/Materials/cxj4" />
+      <Asset Guid="aacbf6e8ee4eab045adc5856e208e1af" ResourceName="Character/35boy/Materials/35boy_cloth2" />
+      <Asset Guid="ab428b81df9aad7468077a2f63995e8d" ResourceName="Entity/Environments/yizi_3F" />
+      <Asset Guid="ab5fdc7323ccd32429e629ecf6c108d3" ResourceName="Art/3F/Textures/jin" />
+      <Asset Guid="abd80bfa1cef66e4f919e7e6310d8fec" ResourceName="Art/4F/Materials/sign2" />
+      <Asset Guid="abf2e0ade5afb1542b62cb5e6991afde" ResourceName="Entity/ShowRole/5001" />
+      <Asset Guid="ac3ec4567021ee94ba4f4512b4c5b528" ResourceName="SarsAssets/UIForms/MainForm" />
+      <Asset Guid="ac4dbf3776b7e074ab35a6822d123bfa" ResourceName="Art/3F/Materials/quhaopai_1" />
+      <Asset Guid="ac7927f8384ab0e4ab4c3da62c418f52" ResourceName="Art/3F/Textures/guanggao05" />
+      <Asset Guid="acb1c0a94b563c2409eddb37566368f8" ResourceName="Character/20Girl/fbx/guzhang" />
+      <Asset Guid="acbf15f38f90c324e8ff1375e016023b" ResourceName="Art/Qiang3/bangongshinei4F1" />
+      <Asset Guid="acfdbf9aa7b79a14c870b32b1399f5e5" ResourceName="Art/3F/Materials/ltby5" />
+      <Asset Guid="ad25529ea2516421ab5f1a2440bee139" ResourceName="URPShader" />
+      <Asset Guid="ad863d097888f42c6bcf419efb2946c5" ResourceName="URPShader" />
+      <Asset Guid="ae6b7e0c498576141a6e48e508617584" ResourceName="Character/20Girl/Materials/20girl_cloth" />
+      <Asset Guid="ae766426a308c014ea825462bb23f21c" ResourceName="Art/4F/Materials/chuanghjing2" />
+      <Asset Guid="ae7d6eda189c13e4cbd950263c22a89a" ResourceName="Art/3F/Materials/D01_D04" />
+      <Asset Guid="ae7e2a78a788c3048856120055438742" ResourceName="Art/3F/Fbx/Materials/sp-05" />
+      <Asset Guid="aea1eb25a2c815941a5fe55c622b947a" ResourceName="Art/3F/Textures/sp_02" />
+      <Asset Guid="af0ae2dbf3d1efb4f82af377950704a2" ResourceName="StarterAssets/ThirdPersonController/Character/Sfx/UI/UI_Icon_Look" />
+      <Asset Guid="af9380ec97587f5469d1639473ea4b73" ResourceName="Art/3F/Fbx/Materials/caizhi_2" />
+      <Asset Guid="afa36d1304a8d244d914776d3feba7c3" ResourceName="Art/3F/Materials/diaopaiaA01" />
+      <Asset Guid="afdd968fd76bf0b40863d33862df4046" ResourceName="Entity/Prefab/zuozhuan" />
+      <Asset Guid="b019e103a93e1144282b838d24f85d5b" ResourceName="Art/3F/Materials/M_pizhi" />
+      <Asset Guid="b059eb8f3b23949478d1b07d750b80ae" ResourceName="Art/Other/Materials/jiantou" />
+      <Asset Guid="b09864f6add57e6478ede39adee2ca66" ResourceName="Art/1F/Textures/biaoshi-wc" />
+      <Asset Guid="b0c7bc174e2dd534fa18a38f7eea2d38" ResourceName="SarsAssets/Images/goto" />
+      <Asset Guid="b0fa70abd2a79904cb00b175dfd8ec7e" ResourceName="StarterAssets/ThirdPersonController/Character/Sfx/UI/UI_Icon_Sprint" />
+      <Asset Guid="b143a8719f6b754449fa8ae73b2f14fc" ResourceName="Art/huiketing/Textures/HuiYiShi_AlbedoTransparency" />
+      <Asset Guid="b174ce5bde404bb4e8247df4d11731ff" ResourceName="Art/3F/Textures/QX" />
+      <Asset Guid="b1dae6e66e121094090885ca1bdc5a17" ResourceName="Art/shandong_4/Billboard2" />
+      <Asset Guid="b1de2858b3e5f9d4db7714836dd4f255" ResourceName="Art/1F/Materials/diaoding" />
+      <Asset Guid="b1fccc7cc7e817b4b9392ad45f68334f" ResourceName="Art/3F/Fbx/Materials/skm" />
+      <Asset Guid="b24521a5bd308e140906ac7191ef5626" ResourceName="Art/3F/Textures/beiqiang1" />
+      <Asset Guid="b25abe8fa3419c54899ee32b22270ced" ResourceName="Art/3F/Fbx/Materials/xm-02" />
+      <Asset Guid="b2cb41967d414f24cb342d401bd5a4cc" ResourceName="Art/1F/Materials/zongsuoyin" />
+      <Asset Guid="b2d4d142d563bd84993b7f572f96883b" ResourceName="Art/Common/yizi/Textures/yizi-b" />
+      <Asset Guid="b2f70e7311c4bec418008a3115903293" ResourceName="SarsAssets/Textures/35Man/Textures/cloth_D" />
+      <Asset Guid="b388b4f79e3e6e64593aedb4b0f73e40" ResourceName="SarsAssets/Textures/50Man/Textures/cloth_DA_2" />
+      <Asset Guid="b3899ab247187a9439af9480fbef8234" ResourceName="Art/3F/Textures/A09_666" />
+      <Asset Guid="b3e7eec79d874244a898b1d9c729519c" ResourceName="Shaders" />
+      <Asset Guid="b3fcdd989e7a35b4d9e9117466e0c116" ResourceName="Character/20Girl/fbx/huishou" />
+      <Asset Guid="b41dee81e41c4f74dbf552de029494f1" ResourceName="Art/1F/Materials/dimian01" />
+      <Asset Guid="b4bc78a1364154f15b718a412e9710b6" ResourceName="URPShader" />
+      <Asset Guid="b51db210fe78df745a372851b3db949e" ResourceName="URPRTShader" />
+      <Asset Guid="b5a0c15f9dc6ef44ea615f2db5a3a710" ResourceName="Art/3F/Textures/bangyang" />
+      <Asset Guid="b5b495910d080e948b00218008eb5327" ResourceName="Art/shandong_4/pai" />
+      <Asset Guid="b5b96ba56a7f78e4fb71294aff7908a9" ResourceName="Character/Waitress/Animations/sitdown" />
+      <Asset Guid="b5cf472347f4bcb4fba884e51377c4b6" ResourceName="Entity/Environments/yizi" />
+      <Asset Guid="b5f3eb6518fdc5345bacd9b1327a6d04" ResourceName="Entity/MiniMap" />
+      <Asset Guid="b6203c85581baf94e88283389fd2a38b" ResourceName="Art/3F/Textures/dong" />
+      <Asset Guid="b66a197edea061842b0d598eec3fe999" ResourceName="Art/1F/Materials/men02" />
+      <Asset Guid="b691a83a38d84024089f68c43fd43489" ResourceName="Art/1F/Textures/jiangpai" />
+      <Asset Guid="b6c6a1420528e2049b0b41ddf88ce1c3" ResourceName="Art/3F/Textures/qiyeping" />
+      <Asset Guid="b6f38969d85ddd748915889761a571cb" ResourceName="Art/3F/Textures/dangzuzhi" />
+      <Asset Guid="b702bf0b24e36ac4b979bc2e31b31de9" ResourceName="Art/3F/Materials/quhaopai_3" />
+      <Asset Guid="b74c31d447d2f5d41a61081bdf5e7126" ResourceName="StarterAssets/ThirdPersonController/Character/Sfx/UI/UI_Circle_Bevel_Base" />
+      <Asset Guid="b75058dfffdae7a41bf0373f3d2f264c" ResourceName="URPShader" />
+      <Asset Guid="b7685ff0ab8e9744f9a1ddd42137d01d" ResourceName="Art/3F/Materials/shandongdaxue" />
+      <Asset Guid="b76d45ea333b2a049bc45c5328ef3e7c" ResourceName="URPShader" />
+      <Asset Guid="b7839dad95683814aa64166edc107ae2" ResourceName="URPShader" />
+      <Asset Guid="b78e48fcb39b26f48856ab300b602f36" ResourceName="Art/shandong_4/haibao02" />
+      <Asset Guid="b7d0c073ed3c6874da3f25e68167e1e5" ResourceName="Art/4F/Materials/AlbedoTransparency" />
+      <Asset Guid="b7e9275f82335b94f9d24f1ce3507576" ResourceName="Art/3F/Fbx/Materials/hua33" />
+      <Asset Guid="b7eb3b9b8b4e777448dff356ca2e07a8" ResourceName="Art/3F/Textures/hp" />
+      <Asset Guid="b856979c6abf8de45888428a94924529" ResourceName="Character/35boy/fbx/guzhang" />
+      <Asset Guid="b8b2caa3a033dc24a9fb79c1ae7b1c1b" ResourceName="Art/4F/Materials/muyingshi" />
+      <Asset Guid="b8c09ab25805d6c40930fe41a2885560" ResourceName="Entity/Role/3001" />
+      <Asset Guid="b8fe06396432b8b4982b9fbdaf1f8646" ResourceName="Shaders" />
+      <Asset Guid="b907545f1e56442438fb38091ced068a" ResourceName="Art/3F/Textures/nvweibiaozhi" />
+      <Asset Guid="b98cfeb170589af45840469380592c42" ResourceName="Entity/Role/5002" />
+      <Asset Guid="b9907c47b05340b489f6f8ee9f814d34" ResourceName="Art/3F/Textures/guanli" />
+      <Asset Guid="b99bbc64e57d99a4997ac23dcd512626" ResourceName="SarsAssets/Textures/20Man/Textures/cloth_DA" />
+      <Asset Guid="b9c3f97797bd9374cb2607614554fe54" ResourceName="URPShader" />
+      <Asset Guid="ba2f6d58c4dc8e145bb27f00f6d9f5a9" ResourceName="Art/1F/Materials/exterior1" />
+      <Asset Guid="ba73eee394e58464c8affa766cdf5d6c" ResourceName="Art/3F/Fbx/Materials/guanggao01" />
+      <Asset Guid="bacd724007810ff469942997555237e6" ResourceName="Art/3F/Materials/Mat3d66_11057624_80_77166" />
+      <Asset Guid="bae0bb73fd4e8024dab000295ad9ebdc" ResourceName="Art/4F/Textures/ZhaJi_LaJiTong_SP_lambert1_MetallicSmoothness" />
+      <Asset Guid="bae3dabd2f71f874a93abadb10f54f94" ResourceName="Character/50man/fbx/sitdown" />
+      <Asset Guid="bb02873359c9d8d489e0b3690d08c92c" ResourceName="Art/Qiang3/bangongshinei4F003" />
+      <Asset Guid="bb58530395bad7546bb9d6a56c756599" ResourceName="Character/35boy/Textures/yanjing/yanjing_D" />
+      <Asset Guid="bb971c27c3015204bbee55a251ad765c" ResourceName="Art/huiketing/Fbx/HuiYiTing" />
+      <Asset Guid="bbfecc8241ae17c4f86c674e596b5e00" ResourceName="Art/shandong_4/bangongshinei4F1" />
+      <Asset Guid="bc3311c2f333e5d4f8ad12b11edda671" ResourceName="Art/1F/Textures/gongzhengchu02" />
+      <Asset Guid="bc627c1a864003f498bfadff71fa2f20" ResourceName="Art/huiketing/Textures/Qiang1_AlbedoTransparency" />
+      <Asset Guid="bc74a9e49189462498982100172857ee" ResourceName="Art/3F/Textures/yuan" />
+      <Asset Guid="bc9ccb0df36675845b7ae8b10d35ba30" ResourceName="Art/3F/Fbx/Materials/diaoding" />
+      <Asset Guid="bce3060e8d0cc1a4d93fb89015c79aa1" ResourceName="Art/3F/Textures/pai5" />
+      <Asset Guid="bd0294ab8cd8acd439b5f48bd84b5a24" ResourceName="Art/3F/Materials/hp" />
+      <Asset Guid="bd407a1e681003748a391b734fb1943a" ResourceName="Art/4F/Materials/ZhaJi_LaJiTong_SP_lambert1_AlbedoTransparency" />
+      <Asset Guid="bd674d1cd187be24eafcabe4d805de8b" ResourceName="Art/Other/Fbx/yizi" />
+      <Asset Guid="bd704636461d6654e84a9c5071a0e39b" ResourceName="Art/1F/Textures/yizipi" />
+      <Asset Guid="bd7088837a0d5bb4a870dca70decd768" ResourceName="Art/3F/Textures/shafa_uv2" />
+      <Asset Guid="bd9d2b12482bb4f699f92ba8b0d0a633" ResourceName="SarsAssets/Images/MobileUI/yjoystick_pointer" />
+      <Asset Guid="bdb6e8530a42e394b9d14b5809186c28" ResourceName="SarsAssets/Textures/20Man/Textures/cloth_DA_2" />
+      <Asset Guid="bdf57bdfffae7db42aadda023ea0b609" ResourceName="Art/3F/Materials/lanse" />
+      <Asset Guid="be4563ec52459664aad5a6948e47de13" ResourceName="Entity/Prefab/youzhuan" />
+      <Asset Guid="beda30c3b575bad40a656df6fc22c586" ResourceName="Art/3F/Textures/sp_05" />
+      <Asset Guid="bee8699f0c5094e219aace9759dad6c1" ResourceName="SarsAssets/Images/MobileUI/og" />
+      <Asset Guid="bf2ad10d630a6fc4a8495fc7e0908e66" ResourceName="Character/35girl/Textures/body/body_DA" />
+      <Asset Guid="bf895b0c8505676498de50775837ff7b" ResourceName="Art/3F/Materials/shafa_uv2" />
+      <Asset Guid="bf91c5d7054ce2545b801fdce14b2d15" ResourceName="Art/3F/Materials/weidang" />
+      <Asset Guid="bfb56f4233a2f104599cb9f679eb5243" ResourceName="Character/20Man/fbx/Man_20_1" />
+      <Asset Guid="bfe82ca4de3182a4583b4c695bdc9135" ResourceName="Art/shandong_4/Materials/poster4" />
+      <Asset Guid="c012d2dd13490774684b359c1e07b580" ResourceName="Art/4F/Materials/cabinet" />
+      <Asset Guid="c02b29af2d2a7f9478d327e78dabfcab" ResourceName="Character/50woman/fbx/huishou" />
+      <Asset Guid="c056504515a85204dbad573cdcb3927d" ResourceName="Art/4F/Materials/door3" />
+      <Asset Guid="c084d8b7a2f5fb5418c728f7c1c35bcf" ResourceName="Art/3F/Textures/guanggao01" />
+      <Asset Guid="c0c15ad69a2d15d44b87c9c4cce12ce4" ResourceName="Art/Qiang3/geduan" />
+      <Asset Guid="c0cb3e82b57266a4c8f3eecf0406ed95" ResourceName="Art/Common/Fbx/Indicate/budongchandengjiqu" />
+      <Asset Guid="c17132b1f77d20942aa75f8429c0f8bc" ResourceName="URPShader" />
+      <Asset Guid="c1b0de693f2c48f4b9554db73c42f39a" ResourceName="Character/50woman/fbx/sitdown" />
+      <Asset Guid="c23777c991c50c4439ed85a1d5be8411" ResourceName="Character/20Girl/Textures/hair/hair_DA_1" />
+      <Asset Guid="c245162389fbe944dbc0d721bee26fe0" ResourceName="URPShader" />
+      <Asset Guid="c279b1c4876b9d249a03c59c27d347c2" ResourceName="SarsAssets/Materials/Role_tips" />
+      <Asset Guid="c3235b15dfc68c2468dfd59f235eab61" ResourceName="Art/1F/Materials/cemen" />
+      <Asset Guid="c33aa9b01b64fad439f70489e52eb440" ResourceName="Art/4F/Textures/yizi_lambert2_AlbedoTransparency" />
+      <Asset Guid="c343ce497bbf77f4b96ef6176fa1a231" ResourceName="SarsAssets/Textures/20Girl/Textures/cloth_DA3" />
+      <Asset Guid="c3457f636a081944c9eddfc5b836aae1" ResourceName="Art/1F/Textures/loucengfenbu" />
+      <Asset Guid="c348ce65abf03439c8323a3bb3af2b58" ResourceName="Character/20Man/Textures/body/body_DA" />
+      <Asset Guid="c3f239f67959cff488ab45c624ae0c5b" ResourceName="SarsAssets/Images/juxing" />
+      <Asset Guid="c41587f798d4ceb4cbf46c27d0bdc0ad" ResourceName="Art/1F/Fbx/yizi" />
+      <Asset Guid="c4258628fa17bac45a1bd559b3734efe" ResourceName="Entity/Role/6002" />
+      <Asset Guid="c43568ab51e76364aa6928e433404662" ResourceName="Art/4F/Materials/diaoding" />
+      <Asset Guid="c46f85bf266d7496d9b3659acfbdc711" ResourceName="URPShader" />
+      <Asset Guid="c47176d8696fc374dbda342d2021887e" ResourceName="SarsAssets/Images/close2" />
+      <Asset Guid="c49e63ed1bbcb334780a3bd19dfed403" ResourceName="URPShader" />
+      <Asset Guid="c50dfd574b9607c4c927af728f026b81" ResourceName="Art/3F/Fbx/Materials/sp-02" />
+      <Asset Guid="c518319fdc905974d8123ed1ed1b67a1" ResourceName="Art/3F/Fbx/Materials/quhaoji-uv" />
+      <Asset Guid="c56b7e0d4c7cb484e959caeeedae9bbf" ResourceName="URPShader" />
+      <Asset Guid="c5726f2288956f3468a495a7c678080c" ResourceName="Art/1F/Materials/chuang-A" />
+      <Asset Guid="c5a15fec1e35a384a945694d09e8d2ec" ResourceName="Character/50woman/Materials/50woman_eye" />
+      <Asset Guid="c5e37dab94c9c914592da3f87027c7b5" ResourceName="Art/1F/Materials/lingshigui_6" />
+      <Asset Guid="c635abfe95cc7f64f9d08cba34d4d749" ResourceName="Character/50man/fbx/idle" />
+      <Asset Guid="c6867d3f51fa6ec4990dbd6412463ce7" ResourceName="Art/3F/Fbx/Materials/zhuanquding" />
+      <Asset Guid="c6dc4dd8d5086604ebe1c2b6cb2cebdf" ResourceName="Art/shandong_4/chuanghjing2" />
+      <Asset Guid="c78951c7914667e438905fa77d8bb514" ResourceName="Character/Waitress/Materials/M_Eyes" />
+      <Asset Guid="c7d04ca57e5449d49ad9cee1c604bc26" ResourceName="URPShader" />
+      <Asset Guid="c7d6fe21379226f4887587a4c33be336" ResourceName="Art/3F/Textures/dn2" />
+      <Asset Guid="c8076100f13c6434b8528f2bfb5d0822" ResourceName="Art/3F/Textures/bjbjbjbj" />
+      <Asset Guid="c816de687bfb2924b823691131578284" ResourceName="SarsAssets/Textures/20Man/Materials/20cloth_1" />
+      <Asset Guid="c82978c3789dad44da354dc354c782b2" ResourceName="StarterAssets/ThirdPersonController/Character/Sfx/Prefabs/VirtualInputs/UI_Virtual_TouchZone" />
+      <Asset Guid="c82d0b9149f674148ad231eec7627920" ResourceName="Art/4F/Materials/diantimen" />
+      <Asset Guid="c8a634f9fafed3a48b23ccf4a77cd871" ResourceName="Art/Common/Fbx/shugui" />
+      <Asset Guid="c8ebb3e71b7bba144a4e49d72580e8d5" ResourceName="Art/4F/Materials/sign1" />
+      <Asset Guid="c996839b83e63f444b88c51970c3871a" ResourceName="Art/Other/Fbx/lvzhi" />
+      <Asset Guid="c99f5580e9bc48944b0ce504803ab9e1" ResourceName="Character/50man/fbx/walk" />
+      <Asset Guid="c9ac51d204bc24b118ec6bc5ab6c29c6" ResourceName="URPShader" />
+      <Asset Guid="c9f1d2ace14dbf844a66727cf3d8f03d" ResourceName="Art/1F/Materials/11Default" />
+      <Asset Guid="ca0e14e5bf6ac934086f42ca329f4ef1" ResourceName="URPShader" />
+      <Asset Guid="ca35d08ad0e5dd54b9e62e2bfb2a3e35" ResourceName="Art/3F/Fbx/Materials/loucengbiaoshi" />
+      <Asset Guid="ca55f7593a02f4c1ab1bdbc03282d7af" ResourceName="URPShader" />
+      <Asset Guid="ca688643d42694046be6767fc538fc34" ResourceName="Art/3F/Materials/beiqiang1" />
+      <Asset Guid="cab9541ea969ca843842e7eeb7b3fbe8" ResourceName="Art/1F/Materials/deng" />
+      <Asset Guid="caf41cef02777fb4c9492395c55b8a2a" ResourceName="Character/35girl/Textures/cloth/cloth_DA" />
+      <Asset Guid="cc421706a0b598946982fee0c0d4bf51" ResourceName="URPShader" />
+      <Asset Guid="cc8299c3380ca5e41b777db687649560" ResourceName="Character/50woman/Textures/kouqiang/kouqiang_DA" />
+      <Asset Guid="ccb41e373d8436241854392685499fa5" ResourceName="Entity/ShowRole/6001" />
+      <Asset Guid="ccb62d7f7d705094ba61dead582fbfcf" ResourceName="Entity/ShowRole/5003" />
+      <Asset Guid="cd2bf81cddbebf5409d91f7dee86af3a" ResourceName="Art/1F/Materials/rongyu" />
+      <Asset Guid="cd763e78032a14747a644a13b6cc4822" ResourceName="Art/3F/Materials/quhaopai_4" />
+      <Asset Guid="cde0eb2291b24b84a83013ea2ffdc452" ResourceName="Art/Common/csm/Textures/fx_d_atypical_032" />
+      <Asset Guid="ce09d4a80b88c5a4eb9768fab4f1ee00" ResourceName="URPShader" />
+      <Asset Guid="ce6ef1998103a734bae0c55195fbd036" ResourceName="Art/3F/Fbx/Materials/lanyun3333" />
+      <Asset Guid="ce8b43269e26f4263ac0da53665264b9" ResourceName="URPShader" />
+      <Asset Guid="ced9352436f2bb6438d81f75a4f0bfaf" ResourceName="Character/35girl/Textures/cloth/cloth_N" />
+      <Asset Guid="cedffc4ea4a275e41b4d4ab62ce6d91d" ResourceName="Art/3F/Fbx/Materials/pai4" />
+      <Asset Guid="cef4266601c6790459cd05f3e483d2c4" ResourceName="Art/3F/Materials/heng1" />
+      <Asset Guid="cf313e89f2e459449beb320a9d61becb" ResourceName="Art/3F/Materials/denghouyi3" />
+      <Asset Guid="cf852408f2e174538bcd9b7fda1c5ae7" ResourceName="URPShader" />
+      <Asset Guid="cfc26cbc985191342acc9e893c284ed8" ResourceName="SarsAssets/Images/btnRenLeft" />
+      <Asset Guid="cfc329b92a1d36c48ae176d31d46cbf5" ResourceName="URPShader" />
+      <Asset Guid="cfc62ab167afede4588bae73b0d296a6" ResourceName="Art/1F/Fbx/wenmingchengshi" />
+      <Asset Guid="d00e32bd7638d40538d108b4e2581147" ResourceName="URPShader" />
+      <Asset Guid="d07c956d043e91746af1047c2b4a19b1" ResourceName="Art/3F/Fbx/Materials/manyijiti" />
+      <Asset Guid="d0be7fb39f9125d48bdfb76cd8aea746" ResourceName="Character/Waitress/Materials/M_Hair" />
+      <Asset Guid="d0ccc42c5a0934462a0ff237772dceff" ResourceName="URPShader" />
+      <Asset Guid="d104b2fc1ca6445babb8e90b0758136b" ResourceName="URPShader" />
+      <Asset Guid="d10797e0dc6a7244a9ab8cb66843094b" ResourceName="Character/35boy/Materials/35boy_body" />
+      <Asset Guid="d164cc3cfb5ade148b8ac288205bbe4f" ResourceName="Art/3F/Materials/hei2" />
+      <Asset Guid="d1973755dd6c6194d9b93c79e0db6d5b" ResourceName="Art/1F/Materials/lingshigui-6" />
+      <Asset Guid="d1a884475abb8ee4e828e1be6912b49f" ResourceName="SarsAssets/Images/3f" />
+      <Asset Guid="d2144dcf1a0c74b4089c73003a99e9eb" ResourceName="Art/1F/Fbx/men1" />
+      <Asset Guid="d29a6c457f0b88147a8d281d09bf14d4" ResourceName="Character/Waitress/Textures/new_body/bc_tt" />
+      <Asset Guid="d2bc9fec9e50b5c42afe3cc649842378" ResourceName="Art/3F/Fbx/Materials/b10-b09" />
+      <Asset Guid="d326c4d6ff127b6488a5daa623f025d8" ResourceName="Art/3F/Textures/lvzhi/huapeng02" />
+      <Asset Guid="d350b33cd920fee44b18656f1ea15e92" ResourceName="Art/3F/Textures/gh" />
+      <Asset Guid="d3d9c3a08da22164e81be42598d228cd" ResourceName="Character/35boy/Materials/35boy_eye" />
+      <Asset Guid="d3f025f64df1daf4b84fc5e7ac84747e" ResourceName="Art/1F/Materials/waijing02" />
+      <Asset Guid="d41a2b70a9967f0448730252734a1804" ResourceName="Art/3F/Textures/dftbeijing2" />
+      <Asset Guid="d457abdb8ac5f494b8e833b5c2a961fd" ResourceName="Art/3F/Materials/skm3" />
+      <Asset Guid="d4b1c76617471874797d980e1fc481b3" ResourceName="Entity/Role/2001" />
+      <Asset Guid="d4c15c0500f889f489c6d8ead691e39e" ResourceName="Art/huiketing/Materials/HuiYiShi_AlbedoTransparency" />
+      <Asset Guid="d4d12442d4db3dc488e8f83462d7dfcc" ResourceName="Character/Waitress/Materials/new_BC" />
+      <Asset Guid="d4eb15a101575e34299d7c8412abe5ea" ResourceName="Art/3F/Textures/dianshijitupian" />
+      <Asset Guid="d4ff962e3f6eea2418452b540ff6933c" ResourceName="Art/shandong_4/equipment" />
+      <Asset Guid="d5192187e291c4e43b212f5405406f6d" ResourceName="SarsAssets/Textures/50Man/Materials/50man_cloth_2" />
+      <Asset Guid="d5354e9447906314f90be48d3bdbc3eb" ResourceName="Art/shandong_4/door1" />
+      <Asset Guid="d5a307c014552314b9f560906d708772" ResourceName="URPShader" />
+      <Asset Guid="d64903b4c2a60b7408c54b93398bd8c3" ResourceName="SarsAssets/Images/chuan_0" />
+      <Asset Guid="d66125aaf74a14142a40f44920b574d0" ResourceName="Character/50woman/Materials/50woman_hair" />
+      <Asset Guid="d6641dcdedd1f422aa58ffec746e5342" ResourceName="URPShader" />
+      <Asset Guid="d68df0029b03909409ad7a4a2e3c22e4" ResourceName="Art/3F/Textures/baidalishi" />
+      <Asset Guid="d6baf26beccbfc44b9bb79a61241fad3" ResourceName="Character/35girl/fbx/sitdown" />
+      <Asset Guid="d6bca12cdf302f74595090411140309c" ResourceName="Art/3F/Textures/TD" />
+      <Asset Guid="d6d3f4c649c17a14d80a209374b79a06" ResourceName="Art/1F/Materials/biaoshi_muyin" />
+      <Asset Guid="d6dae50ee9e1bfa4db75f19f99355220" ResourceName="URPShader" />
+      <Asset Guid="d7288f66e4fb0634c9afef98c31b722a" ResourceName="URPShader" />
+      <Asset Guid="d7566bdfc3f526f4d82e28bb443aac3b" ResourceName="Art/4F/Textures/yizi_Normal" />
+      <Asset Guid="d79e1c784eaf80c4585c0be7391f757a" ResourceName="URPShader" />
+      <Asset Guid="d79e8af5099cc9345ac0646a93bc921b" ResourceName="Character/Waitress/Textures/kouqiang/kouqiang_DA" />
+      <Asset Guid="d7ad1377f8989db40a0d7b7bc5bd3586" ResourceName="Art/1F/Materials/jiangpai" />
+      <Asset Guid="d85e0466908a12d4ca571abc9ac193cd" ResourceName="Art/1F/Materials/zizhufuwuqu" />
+      <Asset Guid="d86809eda161dd148bc18aed2bdc5ccd" ResourceName="Art/shandong_4/sign2" />
+      <Asset Guid="d8858d97686926142bf5fd8af7ebb0f2" ResourceName="Entity/ShowRole/1003" />
+      <Asset Guid="d8d4bd653cd9f034f9db67bed9de253b" ResourceName="SarsAssets/Textures/20Girl/Textures/cloth_DA2" />
+      <Asset Guid="d91ba39b69845144e97529fb1ac14ba6" ResourceName="Art/shandong_4/door4" />
+      <Asset Guid="d93c467b9ffd23648ba41a2c63f7d8c5" ResourceName="Art/4F/Materials/Red" />
+      <Asset Guid="d950929eb87f84c74be8d1180e5a5b77" ResourceName="Character/20Man/Textures/eye/eye_DA" />
+      <Asset Guid="d95207af9a084a24fb026aa9b06f8702" ResourceName="Art/Other/Fbx/Pad" />
+      <Asset Guid="d972e262051bf3d4f9badd93b85544bc" ResourceName="Art/1F/Textures/exterior1" />
+      <Asset Guid="d9fc158748b8a634abe80d4eb4fa8779" ResourceName="Character/50man/Textures/cloth/cloth_N" />
+      <Asset Guid="da1035c8ad0135a44bcca31a7e276db7" ResourceName="Character/35boy/Textures/kouqiang/kouqiang_DA" />
+      <Asset Guid="da34feec0e746ee44bec8cb6e7f07855" ResourceName="Art/3F/Fbx/Materials/heng1" />
+      <Asset Guid="da625113363458b4cb5c9c185ef6856f" ResourceName="Art/1F/Materials/AlbedoTransparency" />
+      <Asset Guid="da6d3f5a0dd233d42a7bcf661c625743" ResourceName="Art/1F/Materials/toushixiang" />
+      <Asset Guid="da86e80f70323f04296078746af1f35a" ResourceName="Character/50man/Materials/50man_body" />
+      <Asset Guid="da9a333b2b015b143943fc61d689c1b8" ResourceName="Character/35boy/Materials/35boy_kouqiang" />
+      <Asset Guid="daacab5b2f36e104f8245822708697a6" ResourceName="Character/35girl/fbx/huishou" />
+      <Asset Guid="db59c2df2c03b134f86dd57f8ea65816" ResourceName="Art/4F/Materials/heise2" />
+      <Asset Guid="db612039ceac8374682998693d85b36d" ResourceName="Art/shandong_4/cabinet" />
+      <Asset Guid="db6d656803722ee408e5a389be28912b" ResourceName="Art/3F/Fbx/Materials/sp-03" />
+      <Asset Guid="dccbcd70363e37b40a72a4e0d5cc4d3a" ResourceName="Art/1F/Textures/dianti_AlbedoTransparency1" />
+      <Asset Guid="dcf4e762d48204e33b575f8007e3d563" ResourceName="URPShader" />
+      <Asset Guid="dd1af302b8902684d9381de1f2d3a5af" ResourceName="StarterAssets/ThirdPersonController/Character/Sfx/Player_Footstep_07" />
+      <Asset Guid="ddcbf0df3d562fb43a43101e616faf14" ResourceName="Art/Common/yizi/Textures/yizi-2-b" />
+      <Asset Guid="ddf15ac4ee22c9648b40060f1e355dc5" ResourceName="Character/20Girl/Materials/20girl_eye" />
+      <Asset Guid="de02b375720b5c445afe83cd483bedf3" ResourceName="URPShader" />
+      <Asset Guid="de699c7896934354db5d6bb74f0055b3" ResourceName="Art/3F/Materials/lingdaoguanhuai" />
+      <Asset Guid="df149d9d2a57f2440b209718283ef663" ResourceName="Art/1F/Textures/haibao" />
+      <Asset Guid="df5784f01908bbb42933a53e699f9ae1" ResourceName="Character/50woman/Textures/body/body_DA" />
+      <Asset Guid="df8ad86c4f0f186469661bb8a3e42fed" ResourceName="Art/3F/Fbx/Materials/heijinhua" />
+      <Asset Guid="dfaec04ec4a7c0b4bb38fe4d76346b68" ResourceName="Art/3F/Fbx/Materials/diaopaiA05" />
+      <Asset Guid="dfc6cf2e7714542438e2171c54f142d4" ResourceName="Art/shandong_4/qiangti" />
+      <Asset Guid="dfdc7c7f3b2150648871b61494e5dd23" ResourceName="Entity/Role/5003" />
+      <Asset Guid="e021f9c935e74c946b623f554106a429" ResourceName="Art/3F/Materials/bj2" />
+      <Asset Guid="e0c941bd704221340b9945d343d23e4c" ResourceName="Art/3F/Materials/zhibanshi" />
+      <Asset Guid="e0d59c41d4022ff478af708e6c110d1f" ResourceName="Character/50man/Materials/50man_jiemao" />
+      <Asset Guid="e0e30a7e2058bd7498ca8751e79ffab2" ResourceName="Art/3F/Textures/zhishipai" />
+      <Asset Guid="e16953fcd1e4344719f882c9414942ab" ResourceName="Character/20Man/Materials/cloth" />
+      <Asset Guid="e17ec49180d5c46419979a0fdffa1e0d" ResourceName="Art/3F/Fbx/Materials/guanggao02" />
+      <Asset Guid="e252246e41c0000479b24d43c1dd2257" ResourceName="Character/35boy/Textures/eye/eye_DA" />
+      <Asset Guid="e260cfa7296ee7642b167f1eb5be5023" ResourceName="URPShader" />
+      <Asset Guid="e2fb44eeb8e73d34c963c30dbce5e3eb" ResourceName="Art/shandong_4/bangongshinei4F005" />
+      <Asset Guid="e2fb5500031ca4d40ac8dde8cc7090ff" ResourceName="Art/3F/Textures/xm_01" />
+      <Asset Guid="e35a31e1679aeff489e202f5cc4853d5" ResourceName="URPShader" />
+      <Asset Guid="e35d852fce5c5c740a30cf9c710618ce" ResourceName="Art/1F/Textures/guodao05" />
+      <Asset Guid="e3607a83026e2974b9de10de6ab1661d" ResourceName="Art/1F/Materials/dianti_AlbedoTransparency1" />
+      <Asset Guid="e3877a51dcd197a4b916419159e83269" ResourceName="Art/4F/Materials/door4" />
+      <Asset Guid="e38f7b15c9dcbcb42b41093ff4179495" ResourceName="Art/3F/Materials/guanggaopai2" />
+      <Asset Guid="e39bd598ce13f44ba8af997d3e42cd18" ResourceName="URPShader" />
+      <Asset Guid="e3a5d4d9225353f4f9953d30ddfe7aec" ResourceName="Character/50man/Textures/kouqiang/kouqiang_DA" />
+      <Asset Guid="e3fdd52dc5e6d904591eb111631226fa" ResourceName="Art/3F/Materials/zhuomianpin3" />
+      <Asset Guid="e4841739836d3a84bb1c9f7756c7191a" ResourceName="Art/3F/Fbx/Materials/denghoudibiao" />
+      <Asset Guid="e507fdfead5ca47e8b9a768b51c291a1" ResourceName="URPShader" />
+      <Asset Guid="e53501e4666309447a4cf235a8e91001" ResourceName="Art/Other/Fbx/line" />
+      <Asset Guid="e5b2dc93a6f12d846a9c0266491749fd" ResourceName="SarsAssets/Textures/20Man/Materials/20cloth_2" />
+      <Asset Guid="e653791d9f8dffc45b281d69d8a0fd69" ResourceName="Art/3F/Textures/guanggao02" />
+      <Asset Guid="e69b2684f0e4e664582fe9fb8438c8b4" ResourceName="Character/35girl/Materials/35girl_kouqiang" />
+      <Asset Guid="e6e9a19c3678ded42a3bc431ebef7dbd" ResourceName="URPShader" />
+      <Asset Guid="e7221c131f8a5e44b8417408f4c18c5f" ResourceName="Art/1F/Materials/shugui8" />
+      <Asset Guid="e7444ab85b629c1499501b66f91e3e39" ResourceName="Entity/Window/Window_4F" />
+      <Asset Guid="e74dfb2be40bba54d9145fd22f8236d9" ResourceName="Art/4F/Materials/door2" />
+      <Asset Guid="e7857e9d0c934dc4f83f270f8447b006" ResourceName="URPShader" />
+      <Asset Guid="e7990fade1d6cac4d9421c582e88eb99" ResourceName="Art/3F/Materials/danyi_uv2" />
+      <Asset Guid="e7ba75cc852b14b7f934978b5697bf1b" ResourceName="URPShader" />
+      <Asset Guid="e7ee44e4db2311b428e6f789318838f8" ResourceName="URPShader" />
+      <Asset Guid="e80d07ef83c60454784fe701854bfa0d" ResourceName="Art/3F/Textures/dddd" />
+      <Asset Guid="e823cd5b5d27c0f4b8256e7c12ee3e6d" ResourceName="URPRTShader" />
+      <Asset Guid="e871c83474dc15947b39dde4f2b577d4" ResourceName="Art/1F/Textures/guodao01" />
+      <Asset Guid="e880a255d6fd38a49ba0a03356f8f899" ResourceName="Art/3F/Materials/333" />
+      <Asset Guid="e888bc7fa56d3444baf14c4feba4a569" ResourceName="Art/3F/Materials/lanyun3333" />
+      <Asset Guid="e8b802ac01d87144b91f12f40c1f2659" ResourceName="URPShader" />
+      <Asset Guid="e8ee25143a34b8c4388709ea947055d1" ResourceName="URPShader" />
+      <Asset Guid="e9155b26e1bc55942a41e518703fe304" ResourceName="URPShader" />
+      <Asset Guid="e9795406c7fc049d2b125cce47405fa9" ResourceName="URPShader" />
+      <Asset Guid="e9e0c48553c58044c875473e4c6686b0" ResourceName="Art/shandong_4/Materials/poster" />
+      <Asset Guid="e9fc1df17be32ac41a7186d571c669d5" ResourceName="URPShader" />
+      <Asset Guid="ea2042a8468565c40a6574d1eb531490" ResourceName="Art/1F/Materials/nonghang" />
+      <Asset Guid="ea51e4d9c20a7394dbfd483739491d02" ResourceName="Scenes/FirstFloor" />
+      <Asset Guid="ea59e6ecbe425494d9d5e3786dd25487" ResourceName="Entity/Prefab/chuansongmen" />
+      <Asset Guid="ea7a2b0e86265154dab8dc9bc5c31832" ResourceName="Art/3F/Materials/diaopaiA08" />
+      <Asset Guid="eaa9b236c8186b04eaaa01d9b590c30c" ResourceName="Art/3F/Textures/3F_AlbedoTransparency" />
+      <Asset Guid="eaaf2a45502c59c4e907088b5f034c0c" ResourceName="URPShader" />
+      <Asset Guid="eae14177cadff414981b07819279b9f2" ResourceName="Art/3F/Materials/wanwan555" />
+      <Asset Guid="eae9fa434cc5e104a8373c0972197f03" ResourceName="Character/50man/Materials/50man_kouqiang" />
+      <Asset Guid="ec189b9fbbff61544ab8c3cb86de0554" ResourceName="Character/20Girl/fbx/20girl_hejiAvatar" />
+      <Asset Guid="ec6932a720edfdf4fa05e6cf1934cb47" ResourceName="Art/1F/Materials/wuzhangaibiaoshi4F" />
+      <Asset Guid="ec9a2b89870da2641b56284a1acd3bca" ResourceName="Art/3F/Textures/qiangyun" />
+      <Asset Guid="ec9fec698a3456d4fb18cf8bacb7a2bc" ResourceName="URPShader" />
+      <Asset Guid="ecc4107b8750fa943b2344303483994e" ResourceName="Art/3F/Materials/pai5" />
+      <Asset Guid="eccf8460672b34d44b04ab5b02c2bfb7" ResourceName="Art/4F/Materials/lambert1" />
+      <Asset Guid="ecda4a65a291ee84d987a1480aac255e" ResourceName="Entity/ShowRole/1001" />
+      <Asset Guid="ecfff394f43581c49b6661bede295522" ResourceName="Art/3F/Textures/xibian2" />
+      <Asset Guid="ed435c60cc78cbb45a0986796064d109" ResourceName="Art/shandong_4/door3" />
+      <Asset Guid="ed6b8f5ebe8cf4a4997a2cf888cb9d19" ResourceName="Art/3F/Fbx/Materials/qiangti" />
+      <Asset Guid="ed9dd8bc66904a8408ffece71139e52e" ResourceName="Art/3F/Fbx/Materials/danrenshafa-lan3" />
+      <Asset Guid="edb644cc37612a24690734ebe1f16651" ResourceName="Art/3F/Fbx/Materials/zhishipai" />
+      <Asset Guid="ee16943bf6b6c414b8268485c95ae4ea" ResourceName="Entity/Role/3002" />
+      <Asset Guid="ee447e65526c7db45a978c16b28827a9" ResourceName="URPShader" />
+      <Asset Guid="ee7e4c9a5f6364b688a332c67fc32cca" ResourceName="URPShader" />
+      <Asset Guid="ef89f4ddccf5c324c9f6ca344805db2e" ResourceName="Art/Common/csm/Materials/csm04" />
+      <Asset Guid="f001423af83c7b0479138b442248687b" ResourceName="Art/3F/Materials/lajitong2" />
+      <Asset Guid="f0271df749728104eac22c3d897fd8ce" ResourceName="StarterAssets/ThirdPersonController/Character/Sfx/Prefabs/EventSystem/UI_EventSystem" />
+      <Asset Guid="f0f8b88b505b7dc49a53fa733a9b0157" ResourceName="Character/50man/Materials/50man_hair" />
+      <Asset Guid="f1130e9f5a4e4f94b87ba0047a5cbdfb" ResourceName="Art/1F/Fbx/guanggaopai03" />
+      <Asset Guid="f139505690309da44a95a12751f26da5" ResourceName="Art/3F/Fbx/Materials/q1" />
+      <Asset Guid="f14a8ba25a8722a47929f724e2b54ee2" ResourceName="Art/shandong_4/backBar" />
+      <Asset Guid="f185829b2bb361142a281565f3694058" ResourceName="Art/1F/Materials/tousuxiang" />
+      <Asset Guid="f1c4363116c109d46a5f3a38696f0161" ResourceName="Art/Common/Textures/mask" />
+      <Asset Guid="f30411dcc6a18b0479b311bd0dda12e6" ResourceName="Art/3F/Fbx/Materials/hua22" />
+      <Asset Guid="f31bf343921b848fa8e5cde15f1dbaab" ResourceName="URPShader" />
+      <Asset Guid="f3614ccb1cf1f9d41ba5866cc9de9f8a" ResourceName="Art/3F/Textures/danyi_uv2" />
+      <Asset Guid="f3b68ef715f19ed4a8d58b9da0afc8e3" ResourceName="Character/50woman/fbx/guzhang" />
+      <Asset Guid="f3c2ef7761e16eb419e678d42f65bb2e" ResourceName="Art/1F/Fbx_youhua/zongsuoyin" />
+      <Asset Guid="f3f7b99541cc2b24d9f44e2081b14390" ResourceName="Art/3F/Textures/diaopaiaA05_1" />
+      <Asset Guid="f3f941933e171854386001194281536f" ResourceName="URPShader" />
+      <Asset Guid="f426ef7793899b549847309f09642ba2" ResourceName="Art/Common/yizi/Materials/YZ" />
+      <Asset Guid="f43962b58022c5342b2b7c02df33e389" ResourceName="Art/3F/Materials/qianmuwen" />
+      <Asset Guid="f49cdafec70db0d498cecaf39fe5d376" ResourceName="Art/1F/Materials/guodao03" />
+      <Asset Guid="f4cdd3d9ca2858946ab04502c1dccb53" ResourceName="Art/3F/Textures/qiyefuwu" />
+      <Asset Guid="f56842e050402f04faf933439553ff1b" ResourceName="Character/50man/fbx/run1" />
+      <Asset Guid="f585e615f958d3c48a98bcbded290204" ResourceName="Art/1F/Materials/DFT_T" />
+      <Asset Guid="f5c96e4b96bd35542815d1223a502b21" ResourceName="Art/1F/Textures/zizhufuwuqu2" />
+      <Asset Guid="f5ca766e55aa41644b7c72beaba26a03" ResourceName="Art/3F/Textures/lajitong" />
+      <Asset Guid="f5dc796261043b0438124348a2d5e9ca" ResourceName="Art/3F/Textures/diaopaiA04" />
+      <Asset Guid="f630656576a930a41b8e61f318d81659" ResourceName="Art/3F/Materials/qiangyun" />
+      <Asset Guid="f6783ab646d374f94b199774402a5144" ResourceName="URPShader" />
+      <Asset Guid="f67f1ba2059d5d4408187a913e65730d" ResourceName="Art/4F/Materials/chuangjing" />
+      <Asset Guid="f6cded190735d774a83208c15cb6d11a" ResourceName="Art/3F/Textures/diantianniu2" />
+      <Asset Guid="f6d180413999d284882e26c53444454e" ResourceName="Art/1F/Fbx_youhua/yizi" />
+      <Asset Guid="f6e8d1e3388efc44cbff3be756297d62" ResourceName="SarsAssets/Images/4f_selected" />
+      <Asset Guid="f874fa3aa6ea2f04eb9072abbbc4eeb6" ResourceName="Art/1F/Textures/door3" />
+      <Asset Guid="f8bf51f4f9ae4a94098ecabdef8ff84e" ResourceName="Art/3F/Textures/guanggao_3" />
+      <Asset Guid="f965c0abebb299448a3d9a619b6855a0" ResourceName="Art/3F/Fbx/Materials/jin" />
+      <Asset Guid="f97dea76eabddb145b2156e26473c855" ResourceName="Art/3F/Fbx/Materials/lanse" />
+      <Asset Guid="f98492615d7a6bd49b7225fab52f0081" ResourceName="Character/20Girl/fbx/run1" />
+      <Asset Guid="f9d4379fe31e0434e99241281fdeb9dd" ResourceName="Entity/Role/1003" />
+      <Asset Guid="f9dc1e39b2e84cc4cb17a22471ae7b6c" ResourceName="Art/3F/Materials/yuan" />
+      <Asset Guid="fad3e0491b3e2c74cbdcb42b5a4090c6" ResourceName="Art/4F/Materials/bangongshinei4F003" />
+      <Asset Guid="fb2a5123eb40e0d49a212cab9c556429" ResourceName="Character/35boy/Materials/35boy_jiemao" />
+      <Asset Guid="fb3a491cdc4f3364e88ec7a939647eaf" ResourceName="Art/1F/Materials/rongyu1" />
+      <Asset Guid="fb428d540106be046891615ddc196fdf" ResourceName="Character/50woman/Textures/jiemao/jiemao_DA" />
+      <Asset Guid="fb613503786cc874d9b403daed63bbd4" ResourceName="Art/1F/Textures/jianhang" />
+      <Asset Guid="fb6390f650ca44a5ba3246d8dda47927" ResourceName="URPShader" />
+      <Asset Guid="fb6f0b9fd11fa6b4086e3264c5b31ba7" ResourceName="Art/1F/Materials/men05" />
+      <Asset Guid="fbe5b75f79b3a004aa2ae2bdc3723f45" ResourceName="Art/3F/Textures/diaopaiA08" />
+      <Asset Guid="fbfb96144b2058b42b8c1edf78e9ca45" ResourceName="Art/shandong_4/muyingshi" />
+      <Asset Guid="fc0319facb4dad34c811b9b9194196c0" ResourceName="Art/3F/Materials/hui" />
+      <Asset Guid="fc429a003b7dfe5428a9dbbf50a0d8c4" ResourceName="Art/3F/Materials/xiaofang" />
+      <Asset Guid="fc7e5aed49f44c649b49c5448f096dac" ResourceName="Art/1F/Materials/gonghang" />
+      <Asset Guid="fcc50103a98ac38458100bd9e942afa3" ResourceName="Art/Common/Fbx/Indicate/shengshizonghequ" />
+      <Asset Guid="fd2e9d2b65ed72442abe376d7ece60a9" ResourceName="Art/1F/Textures/zongsuoyin" />
+      <Asset Guid="fd37b66c804568f4a85fc9da1def834d" ResourceName="Art/3F/Fbx/Materials/hua11" />
+      <Asset Guid="fd3ad38c25ca6cb41b3bbecebc62cad8" ResourceName="Art/Other/Fbx/zuozhuan" />
+      <Asset Guid="fd41e0224d5d2bb47beaf3c61b106f0c" ResourceName="Art/3F/Materials/jin" />
+      <Asset Guid="fd6591c94fbd99a4f99aadbe180d9ca1" ResourceName="Character/20Girl/Materials/20girl_jiemao" />
+      <Asset Guid="fd8c76139a8fe444eb0baafcd5011ad5" ResourceName="Art/Common/yizi/yizi" />
+      <Asset Guid="fe42cbe729a0a3d4fbbb8e8a74a5854f" ResourceName="Entity/ShowRole/6003" />
+      <Asset Guid="fe519fdd045b075459f1c1088c139b5c" ResourceName="SarsAssets/Images/btnRenRight" />
+      <Asset Guid="feb9114a2a8a08b49b6e4e872fe7ee05" ResourceName="Scenes/ChooseRole" />
+      <Asset Guid="feddf7e8560e1b64e9b118599cc194ae" ResourceName="Art/1F/Materials/guodao01" />
+      <Asset Guid="ff32439e5593e9345933dc16f0c0ccfc" ResourceName="Art/3F/Fbx/Materials/bjbjbjbj" />
+      <Asset Guid="ff697d3070687ce4583faa0561a145a2" ResourceName="StarterAssets/ThirdPersonController/Character/Sfx/Player_Land" />
+      <Asset Guid="ff7bfa7addf40784d86f62b8e4a034a6" ResourceName="StarterAssets/ThirdPersonController/Character/Sfx/UI/UI_Icon_Move" />
+      <Asset Guid="ffc632d1e38ef4682807a89afb2b966f" ResourceName="URPShader" />
+      <Asset Guid="ffec99d8cb0b0084e9b25760d8814239" ResourceName="Art/4F/Fbx/lanmen" />
+      <Asset Guid="ffffaedd02c89244eae9da888c86b8cb" ResourceName="Entity/ShowRole/3003" />
+    </Assets>
+  </ResourceCollection>
+</UnityGameFramework>
