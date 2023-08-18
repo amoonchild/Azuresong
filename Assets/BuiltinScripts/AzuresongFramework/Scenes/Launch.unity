@@ -131,14 +131,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1688496487840396891, guid: d1193054086eb5d4880c5a3369efb784, type: 3}
-      propertyPath: m_EntranceProcedureTypeName
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1688496487840396891, guid: d1193054086eb5d4880c5a3369efb784, type: 3}
-      propertyPath: m_AvailableProcedureTypeNames.Array.size
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3310909678457669371, guid: d1193054086eb5d4880c5a3369efb784, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -182,18 +174,6 @@ PrefabInstance:
     - target: {fileID: 3310909678457669371, guid: d1193054086eb5d4880c5a3369efb784, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4217547377212913147, guid: d1193054086eb5d4880c5a3369efb784, type: 3}
-      propertyPath: m_UIFormHelperTypeName
-      value: Azuresong.Runtime.UGuiFormHelper
-      objectReference: {fileID: 0}
-    - target: {fileID: 4217547377212913147, guid: d1193054086eb5d4880c5a3369efb784, type: 3}
-      propertyPath: m_UIGroupHelperTypeName
-      value: Azuresong.Runtime.UGuiGroupHelper
-      objectReference: {fileID: 0}
-    - target: {fileID: 7900787062965131533, guid: d1193054086eb5d4880c5a3369efb784, type: 3}
-      propertyPath: m_LoadResourceAgentHelperTypeName
-      value: Azuresong.Runtime.WebGLLoadResourceAgentHelper
       objectReference: {fileID: 0}
     - target: {fileID: 8340659193925553466, guid: d1193054086eb5d4880c5a3369efb784, type: 3}
       propertyPath: m_Name
