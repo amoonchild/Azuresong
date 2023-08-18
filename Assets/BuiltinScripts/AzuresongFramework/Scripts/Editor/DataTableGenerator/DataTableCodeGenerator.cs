@@ -7,7 +7,7 @@
 
 using System.Text;
 
-namespace Sars.Editor.DataTableTools
+namespace Azuresong.Editor.DataTableTools
 {
     public delegate void DataTableCodeGenerator(DataTableProcessor dataTableProcessor, StringBuilder codeContent, object userData);
 }

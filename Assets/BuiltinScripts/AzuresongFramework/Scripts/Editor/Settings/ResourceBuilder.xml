@@ -8,7 +8,7 @@
       <CompressionHelperTypeName>UnityGameFramework.Runtime.DefaultCompressionHelper</CompressionHelperTypeName>
       <AdditionalCompressionSelected>False</AdditionalCompressionSelected>
       <ForceRebuildAssetBundleSelected>False</ForceRebuildAssetBundleSelected>
-      <BuildEventHandlerTypeName>Sars.Editor.BuildPackageEventHandler</BuildEventHandlerTypeName>
+      <BuildEventHandlerTypeName>Azuresong.Editor.BuildPackageEventHandler</BuildEventHandlerTypeName>
       <OutputDirectory>D:/Projects Output/JiNanScene/AssetBundles</OutputDirectory>
       <OutputPackageSelected>True</OutputPackageSelected>
       <OutputFullSelected>False</OutputFullSelected>

@@ -5,17 +5,17 @@ using UnityEditor;
 using UnityEngine;
 
 
-namespace Sars.Editor.DataTableTools
+namespace Azuresong.Editor.DataTableTools
 {
     public sealed class DataTableGeneratorMenu
     {
-        [MenuItem("SarsTools/DataTable/Generate DataTables")]
+        [MenuItem("AzuresongTools/DataTable/Generate DataTables")]
         public static void GenerateDataTables()
         {
             GenerateDataTablesAndCodes(false);
         }
 
-        [MenuItem("SarsTools/DataTable/Generate DataTables And Codes")]
+        [MenuItem("AzuresongTools/DataTable/Generate DataTables And Codes")]
         public static void GenerateDataTablesAndCodes()
         {
             GenerateDataTablesAndCodes(true);

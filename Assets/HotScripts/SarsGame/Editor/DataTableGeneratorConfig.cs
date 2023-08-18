@@ -3,7 +3,7 @@
 //  CreationTime：2023/08/01 17:01:20
 //  Description：DataTableGenerator
 //------------------------------------------------------------
-using Sars.Editor.DataTableTools;
+using Azuresong.Editor.DataTableTools;
 
 
 namespace SarsGame.Editor

@@ -522,8 +522,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ef9b2ac02650134281882ed41c73ab3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_AvailableProcedureTypeNames: []
-  m_EntranceProcedureTypeName: 
+  m_AvailableProcedureTypeNames:
+  - Azuresong.Runtime.ProcedureCheckVersion
+  - Azuresong.Runtime.ProcedureLaunch
+  - Azuresong.Runtime.ProcedurePreload
+  - Azuresong.Runtime.ProcedureSplash
+  m_EntranceProcedureTypeName: Azuresong.Runtime.ProcedureLaunch
 --- !u!1 &3773776802456527637
 GameObject:
   m_ObjectHideFlags: 0

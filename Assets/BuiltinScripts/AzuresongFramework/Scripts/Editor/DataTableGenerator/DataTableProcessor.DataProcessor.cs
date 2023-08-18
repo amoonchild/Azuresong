@@ -7,7 +7,7 @@
 
 using System.IO;
 
-namespace Sars.Editor.DataTableTools
+namespace Azuresong.Editor.DataTableTools
 {
     public sealed partial class DataTableProcessor
     {

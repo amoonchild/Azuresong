@@ -4,7 +4,7 @@ using System.Reflection;
 using UnityGameFramework.Editor;
 
 
-namespace Sars.Editor
+namespace Azuresong.Editor
 {
     internal static class Type
     {
@@ -27,7 +27,7 @@ namespace Sars.Editor
 
 #if UNITY_2017_3_OR_NEWER
             "UnityGameFramework.Editor",
-            "Sars.Editor",
+            "Azuresong.Editor",
 #endif
             "Assembly-CSharp-Editor",
         };

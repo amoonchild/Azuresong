@@ -6,7 +6,7 @@
 using System.IO;
 
 
-namespace Sars.Editor
+namespace Azuresong.Editor
 {
     public class Copyright : UnityEditor.AssetModificationProcessor
     {

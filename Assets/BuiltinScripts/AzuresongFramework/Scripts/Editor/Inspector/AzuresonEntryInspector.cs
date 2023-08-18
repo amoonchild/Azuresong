@@ -1,7 +1,7 @@
 //------------------------------------------------------------
 //  Copyright © Chen Jie. All rights reserved.
 //  CreationTime：2023/06/27 11:32:59
-//  Description：SarsEntryInspector
+//  Description：AzuresonEntryInspector
 //------------------------------------------------------------
 using UnityEngine;
 using UnityEditor;
@@ -12,10 +12,10 @@ using UnityGameFramework.Runtime;
 using UnityGameFramework.Editor;
 
 
-namespace Sars.Editor
+namespace Azuresong.Editor
 {
     [CustomEditor(typeof(Azuresong.Runtime.AzuresongEntry))]
-    public class SarsEntryInspector : GameFrameworkInspector
+    public class AzuresonEntryInspector : GameFrameworkInspector
     {
         private static readonly float[] _gameSpeed = new float[] { 0f, 0.01f, 0.1f, 0.25f, 0.5f, 1f, 1.5f, 2f, 4f, 8f };
         private static readonly string[] _gameSpeedForDisplay = new string[] { "0x", "0.01x", "0.1x", "0.25x", "0.5x", "1x", "1.5x", "2x", "4x", "8x" };

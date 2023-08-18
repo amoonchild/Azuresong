@@ -9,14 +9,14 @@ using UnityGameFramework.Editor.ResourceTools;
 using GFResource = UnityGameFramework.Editor.ResourceTools.Resource;
 
 
-namespace Sars.Editor
+namespace Azuresong.Editor
 {
     /// <summary>
     /// Resource 规则编辑器，支持按规则配置自动生成 ResourceCollection.xml
     /// </summary>
     public class ResourceRuleEditor : EditorWindow
     {
-        public static readonly string ConfigurationPath = "Assets/SarsFramework/Scripts/Editor/Settings/ResourceRuleEditorData.asset";
+        public static readonly string ConfigurationPath = "Assets/BuiltinScripts/AzuresongFramework/Scripts/Editor/Settings/ResourceRuleEditorData.asset";
         private static ResourceRuleEditorData m_Configuration;
         private static ResourceCollection m_ResourceCollection;
 

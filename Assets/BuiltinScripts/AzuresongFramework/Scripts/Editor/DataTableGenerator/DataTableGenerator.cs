@@ -15,7 +15,7 @@ using System.Text.RegularExpressions;
 using UnityEngine;
 
 
-namespace Sars.Editor.DataTableTools
+namespace Azuresong.Editor.DataTableTools
 {
     public sealed class DataTableGenerator
     {

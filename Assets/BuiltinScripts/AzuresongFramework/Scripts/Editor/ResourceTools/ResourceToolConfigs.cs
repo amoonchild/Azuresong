@@ -10,11 +10,11 @@ using UnityGameFramework.Editor;
 using UnityGameFramework.Editor.ResourceTools;
 
 
-namespace Sars.Editor
+namespace Azuresong.Editor
 {
     public static class ResourceToolConfigs
     {
-        public const string ConfigPath = "SarsFramework/Scripts/Editor/Settings/";
+        public const string ConfigPath = "Assets/BuiltinScripts/AzuresongFramework/Scripts/Editor/Settings/";
 
         [BuildSettingsConfigPath]
         public static string BuildSettingsConfig = Utility.Path.GetRegularPath(Path.Combine(Application.dataPath, ConfigPath, "BuildSettings.xml"));

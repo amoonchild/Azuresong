@@ -10,7 +10,7 @@ using UnityEngine;
 using UnityGameFramework.Editor.ResourceTools;
 
 
-namespace Sars.Editor
+namespace Azuresong.Editor
 {
     public class BuildPackageEventHandler : IBuildEventHandler
     {

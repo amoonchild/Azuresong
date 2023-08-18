@@ -2824,10 +2824,6 @@ MonoBehaviour:
       ids: 
     - guid: 8542a7241ddabc0458a5b4e3f2cddadb
       ids: 
-  - guid: a84e60979393d1044b27ae1f16ff74ee
-    stamp: 1691474673
-    type: 2
-    UseGUIDsList: []
   - guid: a8bfff3cfbc4e334c8268772330aec3b
     stamp: 1691400588
     type: 2

@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEditor;
 
 
-namespace Sars.Editor.BuildTools
+namespace Azuresong.Editor.BuildTools
 {
     public class BuildToolEditorData : ScriptableObject
     {

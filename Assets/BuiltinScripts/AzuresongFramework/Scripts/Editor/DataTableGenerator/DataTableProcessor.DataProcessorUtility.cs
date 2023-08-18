@@ -10,7 +10,7 @@ using System;
 using System.Collections.Generic;
 using System.Reflection;
 
-namespace Sars.Editor.DataTableTools
+namespace Azuresong.Editor.DataTableTools
 {
     public sealed partial class DataTableProcessor
     {

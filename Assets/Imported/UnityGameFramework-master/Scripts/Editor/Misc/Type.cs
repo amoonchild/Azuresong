@@ -35,7 +35,7 @@ namespace UnityGameFramework.Editor
 
 #if UNITY_2017_3_OR_NEWER
             "UnityGameFramework.Editor",
-            "Sars.Editor",
+            "Azuresong.Editor",
 #endif
             "Assembly-CSharp-Editor",
         };

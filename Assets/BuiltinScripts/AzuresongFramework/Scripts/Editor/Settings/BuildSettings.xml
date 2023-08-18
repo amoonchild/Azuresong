@@ -2,10 +2,10 @@
 <UnityGameFramework>
   <BuildSettings>
     <DefaultScenes>
-      <DefaultScene Name="Resources/Launch.unity" />
+      <DefaultScene Name="Assets/BuiltinScripts/AzuresongFramework/Scenes/Launch.unity" />
     </DefaultScenes>
     <SearchScenePaths>
-      <SearchScenePath Path="Assets/SarsAssets/Scenes" />
+      <SearchScenePath Path="Assets/HotResources/Scenes" />
     </SearchScenePaths>
   </BuildSettings>
 </UnityGameFramework>

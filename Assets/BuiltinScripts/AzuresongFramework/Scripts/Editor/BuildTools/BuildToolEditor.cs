@@ -13,19 +13,19 @@ using System;
 using System.Text;
 using GameFramework;
 using GameFramework.Resource;
-using Sars.Editor.DataTableTools;
+using Azuresong.Editor.DataTableTools;
 
 
-namespace Sars.Editor.BuildTools
+namespace Azuresong.Editor.BuildTools
 {
     public partial class BuildToolEditor : EditorWindow
     {
-        private static readonly string m_ConfigurationDir = "Assets/Framework/Scripts/Editor/Settings";
+        private static readonly string m_ConfigurationDir = "Assets/BuiltinScripts/AzuresongFramework/Scripts/Editor/Settings";
         private static readonly string m_ConfigurationName = "BuildToolEditorData.asset";
 
         private static bool _isVal = false;
 
-        [MenuItem("SarsTools/Build Tools/Build Tool", false)]
+        [MenuItem("AzuresongTools/Build Tools/Build Tool", false)]
         private static void Open()
         {
             BuildToolEditor window = GetWindow<BuildToolEditor>(false, "Build Tool", true);

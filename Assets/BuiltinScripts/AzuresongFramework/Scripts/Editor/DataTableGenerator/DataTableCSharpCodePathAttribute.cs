@@ -6,7 +6,7 @@
 using UnityGameFramework.Editor;
 
 
-namespace Sars.Editor.DataTableTools
+namespace Azuresong.Editor.DataTableTools
 {
     public sealed class DataTableCSharpCodePathAttribute : ConfigPathAttribute
     {
