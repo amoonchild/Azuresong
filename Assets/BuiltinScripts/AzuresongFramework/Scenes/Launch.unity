@@ -133,15 +133,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1688496487840396891, guid: d1193054086eb5d4880c5a3369efb784, type: 3}
       propertyPath: m_EntranceProcedureTypeName
-      value: SarsFramework.Runtime.ProcedureTest
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1688496487840396891, guid: d1193054086eb5d4880c5a3369efb784, type: 3}
       propertyPath: m_AvailableProcedureTypeNames.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1688496487840396891, guid: d1193054086eb5d4880c5a3369efb784, type: 3}
-      propertyPath: m_AvailableProcedureTypeNames.Array.data[0]
-      value: SarsFramework.Runtime.ProcedureTest
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3310909678457669371, guid: d1193054086eb5d4880c5a3369efb784, type: 3}
       propertyPath: m_RootOrder
@@ -189,15 +185,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4217547377212913147, guid: d1193054086eb5d4880c5a3369efb784, type: 3}
       propertyPath: m_UIFormHelperTypeName
-      value: SarsFramework.Runtime.UGuiFormHelper
+      value: Azuresong.Runtime.UGuiFormHelper
       objectReference: {fileID: 0}
     - target: {fileID: 4217547377212913147, guid: d1193054086eb5d4880c5a3369efb784, type: 3}
       propertyPath: m_UIGroupHelperTypeName
-      value: SarsFramework.Runtime.UGuiGroupHelper
+      value: Azuresong.Runtime.UGuiGroupHelper
       objectReference: {fileID: 0}
     - target: {fileID: 7900787062965131533, guid: d1193054086eb5d4880c5a3369efb784, type: 3}
       propertyPath: m_LoadResourceAgentHelperTypeName
-      value: SarsFramework.Runtime.WebGLLoadResourceAgentHelper
+      value: Azuresong.Runtime.WebGLLoadResourceAgentHelper
       objectReference: {fileID: 0}
     - target: {fileID: 8340659193925553466, guid: d1193054086eb5d4880c5a3369efb784, type: 3}
       propertyPath: m_Name

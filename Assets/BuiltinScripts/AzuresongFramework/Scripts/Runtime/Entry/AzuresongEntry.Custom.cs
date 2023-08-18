@@ -17,10 +17,17 @@ namespace Azuresong.Runtime
             private set;
         }
 
+        public static ASWebRequestComponent ASWebRequest
+        {
+            get;
+            private set;
+        }
+
 
         private void InitCustomComponents()
         {
             NativeBridge = GameEntry.GetComponent<NativeBridgeComponent>();
+            ASWebRequest = GameEntry.GetComponent<ASWebRequestComponent>();
         }
     }
 }

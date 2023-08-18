@@ -46,6 +46,51 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_EnableLoadSceneUpdateEvent: 1
   m_EnableLoadSceneDependencyAssetEvent: 1
+--- !u!1 &1349916185799237220
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3907998886227051916}
+  - component: {fileID: 6392012747992282870}
+  m_Layer: 0
+  m_Name: ASWebRequest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3907998886227051916
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1349916185799237220}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3310909678457669371}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6392012747992282870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1349916185799237220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 985bd63b696661e4a8d78d189544c007, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isDebug: 0
 --- !u!1 &1394248394546345588
 GameObject:
   m_ObjectHideFlags: 0
@@ -477,9 +522,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ef9b2ac02650134281882ed41c73ab3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_AvailableProcedureTypeNames:
-  - Sars.Runtime.ProcedureTest
-  m_EntranceProcedureTypeName: Sars.Runtime.ProcedureTest
+  m_AvailableProcedureTypeNames: []
+  m_EntranceProcedureTypeName: 
 --- !u!1 &3773776802456527637
 GameObject:
   m_ObjectHideFlags: 0
@@ -859,9 +903,9 @@ MonoBehaviour:
   m_InstanceExpireTime: 30
   m_InstancePriority: 0
   m_InstanceRoot: {fileID: 0}
-  m_UIFormHelperTypeName: Sars.Runtime.UGuiFormHelper
+  m_UIFormHelperTypeName: Azuresong.Runtime.UGuiFormHelper
   m_CustomUIFormHelper: {fileID: 0}
-  m_UIGroupHelperTypeName: Sars.Runtime.UGuiGroupHelper
+  m_UIGroupHelperTypeName: Azuresong.Runtime.UGuiGroupHelper
   m_CustomUIGroupHelper: {fileID: 0}
   m_UIGroups: []
 --- !u!1 &5668630466133644965
@@ -1057,6 +1101,7 @@ Transform:
   - {fileID: 8423791180025247548}
   - {fileID: 8542172961200573327}
   - {fileID: 6430176548842100349}
+  - {fileID: 3907998886227051916}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1161,7 +1206,7 @@ MonoBehaviour:
   m_InstanceRoot: {fileID: 0}
   m_ResourceHelperTypeName: UnityGameFramework.Runtime.DefaultResourceHelper
   m_CustomResourceHelper: {fileID: 0}
-  m_LoadResourceAgentHelperTypeName: Sars.Runtime.WebGLLoadResourceAgentHelper
+  m_LoadResourceAgentHelperTypeName: Azuresong.Runtime.WebGLLoadResourceAgentHelper
   m_CustomLoadResourceAgentHelper: {fileID: 0}
   m_LoadResourceAgentHelperCount: 64
 --- !u!1 &9063747094729684731
