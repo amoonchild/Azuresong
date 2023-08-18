@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/BuiltinScripts/AzuresongFramework/Scenes/Launch.unity
+    path: Assets/AzuresongFramework/Scenes/Launch.unity
     guid: 320ad0a40cb2a4243b60eff27a7f762f
   - enabled: 1
-    path: Assets/HotResources/Scenes/Floor_1.unity
+    path: Assets/SarsGame/Scenes/Floor_1.unity
     guid: 108bfbd289b98854596a8d524a12c948
   m_configObjects: {}
