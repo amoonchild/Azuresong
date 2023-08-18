@@ -6412,5 +6412,9 @@ MonoBehaviour:
     stamp: 0
     type: 1
     UseGUIDsList: []
+  - guid: c4fc9057e1b644b48b295589a341db28
+    stamp: 0
+    type: 2
+    UseGUIDsList: []
   timeStamp: 1692345402
   priority: 3
