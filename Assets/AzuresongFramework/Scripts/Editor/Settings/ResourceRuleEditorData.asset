@@ -38,7 +38,7 @@ MonoBehaviour:
     variant: 
     fileSystem: 
     groups: 
-    assetsDirectoryPath: Assets/SarsGame/Entity
+    assetsDirectoryPath: Assets/SarsGame/Entities
     loadType: 0
     packed: 1
     filterType: 1

@@ -31,12 +31,12 @@ namespace SarsGame.Runtime
 
         public static string GetEntityPath(string assetName)
         {
-            return $"Assets/SarsGame/Entity/{assetName}.prefab";
+            return $"Assets/SarsGame/Entities/{assetName}.prefab";
         }
 
         public static string GetPlayerPath(string assetName)
         {
-            return $"Assets/SarsGame/Entity/Player/{assetName}.prefab";
+            return $"Assets/SarsGame/Entities/Player/{assetName}.prefab";
         }
     }
 }

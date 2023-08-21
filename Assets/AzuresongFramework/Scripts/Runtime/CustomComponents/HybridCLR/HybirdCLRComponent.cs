@@ -38,7 +38,7 @@ namespace Azuresong.Runtime
 
         public void RunHotfix()
         {
-            AzuresongEntry.Resource.LoadAsset("Assets/SarsGame/Entity/HotfixEntry.prefab",
+            AzuresongEntry.Resource.LoadAsset("Assets/SarsGame/Entities/HotfixEntry.prefab",
                 new LoadAssetCallbacks(OnLoadHotfixEntryPrefabSuccess, OnLoadHotfixEntryPrefabFailure));
         }
 
@@ -59,13 +59,14 @@ namespace Azuresong.Runtime
 
         private void OnLoadHotfixEntryPrefabSuccess(string assetName, object asset, float duration, object userData)
         {
+            ASLog.Error("load hotfix entry success");
             GameObject obj = GameObject.Instantiate<GameObject>(asset as GameObject);
             DontDestroyOnLoad(obj);
         }
 
         private void OnLoadHotfixEntryPrefabFailure(string assetName, LoadResourceStatus status, string errorMessage, object userData)
         {
-
+            ASLog.Error("load hotfix entry error");
         }
     }
 }
