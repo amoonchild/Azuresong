@@ -59,7 +59,6 @@ namespace Azuresong.Runtime
 
         private void OnLoadHotfixEntryPrefabSuccess(string assetName, object asset, float duration, object userData)
         {
-            ASLog.Error("load hotfix entry success");
             GameObject obj = GameObject.Instantiate<GameObject>(asset as GameObject);
             DontDestroyOnLoad(obj);
         }
