@@ -4,7 +4,6 @@
 //  Description：ProcedureLaunch
 //------------------------------------------------------------
 using Azuresong.Runtime;
-using GameFramework.Resource;
 using ProcedureOwner = GameFramework.Fsm.IFsm<GameFramework.Procedure.IProcedureManager>;
 
 
@@ -23,20 +22,7 @@ namespace SarsGame.Runtime
 
         protected override void OnUpdateSelf(ProcedureOwner procedureOwner, float elapseSeconds, float realElapseSeconds)
         {
-            if (AzuresongEntry.Base.EditorResourceMode)
-            {
-                ASLog.Info("Editor resource mode detected.");
-                ChangeState<ProcedurePreload>(procedureOwner);
-            }
-            else if (AzuresongEntry.Resource.ResourceMode == ResourceMode.Package)
-            {
-                ASLog.Info("Package resource mode detected.");
-                ChangeState<ProcedureInitResources>(procedureOwner);
-            }
-            else
-            {
-                ASLog.Info("Updatable resource mode detected.");
-            }
+            ChangeState<ProcedurePreload>(procedureOwner);
         }
 
         private void InitSoundSettings()

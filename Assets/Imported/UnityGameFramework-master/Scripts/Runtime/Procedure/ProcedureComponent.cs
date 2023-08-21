@@ -69,8 +69,6 @@ namespace UnityGameFramework.Runtime
 
         private IEnumerator Start()
         {
-            yield break;
-
             ProcedureBase[] procedures = new ProcedureBase[m_AvailableProcedureTypeNames.Length];
             for (int i = 0; i < m_AvailableProcedureTypeNames.Length; i++)
             {

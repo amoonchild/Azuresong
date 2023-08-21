@@ -22,8 +22,8 @@ namespace SarsGame.Runtime
 
         public static void ChangeScene<T>(this ProcedureComponent procedureComponent) where T : ProcedureBase
         {
-            ProcedureBase jinanProcedure = procedureComponent.CurrentProcedure as ProcedureBase;
-            jinanProcedure.ChangeScene<T>();
+            ProcedureBase procedureBase = procedureComponent.CurrentProcedure as ProcedureBase;
+            procedureBase.ChangeScene<T>();
         }
     }
 }

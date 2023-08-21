@@ -1,17 +1,16 @@
 //------------------------------------------------------------
 //  Copyright © Chen Jie. All rights reserved.
 //  CreationTime：2023/06/29 15:40:57
-//  Description：ProcedureInitResources
+//  Description：ProcedureChangeScene
 //------------------------------------------------------------
-using GameFramework.Event;
+using System;
+using System.Collections.Generic;
 using UnityEngine;
+using Azuresong.Runtime;
+using GameFramework.Event;
+using GameFramework.ObjectPool;
 using UnityGameFramework.Runtime;
 using ProcedureOwner = GameFramework.Fsm.IFsm<GameFramework.Procedure.IProcedureManager>;
-using GameFramework.ObjectPool;
-using System.Collections.Generic;
-using System;
-using LitJson;
-using Azuresong.Runtime;
 
 
 namespace SarsGame.Runtime
@@ -67,7 +66,6 @@ namespace SarsGame.Runtime
             _loadPlayerDependencyProgress = 0f;
             _isLoadPlayerCompleted = false;
 
-            // 界面逻辑已移动到unity,所以需要等待Loading界面打开
             AzuresongEntry.UI.OpenUIForm(UIFormType.Loading, _targetProcedure);
         }
 
@@ -165,6 +163,7 @@ namespace SarsGame.Runtime
             {
                 UserData.playerEntityId = AzuresongEntry.Entity.GenerateSerialId();
 
+                // TODO:
                 PlayerEntityData playerEntityData = new PlayerEntityData(_targetProcedure.PlayerInitPosition,
                     Quaternion.Euler(_targetProcedure.PlayerInitRotation), Vector3.one);
 

@@ -4,6 +4,10 @@
 //  Description：HybirdCLRComponent
 //------------------------------------------------------------
 using System;
+using System.Reflection;
+using GameFramework;
+using GameFramework.Resource;
+using UnityEngine;
 using UnityGameFramework.Runtime;
 
 
@@ -11,23 +15,57 @@ namespace Azuresong.Runtime
 {
     public class HybirdCLRComponent : GameFrameworkComponent
     {
+        private string _hotfixDllListFileName = "HotfixDlls.txt";
+
+        private bool _isEnable = false;
         private bool _isEditor = false;
         private Action<bool, string> _loadCompleteEvent = null;
 
 
-        public void LoadHotfixAssets(Action<bool, string> loadCompleteEvent)
+        public bool IsEnable
         {
-            ASLog.Info("Init hotfix...");
-            _loadCompleteEvent = loadCompleteEvent;
-
-            if(_isEditor)
+            get
             {
-                ASLog.Info("Init hotfix...");
+                return _isEnable;
             }
-            else
-            {
+        }
 
-            }
+
+        public void Init()
+        {
+            AzuresongEntry.Event.Fire(this, InitHybridCLRSuccessEventArgs.Create());
+        }
+
+        public void RunHotfix()
+        {
+            AzuresongEntry.Resource.LoadAsset("Assets/SarsGame/Entity/HotfixEntry.prefab",
+                new LoadAssetCallbacks(OnLoadHotfixEntryPrefabSuccess, OnLoadHotfixEntryPrefabFailure));
+        }
+
+        private void LoadMetadata()
+        {
+
+        }
+
+        private void LoadHotfixDlls()
+        {
+
+        }
+
+        private void OnLoadHotfixDllAssetsSuccess()
+        {
+            
+        }
+
+        private void OnLoadHotfixEntryPrefabSuccess(string assetName, object asset, float duration, object userData)
+        {
+            GameObject obj = GameObject.Instantiate<GameObject>(asset as GameObject);
+            DontDestroyOnLoad(obj);
+        }
+
+        private void OnLoadHotfixEntryPrefabFailure(string assetName, LoadResourceStatus status, string errorMessage, object userData)
+        {
+
         }
     }
 }

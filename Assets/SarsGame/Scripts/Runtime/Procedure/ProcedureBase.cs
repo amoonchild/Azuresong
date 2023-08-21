@@ -1,12 +1,12 @@
 //------------------------------------------------------------
 //  Copyright © Chen Jie. All rights reserved.
 //  CreationTime：2023/06/29 15:55:34
-//  Description：JinanProcedure
+//  Description：ProcedureBase
 //------------------------------------------------------------
-using Azuresong.Runtime;
 using System;
-using UnityEngine.SceneManagement;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using Azuresong.Runtime;
 using UnityGameFramework.Runtime;
 using ProcedureOwner = GameFramework.Fsm.IFsm<GameFramework.Procedure.IProcedureManager>;
 
@@ -69,16 +69,16 @@ namespace SarsGame.Runtime
             }
         }
 
+        protected virtual void OnUpdateSelf(ProcedureOwner procedureOwner, float elapseSeconds, float realElapseSeconds)
+        {
+
+        }
+
         protected override void OnLeave(ProcedureOwner procedureOwner, bool isShutdown)
         {
             _nextProcedureType = null;
 
             base.OnLeave(procedureOwner, isShutdown);
-        }
-
-        protected virtual void OnUpdateSelf(ProcedureOwner procedureOwner, float elapseSeconds, float realElapseSeconds)
-        {
-
         }
 
         protected void TryChangeScene(ProcedureOwner procedureOwner, Type procedureType)

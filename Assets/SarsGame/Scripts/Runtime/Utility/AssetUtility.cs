@@ -13,25 +13,30 @@ namespace SarsGame.Runtime
         {
             if (useBytes)
             {
-                return $"Assets/DataTables/{assetName}.bytes";
+                return $"Assets/SarsGame/DataTables/{assetName}.bytes";
             }
 
-            return $"Assets/DataTables/BinaryFiles/{assetName}.txt";
+            return $"Assets/SarsGame/DataTables/BinaryFiles/{assetName}.txt";
         }
 
         public static string GetScenePath(string assetName)
         {
-            return $"Assets/Scenes/{assetName}.unity";
+            return $"Assets/SarsGame/Scenes/{assetName}.unity";
         }
 
         public static string GetUIFormPath(string assetName)
         {
-            return $"Assets/UI/Forms/{assetName}.prefab";
+            return $"Assets/SarsGame/UI/Forms/{assetName}.prefab";
+        }
+
+        public static string GetEntityPath(string assetName)
+        {
+            return $"Assets/SarsGame/Entity/{assetName}.prefab";
         }
 
         public static string GetPlayerPath(string assetName)
         {
-            return $"Assets/Entity/Player/{assetName}.prefab";
+            return $"Assets/SarsGame/Entity/Player/{assetName}.prefab";
         }
     }
 }

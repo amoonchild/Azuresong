@@ -2,17 +2,17 @@
 <UnityGameFramework>
   <ResourceBuilder>
     <Settings>
-      <InternalResourceVersion>3</InternalResourceVersion>
+      <InternalResourceVersion>5</InternalResourceVersion>
       <Platforms>128</Platforms>
       <AssetBundleCompression>1</AssetBundleCompression>
       <CompressionHelperTypeName>UnityGameFramework.Runtime.DefaultCompressionHelper</CompressionHelperTypeName>
-      <AdditionalCompressionSelected>False</AdditionalCompressionSelected>
+      <AdditionalCompressionSelected>True</AdditionalCompressionSelected>
       <ForceRebuildAssetBundleSelected>False</ForceRebuildAssetBundleSelected>
       <BuildEventHandlerTypeName>Azuresong.Editor.BuildPackageEventHandler</BuildEventHandlerTypeName>
-      <OutputDirectory>D:/Projects Output/JiNanScene/AssetBundles</OutputDirectory>
+      <OutputDirectory>D:/Projects/Azuresong/Builds/AssetBundles</OutputDirectory>
       <OutputPackageSelected>True</OutputPackageSelected>
-      <OutputFullSelected>False</OutputFullSelected>
-      <OutputPackedSelected>False</OutputPackedSelected>
+      <OutputFullSelected>True</OutputFullSelected>
+      <OutputPackedSelected>True</OutputPackedSelected>
     </Settings>
   </ResourceBuilder>
 </UnityGameFramework>

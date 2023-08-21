@@ -14,7 +14,7 @@ namespace Azuresong.Editor
 {
     public static class ResourceToolConfigs
     {
-        public const string ConfigPath = "Assets/AzuresongFramework/Scripts/Editor/Settings/";
+        public const string ConfigPath = "AzuresongFramework/Scripts/Editor/Settings/";
 
         [BuildSettingsConfigPath]
         public static string BuildSettingsConfig = Utility.Path.GetRegularPath(Path.Combine(Application.dataPath, ConfigPath, "BuildSettings.xml"));
