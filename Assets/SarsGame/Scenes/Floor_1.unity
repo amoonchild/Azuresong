@@ -395,7 +395,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 251cbdb0ebc3b89449d41f89e18c805b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _url: http://playertest.longtailvideo.com/adaptive/bipbop/gear4/prog_index.m3u8
+  _url: https://ythls.onrender.com/channel/UCVEaAWKfv7fE1c-ZuBs7TKQ.m3u8
   _mediaPlayer: {fileID: 1769688440}
   _displayUGUI: {fileID: 315372008}
 --- !u!114 &315372008
@@ -591,7 +591,7 @@ MonoBehaviour:
   _mediaReference: {fileID: 0}
   _mediaPath:
     _pathType: 0
-    _path: http://playertest.longtailvideo.com/adaptive/bipbop/gear4/prog_index.m3u8
+    _path: https://ythls.onrender.com/channel/UCVEaAWKfv7fE1c-ZuBs7TKQ.m3u8
   _fallbackMediaHints:
     transparency: 0
     alphaPacking: 0
