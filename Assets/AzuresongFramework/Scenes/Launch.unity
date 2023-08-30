@@ -211,7 +211,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1592692538580106088, guid: 789be332757e34e4c85bb995e21a634b, type: 3}
       propertyPath: m_EditorResourceMode
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3124007724547868364, guid: 789be332757e34e4c85bb995e21a634b, type: 3}
       propertyPath: m_LocalPosition.x
