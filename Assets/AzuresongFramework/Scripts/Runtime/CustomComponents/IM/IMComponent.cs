@@ -55,16 +55,6 @@ namespace Azuresong.Runtime
 
         public void Login(string userId, string userSig)
         {
-            if(TencentIMSDK.GetLoginStatus() != TIMLoginStatus.kTIMLoginStatus_UnLogined)
-            {
-                return;
-            }
-
-            if(string.IsNullOrEmpty(userId) || string.IsNullOrEmpty(userSig))
-            {
-                return;
-            }
-
             _userId = userId;
             _userSig = userSig;
             Login();
@@ -118,11 +108,21 @@ namespace Azuresong.Runtime
 
         private void Login()
         {
+            if (TencentIMSDK.GetLoginStatus() != TIMLoginStatus.kTIMLoginStatus_UnLogined)
+            {
+                return;
+            }
+
+            if (string.IsNullOrEmpty(_userId) || string.IsNullOrEmpty(_userSig))
+            {
+                return;
+            }
+
             TIMResult res = TencentIMSDK.Login(_userId, _userSig, (int code, string desc, string json_param, string user_data) =>
             {
                 if (code == 6206 || code == 70001)
                 {
-
+                    _userSig = string.Empty;
                 }
             });
 
@@ -150,7 +150,7 @@ namespace Azuresong.Runtime
 
         private void OnUserSigExpired(string user_data)
         {
-
+            _userSig = string.Empty;
         }
 
         private void OnKickedOffline(string user_data)
