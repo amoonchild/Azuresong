@@ -40,7 +40,13 @@ namespace Azuresong.Runtime
             get;
             private set;
         }
-        
+
+        public static IMComponent IM
+        {
+            get;
+            private set;
+        }
+
 
         private void InitCustomComponents()
         {
@@ -49,6 +55,7 @@ namespace Azuresong.Runtime
             XLua = GameEntry.GetComponent<XLuaComponent>();
             ILRuntime = GameEntry.GetComponent<ILRuntimeComponent>();
             HybirdCLR = GameEntry.GetComponent<HybirdCLRComponent>();
+            IM = GameEntry.GetComponent<IMComponent>();
         }
     }
 }
