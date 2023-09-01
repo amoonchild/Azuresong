@@ -47,6 +47,12 @@ namespace Azuresong.Runtime
             private set;
         }
 
+        public static JsonEventComponent JsonEvent
+        {
+            get;
+            private set;
+        }
+        
 
         private void InitCustomComponents()
         {
@@ -56,6 +62,7 @@ namespace Azuresong.Runtime
             ILRuntime = GameEntry.GetComponent<ILRuntimeComponent>();
             HybirdCLR = GameEntry.GetComponent<HybirdCLRComponent>();
             IM = GameEntry.GetComponent<IMComponent>();
+            JsonEvent = GameEntry.GetComponent<JsonEventComponent>();
         }
     }
 }
