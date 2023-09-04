@@ -9,7 +9,6 @@ using UnityGameFramework.Runtime;
 using com.tencent.imsdk.unity;
 using com.tencent.imsdk.unity.enums;
 using com.tencent.imsdk.unity.types;
-using Codice.CM.Common;
 
 
 namespace Azuresong.Runtime
@@ -28,6 +27,7 @@ namespace Azuresong.Runtime
 
         public void InitIM(long sdkAppId)
         {
+                return;
             if(sdkAppId == 0L)
             {
                 return;
