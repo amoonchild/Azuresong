@@ -838,7 +838,7 @@ PlayerSettings:
   scriptingDefineSymbols:
     Android: ENABLE_LOG
     Standalone: ENABLE_LOG
-    WebGL: ENABLE_LOG
+    WebGL: 
     Windows Store Apps: ENABLE_LOG
     iPhone: ENABLE_LOG
   additionalCompilerArguments: {}

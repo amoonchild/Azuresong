@@ -18,8 +18,6 @@ namespace SarsGame.Runtime
             InitSoundSettings();
             InitUIGroups();
             InitEntityGroups();
-
-            AzuresongEntry.IM.InitIM(1400816214L);
         }
 
         protected override void OnUpdateSelf(ProcedureOwner procedureOwner, float elapseSeconds, float realElapseSeconds)
