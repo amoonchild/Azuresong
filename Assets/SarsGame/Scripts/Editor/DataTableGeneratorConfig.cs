@@ -11,12 +11,12 @@ namespace SarsGame.Editor
     public static class DataTableGeneratorConfig
     {
         [DataTableSourceFilePath]
-        public static string DataTableSourceFile = "SarsGame/DataTables";
+        public static string DataTableSourceFile = "Assets/SarsGame/DataTables";
 
         [DataTableOutputFilePath]
-        public static string DataTableOutputFile = "SarsGame/DataTables/BinaryFiles";
+        public static string DataTableOutputFile = "Assets/SarsGame/DataTables/BinaryFiles";
 
         [DataTableCSharpCodePath]
-        public static string DataTableCSharpCode = "SarsGame/Scripts/Runtime/DataTable";
+        public static string DataTableCSharpCode = "Assets/SarsGame/Scripts/Runtime/DataTable";
     }
 }

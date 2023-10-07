@@ -19,6 +19,7 @@ MonoBehaviour:
   isEnableErrorLog: 0
   isEnableFateLog: 0
   outputDirectory: 
-  scenes: []
+  scenes:
+  - Assets/Imported/ASFramework/Scenes/Launch.unity
   target: 20
   developmentBuild: 0

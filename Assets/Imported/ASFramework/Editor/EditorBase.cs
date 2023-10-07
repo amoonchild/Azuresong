@@ -9,7 +9,11 @@ namespace Azuresong.Editor
 {
     public class EditorBase
     {
-        public static string BasePath = "Assets/Settings/ASFramework/";
-        public static string SettingsPath = BasePath;
+        public static string BasePath = "Assets/Imported/ASFramework/";
+        public static string SettingsPath = "Assets/Settings/ASFramework/";
+
+        public static string DataTableCSharpCodeTempPath = BasePath + "Editor/Settings/DataTableCodeTemplate.txt";
+        public static string DataTableCSharpCodeTempNameSpacePath = BasePath + "Editor/Settings/DataTableCodeTemplateNameSpace.txt";
+        public static string DataTableCSharpCodeNameSpace = "SarsGame.Runtime";
     }
 }

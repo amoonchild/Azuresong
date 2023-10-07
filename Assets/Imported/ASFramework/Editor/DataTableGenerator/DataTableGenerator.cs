@@ -13,6 +13,7 @@ using System.IO;
 using System.Text;
 using System.Text.RegularExpressions;
 using UnityEngine;
+using System.CodeDom;
 
 
 namespace Azuresong.Editor.DataTableTools
@@ -85,7 +86,16 @@ namespace Azuresong.Editor.DataTableTools
 
         public static void GenerateCodeFile(DataTableProcessor dataTableProcessor, string dataTableName)
         {
-            string csharpCodeTempPath = Type.GetConfigurationPath<DataTableCSharpCodeTemplatePathAttribute>() ?? EditorBase.SettingsPath;
+            string csharpCodeTempPath = string.Empty;
+            if (!string.IsNullOrEmpty(EditorBase.DataTableCSharpCodeNameSpace))
+            {
+                csharpCodeTempPath = Type.GetConfigurationPath<DataTableCSharpCodeTemplatePathAttribute>() ?? EditorBase.DataTableCSharpCodeTempNameSpacePath;
+            }
+            else
+            {
+                csharpCodeTempPath = Type.GetConfigurationPath<DataTableCSharpCodeTemplatePathAttribute>() ?? EditorBase.DataTableCSharpCodeTempPath;
+            }
+
             if (string.IsNullOrEmpty(csharpCodeTempPath))
             {
                 return;
@@ -100,7 +110,7 @@ namespace Azuresong.Editor.DataTableTools
             dataTableProcessor.SetCodeTemplate(csharpCodeTempPath, Encoding.UTF8);
             dataTableProcessor.SetCodeGenerator(DataTableCodeGenerator);
 
-            string csharpCodeFileName = Utility.Path.GetRegularPath(Path.Combine(csharpCodePath, DataTableExtension.DataRowClassPrefixName + dataTableName + ".cs"));
+            string csharpCodeFileName = Utility.Path.GetRegularPath(Path.Combine(csharpCodePath, ASDataTableExtension.DataRowClassPrefixName + dataTableName + ".cs"));
             if (!dataTableProcessor.GenerateCodeFile(csharpCodeFileName, Encoding.UTF8, dataTableName) && File.Exists(csharpCodeFileName))
             {
                 File.Delete(csharpCodeFileName);
@@ -116,10 +126,10 @@ namespace Azuresong.Editor.DataTableTools
             string dataTableName = (string)userData;
 
             codeContent.Replace("__DATA_TABLE_CREATE_TIME__", DateTime.UtcNow.ToLocalTime().ToString("yyyy/MM/dd HH:mm:ss"));
-            //codeContent.Replace("__DATA_TABLE_NAME_SPACE__", "Azuresong.Runtime");
+            codeContent.Replace("__DATA_TABLE_NAME_SPACE__", EditorBase.DataTableCSharpCodeNameSpace);
             codeContent.Replace("__DATA_TABLE_CLASS_NAME__", "DR" + dataTableName);
-            codeContent.Replace("__DATA_TABLE_COMMENT__", dataTableProcessor.GetValue(0, 1) + "。");
-            codeContent.Replace("__DATA_TABLE_ID_COMMENT__", "获取" + dataTableProcessor.GetComment(dataTableProcessor.IdColumn) + "。");
+            codeContent.Replace("__DATA_TABLE_COMMENT__", dataTableProcessor.GetValue(0, 1) + ".");
+            codeContent.Replace("__DATA_TABLE_ID_COMMENT__", "获取" + dataTableProcessor.GetComment(dataTableProcessor.IdColumn) + ".");
             codeContent.Replace("__DATA_TABLE_PROPERTIES__", GenerateDataTableProperties(dataTableProcessor));
             codeContent.Replace("__DATA_TABLE_PARSER__", GenerateDataTableParser(dataTableProcessor));
             codeContent.Replace("__DATA_TABLE_PROPERTY_ARRAY__", GenerateDataTablePropertyArray(dataTableProcessor));
@@ -154,7 +164,7 @@ namespace Azuresong.Editor.DataTableTools
 
                 stringBuilder
                     .AppendLine("        /// <summary>")
-                    .AppendFormat("        /// 获取{0}。", dataTableProcessor.GetComment(i)).AppendLine()
+                    .AppendFormat("        /// 获取{0}.", dataTableProcessor.GetComment(i)).AppendLine()
                     .AppendLine("        /// </summary>")
                     .AppendFormat("        public {0} {1}", dataTableProcessor.GetLanguageKeyword(i), dataTableProcessor.GetName(i)).AppendLine()
                     .AppendLine("        {")
@@ -172,10 +182,10 @@ namespace Azuresong.Editor.DataTableTools
             stringBuilder
                 .AppendLine("        public override bool ParseDataRow(string dataRowString, object userData)")
                 .AppendLine("        {")
-                .AppendLine("            string[] columnStrings = dataRowString.Split(DataTableExtension.DataSplitSeparators);")
+                .AppendLine("            string[] columnStrings = dataRowString.Split(ASDataTableExtension.DataSplitSeparators);")
                 .AppendLine("            for (int i = 0; i < columnStrings.Length; i++)")
                 .AppendLine("            {")
-                .AppendLine("                columnStrings[i] = columnStrings[i].Trim(DataTableExtension.DataTrimSeparators);")
+                .AppendLine("                columnStrings[i] = columnStrings[i].Trim(ASDataTableExtension.DataTrimSeparators);")
                 .AppendLine("            }")
                 .AppendLine()
                 .AppendLine("            int index = 0;");
@@ -210,7 +220,7 @@ namespace Azuresong.Editor.DataTableTools
                 }
                 else
                 {
-                    stringBuilder.AppendFormat("            {0} = DataTableExtension.Parse{1}(columnStrings[index++]);", dataTableProcessor.GetName(i), dataTableProcessor.GetType(i).Name).AppendLine();
+                    stringBuilder.AppendFormat("            {0} = ASDataTableExtension.Parse{1}(columnStrings[index++]);", dataTableProcessor.GetName(i), dataTableProcessor.GetType(i).Name).AppendLine();
                 }
             }
 

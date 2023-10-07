@@ -12,4 +12,54 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 771341403a8cc194596133a59760279e, type: 3}
   m_Name: ResourceRuleEditorData
   m_EditorClassIdentifier: 
-  rules: []
+  rules:
+  - valid: 1
+    name: URPShader
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: Packages/com.unity.render-pipelines.universal/Shaders
+    loadType: 0
+    packed: 0
+    filterType: 0
+    searchPatterns: '*.shader|*.hlsl|*.shadergraph'
+  - valid: 1
+    name: URPRTShader
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: Packages/com.unity.render-pipelines.universal/Runtime/Materials
+    loadType: 0
+    packed: 0
+    filterType: 0
+    searchPatterns: '*.mat|*.shadergraph'
+  - valid: 1
+    name: Entities
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: Assets/SarsGame/Entities
+    loadType: 0
+    packed: 0
+    filterType: 1
+    searchPatterns: '*.*'
+  - valid: 1
+    name: Scenes
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: Assets/SarsGame/Scenes
+    loadType: 0
+    packed: 0
+    filterType: 3
+    searchPatterns: '*.*'
+  - valid: 1
+    name: UIForms
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: Assets/SarsGame/UI/Forms
+    loadType: 0
+    packed: 0
+    filterType: 1
+    searchPatterns: '*.*'

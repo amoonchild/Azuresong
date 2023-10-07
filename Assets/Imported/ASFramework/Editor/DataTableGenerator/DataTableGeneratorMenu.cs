@@ -9,13 +9,13 @@ namespace Azuresong.Editor.DataTableTools
 {
     public sealed class DataTableGeneratorMenu
     {
-        [MenuItem("AzuresongTools/DataTable/Generate DataTables")]
+        [MenuItem("ASTools/DataTable/Generate DataTables")]
         public static void GenerateDataTables()
         {
             GenerateDataTablesAndCodes(false);
         }
 
-        [MenuItem("AzuresongTools/DataTable/Generate DataTables And Codes")]
+        [MenuItem("ASTools/DataTable/Generate DataTables And Codes")]
         public static void GenerateDataTablesAndCodes()
         {
             GenerateDataTablesAndCodes(true);

@@ -1,7 +1,7 @@
 //------------------------------------------------------------
 //  Copyright © Chen Jie. All rights reserved.
 //  CreationTime：2023/08/01 10:05:16
-//  Description：UIExtension
+//  Description：ASUIExtension
 //------------------------------------------------------------
 using Azuresong.Runtime;
 using UnityGameFramework.Runtime;

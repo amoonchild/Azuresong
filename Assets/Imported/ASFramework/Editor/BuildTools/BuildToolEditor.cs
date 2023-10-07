@@ -24,7 +24,7 @@ namespace Azuresong.Editor.BuildTools
 
         private static bool _isVal = false;
 
-        [MenuItem("AzuresongTools/Build Tools/Build Tool", false)]
+        [MenuItem("ASTools/Build Tools/Open", false)]
         private static void Open()
         {
             BuildToolEditor window = GetWindow<BuildToolEditor>(false, "Build Tool", true);
@@ -256,7 +256,7 @@ namespace Azuresong.Editor.BuildTools
         {
             GUILayout.Label("Build Settings:");
 
-            DrawLog();
+            //DrawLog();
 
             GUILayout.Space(5f);
             EditorGUILayout.BeginVertical("box");
