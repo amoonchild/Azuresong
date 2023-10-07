@@ -18,7 +18,7 @@ MonoBehaviour:
   isEnableWarningLog: 0
   isEnableErrorLog: 0
   isEnableFateLog: 0
-  outputDirectory: 
+  outputDirectory: D:/Projects/Azuresong/Builds/WebGL
   scenes:
   - Assets/Imported/ASFramework/Scenes/Launch.unity
   target: 20
