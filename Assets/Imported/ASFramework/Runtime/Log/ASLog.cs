@@ -9,6 +9,7 @@ using GameFramework;
 
 public static class ASLog
 {
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_DEBUG_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -17,6 +18,7 @@ public static class ASLog
         GameFrameworkLog.Debug(message);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_DEBUG_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -25,6 +27,7 @@ public static class ASLog
         GameFrameworkLog.Debug(message);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_DEBUG_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -33,6 +36,7 @@ public static class ASLog
         GameFrameworkLog.Debug(format, arg);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_DEBUG_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -41,6 +45,7 @@ public static class ASLog
         GameFrameworkLog.Debug(format, arg1, arg2);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_DEBUG_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -49,6 +54,7 @@ public static class ASLog
         GameFrameworkLog.Debug(format, arg1, arg2, arg3);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_DEBUG_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -57,6 +63,7 @@ public static class ASLog
         GameFrameworkLog.Debug(format, arg1, arg2, arg3, arg4);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_DEBUG_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -65,6 +72,7 @@ public static class ASLog
         GameFrameworkLog.Debug(format, arg1, arg2, arg3, arg4, arg5);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_DEBUG_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -73,6 +81,7 @@ public static class ASLog
         GameFrameworkLog.Debug(format, arg1, arg2, arg3, arg4, arg5, arg6);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_DEBUG_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -81,6 +90,7 @@ public static class ASLog
         GameFrameworkLog.Debug(format, arg1, arg2, arg3, arg4, arg5, arg6, arg7);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_DEBUG_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -89,6 +99,7 @@ public static class ASLog
         GameFrameworkLog.Debug(format, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_DEBUG_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -97,6 +108,7 @@ public static class ASLog
         GameFrameworkLog.Debug(format, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_DEBUG_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -105,6 +117,7 @@ public static class ASLog
         GameFrameworkLog.Debug(format, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_DEBUG_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -113,6 +126,7 @@ public static class ASLog
         GameFrameworkLog.Debug(format, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_DEBUG_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
     public static void Debug<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12>(string format, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, T10 arg10, T11 arg11, T12 arg12)
@@ -120,6 +134,7 @@ public static class ASLog
         GameFrameworkLog.Debug(format, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11, arg12);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_DEBUG_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -128,6 +143,7 @@ public static class ASLog
         GameFrameworkLog.Debug(format, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11, arg12, arg13);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_DEBUG_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -136,6 +152,7 @@ public static class ASLog
         GameFrameworkLog.Debug(format, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11, arg12, arg13, arg14);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_DEBUG_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -144,6 +161,7 @@ public static class ASLog
         GameFrameworkLog.Debug(format, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11, arg12, arg13, arg14, arg15);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_DEBUG_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -152,6 +170,7 @@ public static class ASLog
         GameFrameworkLog.Debug(format, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11, arg12, arg13, arg14, arg15, arg16);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_INFO_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -161,6 +180,7 @@ public static class ASLog
         GameFrameworkLog.Info(message);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_INFO_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -170,6 +190,7 @@ public static class ASLog
         GameFrameworkLog.Info(message);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_INFO_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -179,6 +200,7 @@ public static class ASLog
         GameFrameworkLog.Info(format, arg);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_INFO_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -188,6 +210,7 @@ public static class ASLog
         GameFrameworkLog.Info(format, arg1, arg2);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_INFO_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -197,6 +220,7 @@ public static class ASLog
         GameFrameworkLog.Info(format, arg1, arg2, arg3);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_INFO_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -206,6 +230,7 @@ public static class ASLog
         GameFrameworkLog.Info(format, arg1, arg2, arg3, arg4);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_INFO_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -215,6 +240,7 @@ public static class ASLog
         GameFrameworkLog.Info(format, arg1, arg2, arg3, arg4, arg5);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_INFO_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -224,6 +250,7 @@ public static class ASLog
         GameFrameworkLog.Info(format, arg1, arg2, arg3, arg4, arg5, arg6);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_INFO_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -233,6 +260,7 @@ public static class ASLog
         GameFrameworkLog.Info(format, arg1, arg2, arg3, arg4, arg5, arg6, arg7);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_INFO_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -242,6 +270,7 @@ public static class ASLog
         GameFrameworkLog.Info(format, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_INFO_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -251,6 +280,7 @@ public static class ASLog
         GameFrameworkLog.Info(format, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_INFO_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -260,6 +290,7 @@ public static class ASLog
         GameFrameworkLog.Info(format, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_INFO_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -269,6 +300,7 @@ public static class ASLog
         GameFrameworkLog.Info(format, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_INFO_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -278,6 +310,7 @@ public static class ASLog
         GameFrameworkLog.Info(format, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11, arg12);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_INFO_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -287,6 +320,7 @@ public static class ASLog
         GameFrameworkLog.Info(format, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11, arg12, arg13);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_INFO_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -296,6 +330,7 @@ public static class ASLog
         GameFrameworkLog.Info(format, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11, arg12, arg13, arg14);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_INFO_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -305,6 +340,7 @@ public static class ASLog
         GameFrameworkLog.Info(format, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11, arg12, arg13, arg14, arg15);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_INFO_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -314,6 +350,7 @@ public static class ASLog
         GameFrameworkLog.Info(format, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11, arg12, arg13, arg14, arg15, arg16);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_WARNING_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -324,6 +361,7 @@ public static class ASLog
         GameFrameworkLog.Warning(message);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_WARNING_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -334,6 +372,7 @@ public static class ASLog
         GameFrameworkLog.Warning(message);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_WARNING_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -344,6 +383,7 @@ public static class ASLog
         GameFrameworkLog.Warning(format, arg);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_WARNING_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -354,6 +394,7 @@ public static class ASLog
         GameFrameworkLog.Warning(format, arg1, arg2);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_WARNING_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -364,6 +405,7 @@ public static class ASLog
         GameFrameworkLog.Warning(format, arg1, arg2, arg3);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_WARNING_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -374,6 +416,7 @@ public static class ASLog
         GameFrameworkLog.Warning(format, arg1, arg2, arg3, arg4);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_WARNING_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -384,6 +427,7 @@ public static class ASLog
         GameFrameworkLog.Warning(format, arg1, arg2, arg3, arg4, arg5);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_WARNING_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -394,6 +438,7 @@ public static class ASLog
         GameFrameworkLog.Warning(format, arg1, arg2, arg3, arg4, arg5, arg6);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_WARNING_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -404,6 +449,7 @@ public static class ASLog
         GameFrameworkLog.Warning(format, arg1, arg2, arg3, arg4, arg5, arg6, arg7);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_WARNING_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -414,6 +460,7 @@ public static class ASLog
         GameFrameworkLog.Warning(format, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_WARNING_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -424,6 +471,7 @@ public static class ASLog
         GameFrameworkLog.Warning(format, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_WARNING_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -434,6 +482,7 @@ public static class ASLog
         GameFrameworkLog.Warning(format, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_WARNING_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -444,6 +493,7 @@ public static class ASLog
         GameFrameworkLog.Warning(format, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_WARNING_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -454,6 +504,7 @@ public static class ASLog
         GameFrameworkLog.Warning(format, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11, arg12);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_WARNING_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -464,6 +515,7 @@ public static class ASLog
         GameFrameworkLog.Warning(format, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11, arg12, arg13);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_WARNING_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -474,6 +526,7 @@ public static class ASLog
         GameFrameworkLog.Warning(format, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11, arg12, arg13, arg14);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_WARNING_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -484,6 +537,7 @@ public static class ASLog
         GameFrameworkLog.Warning(format, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11, arg12, arg13, arg14, arg15);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_WARNING_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -494,6 +548,7 @@ public static class ASLog
         GameFrameworkLog.Warning(format, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11, arg12, arg13, arg14, arg15, arg16);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_ERROR_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -505,6 +560,7 @@ public static class ASLog
         GameFrameworkLog.Error(message);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_ERROR_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -516,6 +572,7 @@ public static class ASLog
         GameFrameworkLog.Error(message);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_ERROR_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -527,6 +584,7 @@ public static class ASLog
         GameFrameworkLog.Error(format, arg);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_ERROR_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -538,6 +596,7 @@ public static class ASLog
         GameFrameworkLog.Error(format, arg1, arg2);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_ERROR_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -549,6 +608,7 @@ public static class ASLog
         GameFrameworkLog.Error(format, arg1, arg2, arg3);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_ERROR_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -560,6 +620,7 @@ public static class ASLog
         GameFrameworkLog.Error(format, arg1, arg2, arg3, arg4);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_ERROR_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -571,6 +632,7 @@ public static class ASLog
         GameFrameworkLog.Error(format, arg1, arg2, arg3, arg4, arg5);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_ERROR_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -582,6 +644,7 @@ public static class ASLog
         GameFrameworkLog.Error(format, arg1, arg2, arg3, arg4, arg5, arg6);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_ERROR_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -593,6 +656,7 @@ public static class ASLog
         GameFrameworkLog.Error(format, arg1, arg2, arg3, arg4, arg5, arg6, arg7);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_ERROR_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -604,6 +668,7 @@ public static class ASLog
         GameFrameworkLog.Error(format, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_ERROR_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -615,6 +680,7 @@ public static class ASLog
         GameFrameworkLog.Error(format, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_ERROR_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -626,6 +692,7 @@ public static class ASLog
         GameFrameworkLog.Error(format, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_ERROR_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -637,6 +704,7 @@ public static class ASLog
         GameFrameworkLog.Error(format, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_ERROR_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -648,6 +716,7 @@ public static class ASLog
         GameFrameworkLog.Error(format, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11, arg12);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_ERROR_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -659,6 +728,7 @@ public static class ASLog
         GameFrameworkLog.Error(format, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11, arg12, arg13);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_ERROR_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -670,6 +740,7 @@ public static class ASLog
         GameFrameworkLog.Error(format, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11, arg12, arg13, arg14);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_ERROR_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -681,6 +752,7 @@ public static class ASLog
         GameFrameworkLog.Error(format, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11, arg12, arg13, arg14, arg15);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_ERROR_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -692,6 +764,7 @@ public static class ASLog
         GameFrameworkLog.Error(format, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11, arg12, arg13, arg14, arg15, arg16);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_FATAL_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -704,6 +777,7 @@ public static class ASLog
         GameFrameworkLog.Fatal(message);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_FATAL_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -716,6 +790,7 @@ public static class ASLog
         GameFrameworkLog.Fatal(message);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_FATAL_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -728,6 +803,7 @@ public static class ASLog
         GameFrameworkLog.Fatal(format, arg);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_FATAL_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -740,6 +816,7 @@ public static class ASLog
         GameFrameworkLog.Fatal(format, arg1, arg2);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_FATAL_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -752,6 +829,7 @@ public static class ASLog
         GameFrameworkLog.Fatal(format, arg1, arg2, arg3);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_FATAL_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -764,6 +842,7 @@ public static class ASLog
         GameFrameworkLog.Fatal(format, arg1, arg2, arg3, arg4);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_FATAL_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -776,6 +855,7 @@ public static class ASLog
         GameFrameworkLog.Fatal(format, arg1, arg2, arg3, arg4, arg5);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_FATAL_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -788,6 +868,7 @@ public static class ASLog
         GameFrameworkLog.Fatal(format, arg1, arg2, arg3, arg4, arg5, arg6);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_FATAL_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -800,6 +881,7 @@ public static class ASLog
         GameFrameworkLog.Fatal(format, arg1, arg2, arg3, arg4, arg5, arg6, arg7);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_FATAL_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -812,6 +894,7 @@ public static class ASLog
         GameFrameworkLog.Fatal(format, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_FATAL_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -824,6 +907,7 @@ public static class ASLog
         GameFrameworkLog.Fatal(format, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_FATAL_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -836,6 +920,7 @@ public static class ASLog
         GameFrameworkLog.Fatal(format, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_FATAL_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -848,6 +933,7 @@ public static class ASLog
         GameFrameworkLog.Fatal(format, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_FATAL_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -860,6 +946,7 @@ public static class ASLog
         GameFrameworkLog.Fatal(format, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11, arg12);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_FATAL_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -872,6 +959,7 @@ public static class ASLog
         GameFrameworkLog.Fatal(format, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11, arg12, arg13);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_FATAL_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -884,6 +972,7 @@ public static class ASLog
         GameFrameworkLog.Fatal(format, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11, arg12, arg13, arg14);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_FATAL_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]
@@ -896,6 +985,7 @@ public static class ASLog
         GameFrameworkLog.Fatal(format, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11, arg12, arg13, arg14, arg15);
     }
 
+    [Conditional("UNITY_EDITOR")]
     [Conditional("ENABLE_LOG")]
     [Conditional("ENABLE_FATAL_LOG")]
     [Conditional("ENABLE_DEBUG_AND_ABOVE_LOG")]

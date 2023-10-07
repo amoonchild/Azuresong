@@ -28,9 +28,13 @@ namespace Azuresong.Runtime
         private Dictionary<string, WebResponseHandlerBase> _webResponseHandlers = new Dictionary<string, WebResponseHandlerBase>();
         private EventComponent _eventComponent = null;
         private WebRequestComponent _webRequestComponent = null;
+        [SerializeField]
         private string _debugServerUrl = "localhost";
+        [SerializeField]
         private int _debugServerPort = 0;
+        [SerializeField]
         private string _releaseServerUrl = "https://www.";
+        [SerializeField]
         private int _releaseServerPort = 0;
         [SerializeField]
         private bool _isDebug = false;
