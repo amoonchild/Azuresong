@@ -14,6 +14,16 @@ namespace Azuresong.Runtime
 {
     public partial class ASWebRequestComponent
     {
+        public void RegisterHandler(WebResponseHandlerBase webMessageHandler)
+        {
+            if(_webResponseHandlers.ContainsKey(webMessageHandler.Cmd))
+            {
+                return;
+            }
+
+            _webResponseHandlers.Add(webMessageHandler.Cmd, webMessageHandler);
+        }
+
         private void InitWebResponseHandlers()
         {
             Type handlerBaseType = typeof(WebResponseHandlerBase);

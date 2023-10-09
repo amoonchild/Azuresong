@@ -180,8 +180,10 @@ namespace Azuresong.Runtime
             {
                 return GFUtility.Converter.GetBytes(_jsonObject.ToJson());
             }
-
-            return null;
+            else
+            {
+                return GFUtility.Converter.GetBytes("{}");
+            }
         }
 
         public void AddWWWField(string fieldName, string value)
@@ -204,15 +206,20 @@ namespace Azuresong.Runtime
             _uploadFileForm.AddBinaryData(fieldName, datas, fileName, mineType);
         }
 
+        public void SetContentType(string type)
+        {
+            _header["Content-Type"] = type;
+        }
+
         public void SetContentTypeToJson()
         {
-            _header["Content-Type"] = "application/json";
+            SetContentType("application/json");
         }
 
         public void SetContentTypeToFile()
         {
-            //_header["Content-Type"] = "application/octet-stream";
-            _header["Content-Type"] = "multipart/form-data";
+            //SetContentType("application/octet-stream");
+            SetContentType("multipart/form-data");
         }
 
         public virtual void Clear()

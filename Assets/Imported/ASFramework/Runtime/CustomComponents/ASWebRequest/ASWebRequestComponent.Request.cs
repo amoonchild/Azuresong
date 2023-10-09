@@ -15,9 +15,9 @@ namespace Azuresong.Runtime
         /// </summary>
         /// <param name="cmd">基础路径</param>
         /// <param name="type">请求类型(GET,POST,PUT,DELETE)</param>
-        private WebRequestData CreateRequestData(string cmd, string type, object userData)
+        public WebRequestData CreateRequestData(string cmd, string type)
         {
-            return CreateRequestData(cmd, cmd, type, userData);
+            return CreateRequestData(cmd, cmd, type);
         }
 
         /// <summary>
@@ -28,9 +28,9 @@ namespace Azuresong.Runtime
         /// <param name="type">请求类型(GET,POST,PUT,DELETE)</param>
         /// <param name="userData">用户自定义数据</param>
         /// <returns>请求数据</returns>
-        private WebRequestData CreateRequestData(string cmd, string sendCmd, string type, object userData)
+        public WebRequestData CreateRequestData(string cmd, string sendCmd, string type)
         {
-            return WebRequestData.Create(ServerUrl, ServerPort, cmd, sendCmd, type, userData);
+            return WebRequestData.Create(ServerUrl, ServerPort, cmd, sendCmd, type, null);
         }
 
         /// <summary>
@@ -39,7 +39,7 @@ namespace Azuresong.Runtime
         /// <param name="requestData">请求消息</param>
         /// <param name="userData">用户自定义数据</param>
         /// <returns>请求id</returns>
-        private int SendRequest(WebRequestData requestData, object userData)
+        public int SendRequest(WebRequestData requestData, object userData)
         {
             if (Application.internetReachability == NetworkReachability.NotReachable)
             {
